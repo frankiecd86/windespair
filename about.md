@@ -4,10 +4,8 @@ title: About
 permalink: /about/
 ---
 
+> Anyone who stops learning is old, whether at twenty or eighty. Anyone who keeps learning stays young. The greatest thing in life is to keep your mind young.
 
-Thunder is a minimal responsive Jekyll theme which uses very less ``html`` and ``css`` code. The page-load is within a second. This Jekyll Theme is suitable for simple blogs.
+Full of wisdom that Henry Ford. Here's to staying young.
 
-
-More themes available here: [**Jekyll Themes**](http://blog.webjeda.com/jekyll-themes/)
-
-
+Thanks to: [Webjeda](https://github.com/sharu725/thunder) for the theme
