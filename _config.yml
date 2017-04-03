@@ -7,7 +7,7 @@
 
 # Site settings
 title: Win Despair
-email: your-email@domain.com
+email: tigerblood@windespair.com
 description: > # this means to ignore newlines until "baseurl:"
   Thunder is a lightning fast responsive theme based on default Jekyll theme. It is minimal and free from JavaScript. It has a css file of size 5kb.
 url: "" # the base hostname & protocol for your site
@@ -43,16 +43,5 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
-
-prose:
-  rooturl: ''
-  siteurl: 'http://prose.github.io/starter/'
-  relativeLinks: 'http://prose.github.io/starter/links.jsonp'
-  media: 'images'
-  ignore:
-    - index.md
-    - _config.yml
-    - /_layouts
-    - /_includes
 
 gems: [jekyll-seo-tag]
