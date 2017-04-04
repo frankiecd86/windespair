@@ -16,7 +16,7 @@ baseurl: ''
 permalink: /:title/
 
 analytics:
-disqus-shortname:
+disqus-shortname: windespair
 
 # Color schemes
 color-1: '#3B97D3'
