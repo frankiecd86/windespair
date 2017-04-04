@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-<form action="https://formspree.io/head@windespair.com" method="post">
+<form action="https://formspree.io/tigerblood@windespair.com" method="post">
   <label for="_name">Name</label>
   <input type="text" name="_name">
 
