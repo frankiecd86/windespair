@@ -9,7 +9,7 @@
 title: Win Despair
 email: tigerblood@windespair.com
 description: > # this means to ignore newlines until "baseurl:"
-  Thunder is a lightning fast responsive theme based on default Jekyll theme. It is minimal and free from JavaScript. It has a css file of size 5kb.
+  Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.
 url: "" # the base hostname & protocol for your site
 
 baseurl: ''
@@ -24,8 +24,8 @@ color-2: '#26B99A'
 
 # Author pictre 100x100 --> keep it inside img folder.
 author-image: 'author.jpg'
-author-name: 'John Doe'
-author-about: 'John Doe should be described in a very few words!'
+author-name: 'Shawn Hunter'
+author-about: 'I can’t say certain things, so I write them down. That’s how I get them out. I do that for myself and not anyone else'
 
 # Build settings
 markdown: kramdown
