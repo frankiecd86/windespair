@@ -1,9 +1,10 @@
 ---
 layout: post
 title: How to Fail at Almost Everything and Still Win Big
+comments: true
 ---
 
-I recently read Scott Adams' book *How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life*. Scott became famous due to his iconic Dilbert comic strip and has recently been in the spotlight for correctly predicting that Donald Trump would win the Republic nomination andthe presidency months ahead of anyone else.
+I recently read Scott Adams' book *How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life*. Scott became famous due to his iconic Dilbert comic strip and has recently been in the spotlight for correctly predicting that Donald Trump would win the Republic nomination and the presidency months ahead of anyone else.
 
 I thought his book was a great read; concise, entertaining, and with some great personal anecdotes to keep it interesting. I've listed some of my takeaways from the book below, including some excerpts I especially liked.
 
