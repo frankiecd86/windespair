@@ -33,16 +33,8 @@
         <input type="hidden" id="comment-post-id" name="options[slug]" value="{{ page.slug }}">
         <label for="comment-form-location">Leave blank if you are a human</label>
         <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off">
-        <!-- <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
-        <input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}"> -->
       </div>
 
-      <!-- Start comment form alert messaging -->
-      <p class="hidden js-notice">
-        <span class="js-notice-text"></span>
-      </p>
-
-      <!-- End comment form alert messaging -->
       <div class="form-group">
         <button type="submit" id="comment-form-submit" class="btn">Send Comment</button>
       </div>
