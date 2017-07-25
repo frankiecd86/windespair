@@ -14,6 +14,7 @@
           {% assign name        = comment.name %}
           {% assign date        = comment.date %}
           {% assign message     = comment.message %}
+          {{index}} - {{email}} - {{name}} - {{date}} - {{message}}
           {% include comment.html index=index email=email name=name date=date message=message %}
         {% endfor %}
       </div>
