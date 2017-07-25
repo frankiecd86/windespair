@@ -1,5 +1,5 @@
 <article class="comment {% if include.replying_to != 0 %}comment-reply{% endif %}">
-  <h3 class="comment-author-name">
+  <h3 class="comment-author-name" id="comment-{{ include.index }}">
       {{ include.name }}
   </h3>
 
@@ -13,7 +13,7 @@
 
   {% unless include.replying_to != 0 or page.comments_locked == true %}
     <div class="comment-reply-link">
-      <a rel="nofollow" href="#comment-{{ include.index }}" onclick="set_replying_to_index({{include.index}})"> Reply to {{ include.name }}</a>
+      <a rel="nofollow" href="#respond" onclick="set_replying_to_index({{include.index}}, '{{include.name}}', '{{include.message}}', '{{include.date}}')"> Reply to {{ include.name }}</a>
     </div>
   {% endunless %}
 </article>
