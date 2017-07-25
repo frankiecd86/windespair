@@ -27,8 +27,8 @@ permalink: /:title/
 analytics:
 
 # Color schemes
-color-1: '#3B97D3'
-color-2: '#26B99A'
+color-1: '#d64242'
+color-2: '#a43820'
 
 # Author pictre 100x100 --> keep it inside img folder.
 author-image: 'author.jpg'

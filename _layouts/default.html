@@ -13,12 +13,10 @@ layout: compress
     {% include header.html %}
 
     <div class="page-content">
-      
         {{ content }}
-     
     </div>
-{% include footer.html %}
-  {% if site.analytics %}{% include analytics.html %}{% endif %}
+    {% include footer.html %}
+    {% if site.analytics %}{% include analytics.html %}{% endif %}
   </body>
 
 </html>
