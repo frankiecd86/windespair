@@ -17,6 +17,16 @@ layout: compress
     </div>
     {% include footer.html %}
     {% if site.analytics %}{% include analytics.html %}{% endif %}
+
+    <script type="text/javascript">
+        function pete(wasa) {
+            var reply = document.getElementById("comment-replying-to");
+            console.log("reply.val: " + reply.value);
+            reply.value = wasa;
+            console.log(wasa);
+            console.log("reply.val:" + reply.value);
+        }
+    </script>
   </body>
 
 </html>

@@ -1,9 +1,32 @@
-<article>
-  <h3 class="comment-author-name">
+<article style="{% if include.replying_to != 0 %}margin-left: 50px;{% endif %}">
+    {% if include.replying_to != 0 %}THIS IS A REPLY MOFO!!{% endif %}
+  <h3>
       {{ include.name }}
   </h3>
 
-  <div class="comment-content">
+  <div>
     {{ include.message | markdownify }}
   </div>
+
+  {% unless include.replying_to != 0 or page.comments_locked == true %}
+    <div class="comment-reply">
+      <a rel="nofollow" href="#comment-{{ include.index }}" onclick="pete({{include.index}})"> Reply to {{ include.name }}</a>
+    </div>
+  {% endunless %}
 </article>
+
+{% capture i %}{{ include.index }}{% endcapture %}
+INDEX: {{ include.index }}
+{% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == i' %}
+{% for reply in replies %}
+  {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
+  {% assign r           = reply.replying_to %}
+  {% assign replying_to = r | to_integer %}
+  {% assign avatar      = reply.avatar %}
+  {% assign email       = reply.email %}
+  {% assign name        = reply.name %}
+  {% assign url         = reply.url %}
+  {% assign date        = reply.date %}
+  {% assign message     = reply.message %}
+  {% include comment.html index=index replying_to=replying_to email=email name=name url=url date=date message=message %}
+{% endfor %}
