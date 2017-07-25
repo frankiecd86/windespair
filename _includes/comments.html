@@ -8,10 +8,8 @@
         </header>
         <!-- {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %} -->
         {% assign comments = site.data.comments[page.slug] %}
-        LMAO4 {{site.data.comments[page.slug] }} {{ page.slug }}
         {% for comment in comments %}
-          LMAO5
-          {{ page.slug }}
+          LMAO5 - {{ page.slug }}
           {% assign index       = forloop.index %}
           <!-- {% assign r           = comment.replying_to %}
           {% assign replying_to = r | to_integer %} -->
