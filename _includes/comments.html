@@ -4,12 +4,11 @@
       <!-- Start static comments -->
       <div id="comments" class="js-comments">
         <header class="section-title">
-          <h3>{% if site.data.comments[page.slug].size > 1 %}{{ site.data.comments[page.slug] | size | append: ' ' }}{% endif %}Comments LMAO1</h3>
-          LMAO2
+          <h3>{% if site.data.comments[page.slug].size > 1 %}{{ site.data.comments[page.slug] | size | append: ' ' }}{% endif %}Comments</h3>
         </header>
-        LMAO3
-        {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %}
-        LMAO4
+        <!-- {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %} -->
+        {% assign comments = site.data.comments[page.slug] %}
+        LMAO4 {{site.data.comments[page.slug] }} {{ page.slug }}
         {% for comment in comments %}
           LMAO5
           {{ page.slug }}
