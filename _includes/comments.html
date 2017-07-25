@@ -6,19 +6,14 @@
         <header class="section-title">
           <h3>{% if site.data.comments[page.slug].size > 1 %}{{ site.data.comments[page.slug] | size | append: ' ' }}{% endif %}Comments</h3>
         </header>
-        <!-- {% assign comments = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == blank' %} -->
         {% assign comments = site.data.comments[page.slug] %}
         {% for comment in comments %}
           LMAO5 - {{ page.slug }}
           {% assign index       = forloop.index %}
-          <!-- {% assign r           = comment.replying_to %}
-          {% assign replying_to = r | to_integer %} -->
           {% assign email       = comment.email %}
           {% assign name        = comment.name %}
-          <!-- {% assign url         = comment.url %} -->
           {% assign date        = comment.date %}
           {% assign message     = comment.message %}
-          <!-- {% include comment.html index=index replying_to=replying_to email=email name=name url=url date=date message=message %} -->
           {% include comment.html index=index email=email name=name date=date message=message %}
         {% endfor %}
       </div>
