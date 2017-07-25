@@ -1,0 +1,109 @@
+/**
+ * Overrides
+ */
+ body {
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     letter-spacing: 0.02em;
+ }
+ .page-link {
+     @include media-query($on-palm){
+        margin-left: .4em;
+      }
+}
+.page-content {
+    max-width: 90%;
+}
+.post-list .post-meta {
+    float: none;
+}
+
+/**
+ * Home
+ */
+.site-header-title {
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+
+    @include media-query($on-palm){
+       font-size: 32px;
+     }
+}
+.site-header-description {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 300;
+    font-size: 22px;
+    text-transform: none;
+}
+
+/**
+ * Comments
+ */
+ .comment {
+    background: rgba(0,0,0,0.01);
+    border-left: 1px solid rgba(0,0,0,0.2);
+    padding: 3% 2%;
+ }
+ .comment-reply {
+     margin-left: 5%;
+ }
+.comment-author-name {
+    margin: 0 0 .25em;
+    font-size: 1.25em;
+    line-height: 1;
+}
+.comment-timestamp {
+    font-size: .8em;
+}
+.comment-content {
+    margin-top: 1em;
+}
+.comment-reply-link {
+    text-align: right;
+}
+
+/**
+ * Forms (add comment)
+ */
+input, select, textarea {
+    width: 100%;
+    font-family: inherit;
+    font-size: 100%;
+    padding: 12px;
+    border-radius: .25em;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-color: #d7d8da;
+    border-style: solid;
+    border-width: 1px 1px 4px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.06);
+}
+input:focus, select:focus, textarea:focus {
+    border-color: #393e46;
+    outline: none;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,.06), 0 0 5px rgba(51,56,63,.7);
+}
+input[type=submit] {
+    background-color: #d64242;
+    width: 30%;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+
+    @include media-query($on-palm){
+       width: 60%;
+     }
+}
+input[type=submit]:hover {
+    background-color: #a43820;
+}

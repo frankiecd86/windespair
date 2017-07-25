@@ -19,12 +19,10 @@ layout: compress
     {% if site.analytics %}{% include analytics.html %}{% endif %}
 
     <script type="text/javascript">
-        function pete(wasa) {
+        function set_replying_to_index(index) {
             var reply = document.getElementById("comment-replying-to");
-            console.log("reply.val: " + reply.value);
-            reply.value = wasa;
-            console.log(wasa);
-            console.log("reply.val:" + reply.value);
+            reply.value = index;
+            console.log(reply.value);
         }
     </script>
   </body>

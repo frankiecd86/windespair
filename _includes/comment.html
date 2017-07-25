@@ -1,22 +1,24 @@
-<article style="{% if include.replying_to != 0 %}margin-left: 50px;{% endif %}">
-    {% if include.replying_to != 0 %}THIS IS A REPLY MOFO!!{% endif %}
-  <h3>
+<article class="comment {% if include.replying_to != 0 %}comment-reply{% endif %}">
+  <h3 class="comment-author-name">
       {{ include.name }}
   </h3>
 
-  <div>
+  <div class="comment-timestamp">
+      <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: '%B %d, %Y' }}</time>
+  </div>
+
+  <div class="comment-content">
     {{ include.message | markdownify }}
   </div>
 
   {% unless include.replying_to != 0 or page.comments_locked == true %}
-    <div class="comment-reply">
-      <a rel="nofollow" href="#comment-{{ include.index }}" onclick="pete({{include.index}})"> Reply to {{ include.name }}</a>
+    <div class="comment-reply-link">
+      <a rel="nofollow" href="#comment-{{ include.index }}" onclick="set_replying_to_index({{include.index}})"> Reply to {{ include.name }}</a>
     </div>
   {% endunless %}
 </article>
 
 {% capture i %}{{ include.index }}{% endcapture %}
-INDEX: {{ include.index }}
 {% assign replies = site.data.comments[page.slug] | where_exp: 'item', 'item.replying_to == i' %}
 {% for reply in replies %}
   {% assign index       = forloop.index | prepend: '-' | prepend: include.index %}
