@@ -7,6 +7,8 @@
           <h3>{% if site.data.comments[page.slug].size > 1 %}{{ site.data.comments[page.slug] | size | append: ' ' }}{% endif %}Comments</h3>
         </header>
         {% assign comments = site.data.comments[page.slug] %}
+        before: {{site.data.comments[page.slug]}}
+        after: {{site.data.comments.[page.slug]}}
         {% for comment in comments %}
           LMAO5 - {{ page.slug }}
           {% assign index       = forloop.index %}
@@ -14,7 +16,7 @@
           {% assign name        = comment.name %}
           {% assign date        = comment.date %}
           {% assign message     = comment.message %}
-          {{index}} - {{email}} - {{name}} - {{date}} - {{message}}
+          Index: {{index}} - Emai: {{email}} - Name: {{name}} - Date: {{date}} - Message: {{message}}
           {% include comment.html index=index email=email name=name date=date message=message %}
         {% endfor %}
       </div>
