@@ -20,9 +20,29 @@ layout: compress
 
     <script type="text/javascript">
         function set_replying_to_index(index) {
-            var reply = document.getElementById("comment-replying-to");
-            reply.value = index;
-            console.log(reply.value);
+            /* Set value of fields[replying_to] */
+            var comment_reply = document.getElementById("comment-replying-to");
+            comment_reply.value = index;
+            console.log("replying_to: " + comment_reply.value);
+
+            /* Scroll to comment form */
+            location.hash = "#respond";
+
+            /* Display cancel comment option */
+            var cancel_comment_reply_link = document.getElementById("cancel-comment-reply-link");
+            cancel_comment_reply_link.style.display = "inline-block";
+            cancel_comment_reply_link.classList.add('cancel-reply');
+        }
+
+        function cancel_reply() {
+            if(window.location.hash) {
+                var cancel_comment_reply_link = document.getElementById("cancel-comment-reply-link");
+                cancel_comment_reply_link.style.display = "none";
+                console.log(window.location.hash.substring(1));
+                location.hash = window.location.hash;
+                console.log(window.location.hash);
+            } else {
+            }
         }
     </script>
   </body>
