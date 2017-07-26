@@ -17,7 +17,7 @@
     </header>
 
     <form method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
-      <input name="options[redirect]" type="hidden" value="https://www.windespair.com/?success#respond">
+      <input name="options[redirect]" type="hidden" value="https://www.windespair.com/{{ page.slug }}/?success#respond">
 
       <label for="comment-form-message"><strong>Comment</strong> <small>(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> is allowed)</small></label>
       <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true"></textarea>
