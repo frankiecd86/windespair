@@ -8,6 +8,9 @@ $warning-color: #fcc419;
      -moz-osx-font-smoothing: grayscale;
      letter-spacing: 0.02em;
  }
+ a {
+     cursor: pointer;
+ }
  .page-link {
      @include media-query($on-palm){
         margin-left: .4em;
@@ -126,4 +129,32 @@ input[type=submit]:hover {
 .cancel-reply {
     text-decoration: underline;
     margin-left: 5%;
+}
+
+/**
+ * Share buttons
+ */
+ul.share-buttons {
+  list-style: none;
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+ul.share-buttons li {
+  display: inline;
+}
+
+ul.share-buttons .sr-only {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }

@@ -9,7 +9,7 @@
 title: Win Despair
 email: ziadig@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.
+  Hi, I'm Gonzalo. I write and I code.
 url: "" # the base hostname & protocol for your site
 
 # Name of repository, for use with Staticman
@@ -34,6 +34,8 @@ color-2: '#a43820'
 author-image: 'author.jpg'
 author-name: 'Gonzalo Ziadi'
 author-about: 'Keep getting better.'
+
+twitter_username: GZiadi
 
 # Build settings
 markdown: kramdown
