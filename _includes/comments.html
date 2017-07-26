@@ -14,6 +14,7 @@
           {% assign email = comment.email %}
           {% assign name = comment.name %}
           {% assign date = comment.date %}
+          {% assign url = comment.url %}
           {% assign message = comment.message %}
           {% include comment.html index=index replying_to=replying_to email=email name=name url=url date=date message=message %}
         {% endfor %}

@@ -19,6 +19,15 @@ layout: compress
     {% if site.analytics %}{% include analytics.html %}{% endif %}
 
     <script type="text/javascript">
+        /* Add success message if comment was successfully submitted */
+        document.addEventListener("DOMContentLoaded", function(event) {
+            var current_url = window.location.href;
+            if(current_url.indexOf("success") !== -1) {
+                var comment_posted_success = document.getElementById("comment-posted-success");
+                comment_posted_success.style.display = "block";
+            }
+        });
+
         function set_replying_to_index(index, name, message, date_comment) {
             /* Set value of fields[replying_to] */
             var comment_reply = document.getElementById("comment-replying-to");
@@ -60,7 +69,7 @@ layout: compress
             /* Append the correct time tag */
             comment_timestamp_reply_hidden_box.appendChild(timeTag);
 
-            /* Display replying to title */
+            /* Display "replying to" title */
             var replying_to_title_hidden_box = document.getElementById("replying-to-title-hidden-box");
             replying_to_title_hidden_box.style.display = "block";
 

@@ -1,10 +1,19 @@
-<article class="comment {% if include.replying_to != 0 %}comment-reply{% endif %}">
+<article class="comment {% if include.replying_to != 0 %}comment-reply{% endif %} {% if include.name == site.author-name %}admin{% endif %}">
   <h3 class="comment-author-name" id="comment-{{ include.index }}">
-      {{ include.name }}
+    {% unless include.url == '' %}
+        <a rel="external nofollow" href="http://{{ include.url }}" target="_blank">{{ include.name }}</a>
+    {% else %}
+        {{ include.name }}
+    {% endunless %}
+
+    {% unless include.email == '' %}
+        <small>({{include.email}})</small>
+    {% endunless %}
   </h3>
 
   <div class="comment-timestamp">
-      <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: '%B %d, %Y' }}</time>
+    <a href="#comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="permalink" title="Permalink to this comment"># </a>
+    <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: '%B %d, %Y' }}</time>
   </div>
 
   <div class="comment-content">

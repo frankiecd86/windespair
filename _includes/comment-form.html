@@ -4,6 +4,8 @@
     <header>
       <h3>Leave a Comment <small><a rel="nofollow" href="#respond" id="cancel-comment-reply-link" style="display:none;" onclick="cancel_reply()">Cancel reply</a></small></h3>
 
+      <p id="comment-posted-success" style="display: none;">Thanks for your comment! It is <a href="https://github.com/GonzaloZiadi/windespair/pulls" target="_blank">currently pending moderation</a> and will show on the site once approved.</p>
+
       <p id="replying-to-title-hidden-box" style="display: none;">Replying to:</p>
       <article class="comment" id="comment-reply-hidden-box" style="display: none;">
         <h3 class="comment-author-name" id="comment-author-name-reply-hidden-box"></h3>
@@ -15,7 +17,7 @@
     </header>
 
     <form method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
-      <input name="options[redirect]" type="hidden" value="https://www.windespair.com/{{page.slug}}">
+      <input name="options[redirect]" type="hidden" value="https://www.windespair.com/?success#respond">
 
       <label for="comment-form-message"><strong>Comment</strong> <small>(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> is allowed)</small></label>
       <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true"></textarea>
