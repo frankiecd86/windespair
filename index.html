@@ -13,6 +13,7 @@ layout: default
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="tag-link" style="vertical-align: text-top;" href="{{site.baseurl}}/categories/#{{post.categories}}">{{ post.categories }}</a>
         </h2>
       </li>
     {% endfor %}

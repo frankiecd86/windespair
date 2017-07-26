@@ -143,18 +143,35 @@ ul.share-buttons {
   margin-top: -10px;
   margin-bottom: 20px;
 }
-
 ul.share-buttons li {
   display: inline;
 }
-
-ul.share-buttons .sr-only {
-  position: absolute;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
+.share-buttons-title {
+    @include media-query($on-palm){
+       display: none;
+     }
 }
+
+/**
+ * Tags
+ */
+ .post-tags {
+     margin-bottom: 10px;
+ }
+ a.tag-link {
+     font-size: 15px;
+     padding: 6px 20px;
+     border: none;
+     background-color: $color-1;
+     border-radius: 50px;
+     color: #fff;
+
+     &:hover {
+         background-color: $color-2;
+         border: none;
+     }
+
+     @include media-query($on-palm){
+        padding: 5px 10px;
+      }
+ }

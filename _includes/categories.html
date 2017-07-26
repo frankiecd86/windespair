@@ -1,0 +1,15 @@
+<div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+
+  <div class="post-tags">
+      Tags:
+      {% for category in categories %}
+        <a class="tag-link" href="{{site.baseurl}}/categories/#{{category}}">{{category}}</a>
+        {% unless forloop.last %}&nbsp;{% endunless %}
+      {% endfor %}
+  </div>
+</div>
