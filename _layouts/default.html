@@ -28,6 +28,7 @@ layout: compress
             }
         });
 
+        /* Handle onclick for reply to user link */
         function set_replying_to_index(index, name, message, date_comment) {
             /* Set value of fields[replying_to] */
             var comment_reply = document.getElementById("comment-replying-to");
@@ -82,6 +83,7 @@ layout: compress
             comment_content_reply_hidden_box.innerHTML = message;
         }
 
+        /* Handle onclick for cancel reply */
         function cancel_reply() {
             /* Hide replying to title */
             var replying_to_title_hidden_box = document.getElementById("replying-to-title-hidden-box");

@@ -7,7 +7,7 @@
     {% endunless %}
 
     {% unless include.email == '' %}
-        <small>({{include.email}})</small>
+        <small>({{ include.email | replace: '@', '[AT]<span style="display:none">foo</span>'}})</small>
     {% endunless %}
   </h3>
 
