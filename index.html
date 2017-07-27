@@ -12,8 +12,8 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          <a class="tag-link" style="vertical-align: text-top;" href="{{site.baseurl}}/categories/#{{post.categories}}">{{ post.categories }}</a>
+          <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
+          <a class="tag-link" style="vertical-align: text-top;" href="/categories/#{{post.categories}}">{{ post.categories }}</a>
         </h2>
       </li>
     {% endfor %}

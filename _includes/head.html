@@ -3,13 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
+   {% seo title=false %}
+
  <title>{% if page.title %}{{ page.title }} | WinDespair{% else %}{{ site.title }} | WinDespair{% endif %}</title>
 
  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
 
-  {% seo title=false %}
-
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <style>
           {% capture include_to_scssify %}

@@ -10,7 +10,7 @@ title: Win Despair
 email: ziadig@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Hi, I'm Gonzalo. I write and I code.
-url: "" # the base hostname & protocol for your site
+url: "https://www.windespair.com" # the base hostname & protocol for your site
 
 # Name of repository, for use with Staticman
 repository: "GonzaloZiadi/windespair"
@@ -21,7 +21,7 @@ staticman:
 
 timezone: US/Eastern
 
-baseurl: ''
+baseurl: '/'
 permalink: /:title/
 
 analytics:
@@ -30,12 +30,23 @@ analytics:
 color-1: '#d64242'
 color-2: '#a43820'
 
-# Author pictre 100x100 --> keep it inside img folder.
+# Author picture 100x100 --> keep it inside img folder.
 author-image: 'author.jpg'
 author-name: 'Gonzalo Ziadi'
 author-about: 'Keep getting better.'
 
-twitter_username: GZiadi
+author:
+  twitter: gziadi
+
+twitter:
+  username: GZiadi
+
+social:
+  name: Gonzalo Ziadi
+  links:
+    - https://twitter.com/GZiadi
+    - https://www.linkedin.com/in/GonzaloZiadi
+    - https://github.com/GonzaloZiadi
 
 # Build settings
 markdown: kramdown

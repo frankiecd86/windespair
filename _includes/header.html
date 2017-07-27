@@ -1,12 +1,10 @@
 <header class="site-header">
 
     <nav class="site-nav">
-        <a class="page-link" href="{{ site.baseurl }}/">Home</a>
-        {% for my_page in site.pages %}
-          {% if my_page.title == "Home" or my_page.title == "About" or my_page.title == "Contact" or my_page.title == "Side Projects" %}
-            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
+        <a class="page-link" href="{{ site.baseurl }}">Home</a>
+        <a class="page-link" href="{{ 'now' | prepend: site.baseurl }}">Now</a>
+        <a class="page-link" href="{{ 'projects' | prepend: site.baseurl }}">Projects</a>
+        <a class="page-link" href="{{ 'contact' | prepend: site.baseurl }}">Contact</a>
     </nav>
 
     {% unless page.title %}
@@ -14,7 +12,7 @@
             Hi, I'm Gonzalo.
         </div>
         <p class="site-header-description">I write and I code.</p>
-        <p class="site-header-description">Find my ✍🏽 🔽 and my 👨‍💻 in the side projects tab 🔼</p>
+        <p class="site-header-description">Find my ✍🏽 🔽 and my 👨‍💻 in the projects tab 🔼</p>
 
     {% endunless %}
 
