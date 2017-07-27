@@ -21,7 +21,6 @@ staticman:
 
 timezone: US/Eastern
 
-baseurl: '/'
 permalink: /:title/
 
 analytics:

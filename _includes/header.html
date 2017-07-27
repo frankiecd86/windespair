@@ -1,10 +1,10 @@
 <header class="site-header">
 
     <nav class="site-nav">
-        <a class="page-link" href="{{ site.baseurl }}">Home</a>
-        <a class="page-link" href="{{ 'now' | prepend: site.baseurl }}">Now</a>
-        <a class="page-link" href="{{ 'projects' | prepend: site.baseurl }}">Projects</a>
-        <a class="page-link" href="{{ 'contact' | prepend: site.baseurl }}">Contact</a>
+        <a class="page-link" href="/">Home</a>
+        <a class="page-link" href="{{ '/now' }}">Now</a>
+        <a class="page-link" href="{{ '/projects' }}">Projects</a>
+        <a class="page-link" href="{{ '/contact' }}">Contact</a>
     </nav>
 
     {% unless page.title %}
