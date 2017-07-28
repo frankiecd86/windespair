@@ -35,7 +35,7 @@ author-name: 'Gonzalo Ziadi'
 author-about: 'Trying to be 1% better each day.'
 
 # include _redirects
-include: [_redirects]
+include: ["_redirects"]
 
 author:
   twitter: gziadi
