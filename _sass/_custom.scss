@@ -22,6 +22,9 @@ $warning-color: #fcc419;
 .post-list .post-meta {
     float: none;
 }
+.post-header {
+    text-align: center;
+}
 
 /**
  * Home
@@ -30,7 +33,6 @@ $warning-color: #fcc419;
     font-size: 52px;
     font-weight: 700;
     text-align: center;
-    text-transform: uppercase;
 
     @include media-query($on-palm){
        font-size: 32px;
@@ -175,3 +177,10 @@ ul.share-buttons li {
         padding: 5px 10px;
       }
  }
+
+ /**
+  * Extra
+  */
+  .bold {
+      font-weight: bold;
+  }

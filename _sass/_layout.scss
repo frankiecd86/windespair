@@ -55,7 +55,6 @@ body{
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
-
 }
 
 .post-list .post-meta {
@@ -123,10 +122,6 @@ body{
         margin-left: .5em;
 }
 
-.thunder{
-    max-width: 100%
-}
-
 //table
 table {
   margin: 15px 0;
@@ -155,28 +150,6 @@ table {
       margin: 0; }
     table tr th :last-child, table tr td :last-child {
       margin: 0; }
-
-
-// Adding 'Contents' headline to the TOC
-#markdown-toc::before {
-    content: "Contents";
-    font-weight: bold;
-}
-
-
-// Using numbers instead of bullets for listing
-#markdown-toc ul {
-    list-style: decimal;
-}
-
-#markdown-toc {
-    border: 1px solid $color-1;
-    padding: 1.5em;
-    list-style: decimal;
-    display: inline-block;
-}
-
-
 
 .color-bars{
     margin: 0 -1em 0 -1em;
@@ -218,9 +191,6 @@ table {
     border:none;
     box-shadow: 0 0 5px #a8a9ab;
     padding: 1em 1em 0 1em;
-}
-
-.author-body {
 }
 
 .author-image {

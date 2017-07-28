@@ -32,7 +32,10 @@ color-2: '#a43820'
 # Author picture 100x100 --> keep it inside img folder.
 author-image: 'author.jpg'
 author-name: 'Gonzalo Ziadi'
-author-about: 'Keep getting better.'
+author-about: 'Trying to be 1% better each day.'
+
+# include _redirects
+include: [_redirects]
 
 author:
   twitter: gziadi

@@ -9,7 +9,11 @@ layout: default
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">
+            <span>{{ post.date | date: "%B %-d, %Y" }} </span>
+            {% assign words = post.content | number_of_words %}
+            <span>| {{ "Reading Time" | upcase }}: {% include read_time.html  word_count = words %}</span>
+        </span>
 
         <h2>
           <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>

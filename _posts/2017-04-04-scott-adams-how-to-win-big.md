@@ -43,7 +43,7 @@ It's about synergy; 2 + 2 equaling 5. A sum of skills (or a talent stack as Scot
 > Optimizing is often the strategy of people who have specific goals and feel the need to do everything in their power to achieve them. Simplifying is generally the strategy of people who view the world in terms of systems. The best systems are simple, and for good reason. Complicated systems have more opportunities for failure. Human nature is such that we’re good at following simple systems and not so good at following complicated systems.
 
 ### Affirmations
-> Affirmations are simply the practice of repeating to yourself what you want to achieve while imagining the outcome you want. You can write it, speak it, or just think it in sentence form. The typical form of an affirmation would be “I, Scott Adams, will become an astronaut.” The details of affirmations probably don’t matter much because the process is about improving your focus, not summoning magic.
+> Affirmations are simply the practice of repeating to yourself what you want to achieve while imagining the outcome you want. You can write it, speak it, or just think it in sentence form. The typical form of an affirmation would be "I, Scott Adams, will become an astronaut." The details of affirmations probably don’t matter much because the process is about improving your focus, not summoning magic.
 
 > Another possible reason that affirmations appear to work is that optimists tend to notice opportunities that pessimists miss. A person who diligently writes affirmations day after day is the very definition of an optimist, even if only by actions. Any form of positive thinking, prayer, or the like, would presumably put a person in a more optimistic mind-set. And because optimists have been shown in studies to notice more opportunities than pessimists, the result can look like luck. Studies show that you need not be a natural-born optimist to get the benefits of better perception. You can train yourself to act like an optimist—and writing affirmations is probably good training—so that you get the same benefits as natural optimists when it comes to noticing opportunities.
 
@@ -59,4 +59,4 @@ It's about synergy; 2 + 2 equaling 5. A sum of skills (or a talent stack as Scot
 * Reduce daily decisions to routine
 * The main point for both diet and exercise is that you want to reduce the amount of willpower required. Any other approach is unsustainable.
 
-> “It might help some of you to think of yourself as moist robots and not skin bags full of magic and mystery. If you control the inputs, you can determine the outcomes, give or take some luck.”
+> It might help some of you to think of yourself as moist robots and not skin bags full of magic and mystery. If you control the inputs, you can determine the outcomes, give or take some luck.

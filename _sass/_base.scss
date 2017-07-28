@@ -8,8 +8,6 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-
 /**
  * Basic styling
  */
@@ -18,8 +16,6 @@ body {
     color: $text-color;
     background-color: transparent;
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -31,8 +27,6 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
-
 /**
  * Images
  */
@@ -41,16 +35,12 @@ img {
     vertical-align: middle;
 }
 
-
-
 /**
  * Figures
  */
 figure > img {
     display: block;
 }
-
-
 
 
 /**
@@ -68,14 +58,12 @@ li {
 }
 
 
-
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
-
 
 
 /**
@@ -93,7 +81,6 @@ a {
 }
 
 
-
 /**
  * Blockquotes
  */
@@ -109,7 +96,6 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
 
 
 /**
