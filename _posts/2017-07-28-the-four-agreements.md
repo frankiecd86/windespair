@@ -3,7 +3,6 @@ layout: post
 title: The Four Agreements
 comments: true
 categories: Books
-published: false
 ---
 
 I just finished reading Don Miguel Ruiz's *The Four Agreements: A Practical Guide to Personal Freedom (A Toltec Wisdom Book)*. Don Miguel Ruiz was raised in rural Mexico by his healer mother and his shaman grandfather. He became a surgeon, but after a car accident that nearly cost him his life, Ruiz returned home to learn from his mother. He then completed an apprenticeship under a shaman in the Mexican desert and moved to the United States. Ruiz says he is from the [Eagle-Knight lineage](https://en.wikipedia.org/wiki/Eagle_warrior){:target="_blank"} and that The Four Agreements are based on ancient [Toltec](https://en.wikipedia.org/wiki/Toltec){:target="_blank"} wisdom.
