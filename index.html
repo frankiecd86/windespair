@@ -12,7 +12,7 @@ layout: default
         <span class="post-meta">
             <span>{{ post.date | date: "%B %-d, %Y" | upcase }} </span>
             {% assign words = post.content | number_of_words %}
-            <span>| {{ "Reading Time" | upcase }}: {% include read_time.html  word_count = words %}</span>
+            <span>| {{ "Reading Time" | upcase }}: {% include read-time.html  word_count = words %}</span>
         </span>
 
         <h2>

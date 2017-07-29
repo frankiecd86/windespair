@@ -7,7 +7,7 @@ layout: default
     <p class="post-meta bold">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" | upcase }}</time>
         {% assign words = content | number_of_words %}
-        <span> | {{ "Reading Time" | upcase }}:  {% include read_time.html  word_count = words %}</span>
+        <span> | {{ "Reading Time" | upcase }}:  {% include read-time.html  word_count = words %}</span>
     </p>
   </header>
 
@@ -27,8 +27,7 @@ layout: default
 
 {% include categories.html %}
 
-<blockquote class="embedly-card"><h4><a rel="nofollow" href="https://upscri.be/261bcb/">Get on the WinDespair email list</a></h4><p>I'll shoot you an email when I post</p></blockquote>
-<script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+{% include signup-form.html %}
 
 {% if page.comments == true %}
       {% include comments.html %}

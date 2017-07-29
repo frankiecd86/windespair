@@ -88,7 +88,7 @@ $warning-color: #fcc419;
 }
 
 /**
- * Forms (add comment)
+ * Forms (comment + signup)
  */
 input, select, textarea {
     width: 100%;
@@ -131,6 +131,43 @@ input[type=submit]:hover {
 .cancel-reply {
     text-decoration: underline;
     margin-left: 5%;
+}
+#signup {
+    width: 95%;
+    text-align: center;
+    border: 1px solid #d7d8da;
+    border-radius: 2px;
+    padding: 20px;
+    margin: 25px auto;
+
+    @include media-query($on-palm){
+       padding: 20px 10px;
+     }
+}
+#signup-title {
+    font-size: 1.5em;
+
+    @include media-query($on-palm){
+       font-size: .96em;
+     }
+}
+#signup-description {
+    @include media-query($on-palm){
+       display: none;
+     }
+}
+#signup-email {
+    width: 68%;
+    display: inline-block;
+}
+#signup-submit {
+    width: 30%;
+    display: inline-block;
+
+    @include media-query($on-palm){
+        padding-left: 10px;
+        padding-right: 10px;
+     }
 }
 
 /**
