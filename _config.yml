@@ -67,4 +67,5 @@ compress_html:
   profile: false
   startings: []
 
-gems: [jekyll-seo-tag]
+gems:
+    - jekyll-seo-tag
