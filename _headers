@@ -1,4 +1,17 @@
 /*
+  X-XSS-Protection: 1; mode=block
+  X-Frame-Option: SAMEORIGIN
+
+/images/*
+  Cache-Control: public, max-age=31536000
+
+/favicon.ico
+  Cache-Control: public, max-age=31536000
+
+/*
+  Link: </favicon.ico>; rel=preload; as=image
+
+/the-four-agreements
   Link: </images/color/Email.png>; rel=preload; as=image
   Link: </images/color/Facebook.png>; rel=preload; as=image
   Link: </images/color/Google+.png>; rel=preload; as=image
@@ -6,3 +19,14 @@
   Link: </images/color/Pocket.png>; rel=preload; as=image
   Link: </images/color/Reddit.png>; rel=preload; as=image
   Link: </images/color/Twitter.png>; rel=preload; as=image
+  Link: </images/author.jpg>; rel=preload; as=image
+
+/scott-adams-how-to-win-big
+  Link: </images/color/Email.png>; rel=preload; as=image
+  Link: </images/color/Facebook.png>; rel=preload; as=image
+  Link: </images/color/Google+.png>; rel=preload; as=image
+  Link: </images/color/LinkedIn.png>; rel=preload; as=image
+  Link: </images/color/Pocket.png>; rel=preload; as=image
+  Link: </images/color/Reddit.png>; rel=preload; as=image
+  Link: </images/color/Twitter.png>; rel=preload; as=image
+  Link: </images/author.jpg>; rel=preload; as=image
