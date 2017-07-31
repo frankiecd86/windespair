@@ -1,0 +1,2 @@
+# Redirect with a 301
+http://windespair.com/* https://www.windespair.com/:splat/ 301!
