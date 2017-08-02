@@ -8,12 +8,13 @@
     </nav>
 
     {% unless page.title %}
+        {% include follow-buttons.html %}
+
         <div class="site-header-title">
             {{ "Hi, I'm Gonzalo." | upcase }}
         </div>
         <p class="site-header-description">I write and I code.</p>
         <p class="site-header-description">Find my ✍🏽 🔽 and my 👨‍💻 in the projects tab 🔼</p>
-
     {% endunless %}
 
     {% include color-bar.html %}

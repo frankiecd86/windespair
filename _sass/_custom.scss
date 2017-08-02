@@ -292,6 +292,30 @@ ul.share-buttons li {
      }
 }
 
+/**
+ * Follow buttons
+ */
+ .follow-buttons {
+     width: 170px;
+     margin: 0 auto;
+ }
+.follow-button {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: $color-1;
+}
+.center-follow-icon {
+    position: relative;
+    left: 7px;
+}
+.mar-right-10 {
+    margin-right: 10px;
+}
+.mar-left-10 {
+    margin-left: 10px;
+}
+
  /**
   * Extra
   */
