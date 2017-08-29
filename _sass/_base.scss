@@ -80,7 +80,7 @@ blockquote {
     color: $text-color;
     border-left: 4px solid $brand-color;
     padding-left: $spacing-unit / 2;
-    font-size: 16px;
+    font-size: $base-font-size;
     letter-spacing: 0px;
     font-style: italic;
 

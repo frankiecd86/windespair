@@ -13,6 +13,7 @@ $warning-color: #fcc419;
  }
  .page-link {
      @include media-query($on-palm){
+        font-size: $small-font-size;
         margin-left: .4em;
       }
 }
@@ -48,47 +49,7 @@ $warning-color: #fcc419;
 }
 
 /**
- * Comments
- */
- .comment {
-    background: rgba(0,0,0,0.01);
-    border-left: 1px solid rgba(0,0,0,0.2);
-    padding: 3% 2%;
- }
- .comment-reply {
-     margin-left: 5%;
- }
-.comment-author-name {
-    margin: 0 0 .25em;
-    font-size: 1.25em;
-    line-height: 1;
-    display: inline-block;
-}
-.comment-author-name > a {
-    color: $text-color;
-}
-.comment-timestamp {
-    font-size: .8em;
-}
-.comment-content {
-    margin-top: 1em;
-}
-.comment-reply-link {
-    text-align: right;
-}
-.permalink {
-    font-size: 1.1em;
-    font-weight: bold;
-}
-/* Site author specific */
-.admin {
-  .comment-author-name {
-    box-shadow: inset 0 -0.25em 0 rgba($warning-color, 0.5);
-  }
-}
-
-/**
- * Forms (comment + signup)
+ * Forms generic
  */
 input, select, textarea {
     width: 100%;
@@ -129,10 +90,59 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #a43820;
 }
+
+/**
+ * Comments
+ */
+ #respond {
+     @include media-query($on-palm){
+        font-size: $mobile-font-size;
+      }
+ }
+ .comment {
+    background: rgba(0,0,0,0.01);
+    border-left: 1px solid rgba(0,0,0,0.2);
+    padding: 3% 2%;
+ }
+ .comment-reply {
+     margin-left: 5%;
+ }
+.comment-author-name {
+    margin: 0 0 .25em;
+    font-size: 1.25em;
+    line-height: 1;
+    display: inline-block;
+}
+.comment-author-name > a {
+    color: $text-color;
+}
+.comment-timestamp {
+    font-size: .8em;
+}
+.comment-content {
+    margin-top: 1em;
+}
+.comment-reply-link {
+    text-align: right;
+}
+.permalink {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+/* Site author specific */
+.admin {
+  .comment-author-name {
+    box-shadow: inset 0 -0.25em 0 rgba($warning-color, 0.5);
+  }
+}
 .cancel-reply {
     text-decoration: underline;
     margin-left: 5%;
 }
+
+/**
+ * Signup form
+ */
 #signup {
     width: 95%;
     text-align: center;
@@ -143,6 +153,7 @@ input[type=submit]:hover {
 
     @include media-query($on-palm){
        padding: 20px 10px;
+       font-size: $mobile-font-size;
      }
 }
 #signup-title {
