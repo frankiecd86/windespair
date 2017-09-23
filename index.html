@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
 
-  <h1 class="post-header">Posts</h1>
+  <h1 class="post-header">Latest Ramblings</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -17,7 +17,6 @@ layout: default
 
         <h2>
           <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
-          <a class="tag-link" style="vertical-align: text-top;" href="/categories/#{{post.categories}}">{{ post.categories }}</a>
         </h2>
       </li>
     {% endfor %}
