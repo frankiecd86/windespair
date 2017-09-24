@@ -18,13 +18,23 @@ $warning-color: #fcc419;
       }
 }
 .page-content {
+    margin: 0 auto;
     max-width: 90%;
+    padding: 0;
+
+    @include media-query($on-palm){
+        max-width: 100%;
+    }
 }
 .post-list .post-meta {
     float: none;
 }
 .post-header {
     text-align: center;
+    margin-bottom: $spacing-unit;
+}
+h3 {
+    margin-top: 50px;
 }
 
 /**
@@ -224,56 +234,78 @@ ul.share-buttons li {
   * Sprites
   */
  .sprite {
-     background-image: url("/images/spritesheet.png");
-     background-repeat: no-repeat;
      display: inline-block;
-     vertical-align: bottom;
+     background: url('/images/spritesheet.png') no-repeat;
+     overflow: hidden;
+     text-indent: -9999px;
+     text-align: left;
  }
- .sprite-email {
-     width: 32px;
-     height: 32px;
-     background-position: -5px -5px;
- }
- .sprite-facebook {
-     width: 32px;
-     height: 32px;
-     background-position: -47px -5px;
- }
- .sprite-google {
-     width: 32px;
-     height: 32px;
-     background-position: -89px -5px;
- }
- .sprite-linkedin {
-     width: 32px;
-     height: 32px;
-     background-position: -5px -47px;
- }
- .sprite-pocket {
-     width: 32px;
-     height: 32px;
-     background-position: -47px -47px;
- }
- .sprite-reddit {
-     width: 32px;
-     height: 32px;
-     background-position: -89px -47px;
- }
- .sprite-twitter {
-     width: 32px;
-     height: 32px;
-     background-position: -5px -89px;
- }
- .sprite-author {
-     width: 100px;
-     height: 100px;
-     background-position: -131px -5px;
 
-     @include media-query($on-palm){
-         display: block;
-         margin: 0 auto;
-      }
- }
+.sprite-author {
+    background-position: -1px -0px;
+    width: 119px;
+    height: 160px;
+
+    @include media-query($on-palm){
+        display: block;
+        margin: 0 auto;
+    }
+}
+.sprite-email {
+    background-position: -1px -161px;
+    width: 32px;
+    height: 32px;
+}
+.sprite-facebook {
+    background-position: -34px -161px;
+    width: 32px;
+    height: 32px;
+}
+.sprite-google {
+    background-position: -67px -161px;
+    width: 32px;
+    height: 32px;
+}
+.sprite-linkedin {
+    background-position: -1px -194px;
+    width: 32px;
+    height: 32px;
+}
+.sprite-pocket {
+    background-position: -34px -194px;
+    width: 32px;
+    height: 32px;
+}
+.sprite-reddit {
+    background-position: -67px -194px;
+    width: 32px;
+    height: 32px;
+}
+.sprite-twitter {
+    background-position: -1px -227px;
+    width: 32px;
+    height: 32px;
+}
+.sprite-github-16 {
+    background-position: -100px -161px;
+    width: 16px;
+    height: 16px;
+}
+.sprite-menu-16 {
+    background-position: -100px -178px;
+    width: 16px;
+    height: 16px;
+}
+.sprite-rss-16 {
+    background-position: -100px -195px;
+    width: 16px;
+    height: 16px;
+}
+.sprite-twitter-16 {
+    background-position: -100px -212px;
+    width: 16px;
+    height: 16px;
+}
 
  /**
   * Author bio
@@ -288,10 +320,14 @@ ul.share-buttons li {
 }
 .author-about {
     width: 70%;
+    margin-left: 1em;
+    display: inline-block;
 
     @include media-query($on-palm){
         width: 100%;
         text-align: center;
+        margin-left: 0em;
+        display: block;
      }
 }
 
