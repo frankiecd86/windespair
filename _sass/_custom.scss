@@ -340,24 +340,16 @@ ul.share-buttons li {
  }
 .follow-button {
     display: inline-block;
+    float: left;
     width: 30px;
     height: 30px;
     background: $color-1;
+    margin-right: 16.67px;
+}
+.follow-button:nth-of-type(4) {
+    margin-right: 0px;
 }
 .center-follow-icon {
     position: relative;
     left: 7px;
 }
-.mar-right-10 {
-    margin-right: 10px;
-}
-.mar-left-10 {
-    margin-left: 10px;
-}
-
- /**
-  * Extra
-  */
-  .bold {
-      font-weight: bold;
-  }

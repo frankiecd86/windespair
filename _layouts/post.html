@@ -4,7 +4,7 @@ layout: default
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta bold">
+    <p class="post-meta">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" | upcase }}</time>
         {% assign words = content | number_of_words %}
         <span> | {{ "Reading Time" | upcase }}:  {% include read-time.html  word_count = words %}</span>

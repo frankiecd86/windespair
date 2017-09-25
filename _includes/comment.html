@@ -1,7 +1,7 @@
 <article class="comment {% if include.replying_to != 0 %}comment-reply{% endif %} {% if include.name == site.author-name %}admin{% endif %}">
   <h3 class="comment-author-name" id="comment-{{ include.index }}">
     {% unless include.url == '' %}
-        <a rel="nofollow" href="http://{{ include.url }}" target="_blank">{{ include.name }}</a>
+        <a rel="nofollow" href="http://{{ include.url }}" rel="noopener" target="_blank">{{ include.name }}</a>
     {% else %}
         {{ include.name }}
     {% endunless %}

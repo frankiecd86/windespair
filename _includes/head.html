@@ -12,7 +12,13 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
 
   <style>
-          {% include rougify-monokai.css %}
+          {% if page.includeCodingCss %}
+            {% capture highlight_to_scssify %}
+              {% include rougify-monokai.css %}
+            {% endcapture %}
+            {{ highlight_to_scssify | scssify }}
+          {% endif %}
+
           {% capture include_to_scssify %}
             {% include main.scss %}
           {% endcapture %}
