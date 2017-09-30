@@ -33,7 +33,7 @@ $warning-color: #fcc419;
     text-align: center;
     margin-bottom: $spacing-unit;
 }
-h3 {
+.post-content > h3 {
     margin-top: 50px;
 }
 
@@ -336,6 +336,7 @@ ul.share-buttons li {
  */
  .follow-buttons {
      width: 170px;
+     height: 32px;
      margin: 0 auto;
  }
 .follow-button {
