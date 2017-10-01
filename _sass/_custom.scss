@@ -31,7 +31,6 @@ $warning-color: #fcc419;
 }
 .post-header {
     text-align: center;
-    margin-bottom: $spacing-unit;
 }
 .post-content > h3 {
     margin-top: 50px;
@@ -187,19 +186,27 @@ input[type=submit]:hover {
 /**
  * Share buttons
  */
+article > ul.share-buttons {
+    margin: 10px auto;
+}
 ul.share-buttons {
-  list-style: none;
-  padding: 0;
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  margin-top: -10px;
-  margin-bottom: 20px;
+    list-style: none;
+    padding: 0;
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+
+    @include media-query($on-palm){
+     text-align: center;
+    }
 }
 ul.share-buttons li {
-  display: inline;
+    display: inline;
+    margin-left: 5px;
 }
 .share-buttons-title {
+    vertical-align: super;
+
     @include media-query($on-palm){
        display: none;
      }
@@ -346,11 +353,16 @@ ul.share-buttons li {
     height: 30px;
     background: $color-1;
     margin-right: 16.67px;
+    position: relative;
 }
 .follow-button:nth-of-type(4) {
     margin-right: 0px;
 }
 .center-follow-icon {
-    position: relative;
-    left: 7px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
