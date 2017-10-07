@@ -5,7 +5,7 @@ comments: true
 categories: Books
 ---
 
-I learned about Steven Johnson's *Where Good Ideas Come From* from a James Altucher [book recommendation list](http://www.jamesaltucher.com/2015/09/books-brain-expand/){:rel="noopener"}{:target="_blank"} (I'm currently working my way through the rest of the books on this list). This book talks about how good ideas come to be, the environment necessary to cultivate them, and the way they develop through connection and reinvention. One of the reasons I enjoyed this book was that by the end I had learned a bit about lots of different subjects: Charles Darwin, Penzias and Wilson, John Snow, 9/11, the FBI, Johannes Guttenberg, Tim Berners-Lee, and countless others. I've listed my takeaways from the book below, including some excerpts I especially liked.
+I learned about Steven Johnson's *Where Good Ideas Come From* from a James Altucher [book recommendation list](http://www.jamesaltucher.com/2015/09/books-brain-expand/) (I'm currently working my way through the rest of the books on this list). This book talks about how good ideas come to be, the environment necessary to cultivate them, and the way they develop through connection and reinvention. One of the reasons I enjoyed this book was that by the end I had learned a bit about lots of different subjects: Charles Darwin, Penzias and Wilson, John Snow, 9/11, the FBI, Johannes Guttenberg, Tim Berners-Lee, and countless others. I've listed my takeaways from the book below, including some excerpts I especially liked.
 
 ### The Adjacent Possible
 Stuart Kauffman, a theoretical biologist, coined the term "the adjacent possible"; he wrote in *Investigations*, "Autonomous agents forever push their way into novelty— molecular, morphological, behavioral, organizational. I will formalize this push into novelty as the mathematical concept of an 'adjacent possible'."
@@ -75,7 +75,7 @@ How does this apply to the world of ideas? The work of beavers allows other spec
 > The patterns are simple, but followed together, they make for a whole that is wiser than the sum of its parts. Go for a walk; cultivate hunches; write everything down, but keep your folders messy; embrace serendipity; make generative mistakes; take on multiple hobbies; frequent coffeehouses and other liquid networks; follow the links; let others build on your ideas; borrow, recycle, reinvent. Build a tangled bank.
 
 ### Citations
-1. [aps.org &#124; Arno Penzias and Robert Wilson](https://www.aps.org/programs/outreach/history/historicsites/penziaswilson.cfm){:rel="noopener"}{:target="_blank"}
-2. [Wikipedia &#124; Arno Allan Penzias](https://en.wikipedia.org/wiki/Arno_Allan_Penzias){:rel="noopener"}{:target="_blank"}
-3. [Wikipedia &#124; Exaptation](https://en.wikipedia.org/wiki/Exaptation){:rel="noopener"}{:target="_blank"}
-4. [Smithsonian &#124; Beavers: The Engineers of the Forest](http://www.smithsonianmag.com/science-nature/beavers-the-engineers-of-the-forest-11145929/){:rel="noopener"}{:target="_blank"}
+1. [aps.org &#124; Arno Penzias and Robert Wilson](https://www.aps.org/programs/outreach/history/historicsites/penziaswilson.cfm)
+2. [Wikipedia &#124; Arno Allan Penzias](https://en.wikipedia.org/wiki/Arno_Allan_Penzias)
+3. [Wikipedia &#124; Exaptation](https://en.wikipedia.org/wiki/Exaptation)
+4. [Smithsonian &#124; Beavers: The Engineers of the Forest](http://www.smithsonianmag.com/science-nature/beavers-the-engineers-of-the-forest-11145929/)

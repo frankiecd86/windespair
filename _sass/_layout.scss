@@ -30,10 +30,6 @@ body{
 .post-list {
     margin-left: 0;
     list-style: none;
-
-    > li {
-        margin-bottom: $spacing-unit;
-    }
 }
 .post-meta {
     font-size: $small-font-size;
@@ -75,6 +71,7 @@ body{
 
     h3 {
         font-size: 26px;
+        margin-top: 40px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -89,39 +86,22 @@ body{
         }
     }
 }
-.page-link {
-        margin-left: .5em;
-}
 
-.color-bars{
-    margin: 0 -1em 0 -1em;
-}
-.cor {
-    width: 25%;
-    height: 4px;
-    display: inline-block;
-    vertical-align: bottom;
-
-}
-.cor-head {
-    width: 12.5%;
-    height: 5px;
-    display: inline-block;
-}
-.line-color{
+.color-bar {
     background-color: $text-color;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 10px;
 }
-
+footer > .color-bar {
+    margin-top: 10px;
+}
 .author {
-    border:none;
+    border-bottom: 5px solid $text-color;
     box-shadow: 0 0 5px #a8a9ab;
-    padding: 1em 1em 0 1em;
+    padding: .5em 1em;
 }
 .author-image {
     border-radius: 10%;
 
-}
-.author-about p, .author-about h4 {
-    margin: 0;
-    padding:0;
 }

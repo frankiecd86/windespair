@@ -7,7 +7,7 @@ layout: default
     <p class="post-meta">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y"}}</time>
         {% assign words = content | number_of_words %}
-        <span> · {% include read-time.html  word_count = words %} min read</span>
+         &nbsp;· {% include read-time.html  word_count = words %} min read · {% include categories.html %}
     </p>
   </header>
 
@@ -19,10 +19,6 @@ layout: default
 </article>
 
 {% include author.html %}
-
-{% include share-buttons.html %}
-
-{% include categories.html %}
 
 {% include signup-form.html %}
 
