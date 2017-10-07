@@ -198,7 +198,7 @@ ul.share-buttons li {
 /**
  * Tags
  */
- a.tag-link {
+ .tag-link {
      font-size: 15px;
      color: $grey-color;
 
@@ -325,6 +325,17 @@ ul.share-buttons li {
      width: 170px;
      height: 32px;
      margin: 0 auto;
+
+     a {
+         i {
+             position: absolute;
+             top: 0;
+             bottom: 0;
+             left: 0;
+             right: 0;
+             margin: auto;
+         }
+     }
  }
 .follow-button {
     display: inline-block;
@@ -337,12 +348,4 @@ ul.share-buttons li {
 }
 .follow-button:nth-of-type(4) {
     margin-right: 0px;
-}
-.center-follow-icon {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
 }
