@@ -179,21 +179,40 @@ input[type=submit]:hover {
 /**
  * Share buttons
  */
-article > ul.share-buttons {
+.share-buttons {
+    display: flex;
+    justify-content: center;
     margin: 10px auto;
+
+    i {
+        width: 32px;
+        height: 32px;
+    }
 }
-ul.share-buttons {
-    list-style: none;
-    padding: 0;
-    display: block;
-    margin: 20px auto;
-    width: 100%;
-    text-align: center;
-}
-ul.share-buttons li {
+.share-buttons li {
     display: inline;
-    margin-left: 5px;
+    margin-left: 10px;
 }
+
+/**
+ * Follow buttons
+ */
+ .follow-buttons {
+     display: flex;
+     justify-content: center;
+
+     i {
+         width: 16px;
+         height: 16px;
+     }
+ }
+.follow-buttons li {
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    background: $brand-color;
+    margin-right: 16.67px;
+ }
 
 /**
  * Tags
@@ -203,7 +222,12 @@ ul.share-buttons li {
      color: $grey-color;
 
      &:hover {
+         color: $text-color;
          text-decoration: underline;
+     }
+
+     &:hover .tag-icon {
+         fill: $text-color;
      }
  }
 .tag-icon {
@@ -235,58 +259,36 @@ ul.share-buttons li {
 }
 .sprite-email {
     background-position: -1px -161px;
-    width: 32px;
-    height: 32px;
 }
 .sprite-facebook {
     background-position: -34px -161px;
-    width: 32px;
-    height: 32px;
 }
 .sprite-google {
     background-position: -67px -161px;
-    width: 32px;
-    height: 32px;
 }
 .sprite-linkedin {
     background-position: -1px -194px;
-    width: 32px;
-    height: 32px;
 }
 .sprite-pocket {
     background-position: -34px -194px;
-    width: 32px;
-    height: 32px;
 }
 .sprite-reddit {
     background-position: -67px -194px;
-    width: 32px;
-    height: 32px;
 }
 .sprite-twitter {
     background-position: -1px -227px;
-    width: 32px;
-    height: 32px;
 }
 .sprite-github-16 {
     background-position: -100px -161px;
-    width: 16px;
-    height: 16px;
 }
 .sprite-menu-16 {
     background-position: -100px -178px;
-    width: 16px;
-    height: 16px;
 }
 .sprite-rss-16 {
     background-position: -100px -195px;
-    width: 16px;
-    height: 16px;
 }
 .sprite-twitter-16 {
     background-position: -100px -212px;
-    width: 16px;
-    height: 16px;
 }
 
  /**
@@ -316,36 +318,4 @@ ul.share-buttons li {
         margin-left: 0em;
         display: block;
      }
-}
-
-/**
- * Follow buttons
- */
- .follow-buttons {
-     width: 170px;
-     height: 32px;
-     margin: 0 auto;
-
-     a {
-         i {
-             position: absolute;
-             top: 0;
-             bottom: 0;
-             left: 0;
-             right: 0;
-             margin: auto;
-         }
-     }
- }
-.follow-button {
-    display: inline-block;
-    float: left;
-    width: 30px;
-    height: 30px;
-    background: $brand-color;
-    margin-right: 16.67px;
-    position: relative;
-}
-.follow-button:nth-of-type(4) {
-    margin-right: 0px;
 }
