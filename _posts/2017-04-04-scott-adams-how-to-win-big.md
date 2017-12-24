@@ -1,13 +1,14 @@
 ---
 layout: post
 title: How to Fail at Almost Everything and Still Win Big
+description: How does one become a world famous cartoonist? Scott Adams offers insight on what has worked for him on his road to success.
 comments: true
 categories: Books
 ---
 
-I recently read Scott Adams' book *How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life*. Scott became famous due to his iconic Dilbert comic strip and has recently been in the spotlight for correctly predicting that Donald Trump would win the Republican nomination and the presidency months before anyone else.
+Scott Adams' *How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life* is concise, entertaining, and full of personal anecdotes that illustrate his concepts and keep things interesting. Scott became famous due to his iconic Dilbert comic strip and has recently been in the spotlight for correctly predicting that Donald Trump would win the Republican nomination and the presidency months before anyone else.
 
-This book was a great read; concise, entertaining, and with some great personal anecdotes to keep it interesting. I've listed some of my takeaways from the book below, including some excerpts I especially liked.
+## Takeaways
 
 ### Create systems not goals
 > A system is something you do on a regular basis that increases your odds of happiness in the long run. If you do something every day, it’s a system. If you’re waiting to achieve it someday in the future, it’s a goal. For our purposes, let’s agree that goals are a reach-it-and-be-done situation, whereas a system is something you do on a regular basis with a reasonable expectation that doing so will get you to a better place in your life. Systems have no deadlines, and on any given day you probably can’t tell if they’re moving you in the right direction.

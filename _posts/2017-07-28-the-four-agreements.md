@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Four Agreements
+description: Want to be happy? Follow Don Miguel Ruiz's advice and be impeccable with your word, stop taking things personally and making assumptions, and always do your best.
 comments: true
 categories: Books
 ---
