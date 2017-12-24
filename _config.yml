@@ -1,5 +1,3 @@
-# Welcome to Jekyll!
-#
 # This config file is meant for settings that affect your whole blog, values
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
@@ -8,8 +6,8 @@
 # Site settings
 title: WinDespair
 email: ziadig@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Hi, I'm Gonzalo. I write and I code.
+description: >
+  Want less. Create more. Ramblings on books and life.
 url: "https://www.windespair.com" # the base hostname & protocol for your site
 
 # Name of repository, for use with Staticman
@@ -32,21 +30,18 @@ color-2: '#a43820'
 # Author picture 100x100 --> keep it inside img folder.
 author-image: 'author.jpg'
 author-name: 'Gonzalo Ziadi'
-author-about: 'If you are wise, mingle these two elements: do not hope without despair, or despair without hope'
-
-# include _redirects
-include: ["_redirects", "_headers"]
+author-about: Holder of multiple Guiness World Records. Famed fire-breather. Accomplished pianist.
 
 author:
   twitter: gziadi
 
 twitter:
-  username: GZiadi
+  username: gziadi
 
 social:
   name: Gonzalo Ziadi
   links:
-    - https://twitter.com/GZiadi
+    - https://twitter.com/gziadi
     - https://www.linkedin.com/in/GonzaloZiadi
     - https://github.com/GonzaloZiadi
 

@@ -19,7 +19,6 @@ layout: compress
     {% if site.analytics %}{% include analytics.html %}{% endif %}
 
     <script type="text/javascript">
-        /* Add success message if comment was successfully submitted */
         document.addEventListener("DOMContentLoaded", function(event) {
             var current_url = window.location.href;
             if(current_url.indexOf("success") !== -1) {
@@ -28,24 +27,19 @@ layout: compress
             }
         });
 
-        /* Handle onclick for reply to user link */
         function set_replying_to_index(index, name, message, date_comment) {
-            /* Set value of fields[replying_to] */
             var comment_reply = document.getElementById("comment-replying-to");
             comment_reply.value = index;
             console.log("replying_to: " + comment_reply.value);
 
-            /* Display cancel comment option */
             var cancel_comment_reply_link = document.getElementById("cancel-comment-reply-link");
             cancel_comment_reply_link.style.display = "inline-block";
             cancel_comment_reply_link.classList.add('cancel-reply');
 
-            /* Grab year, month, and date from comment date*/
             year = date_comment.substring(0,4);
             month = date_comment.substring(5,7);
             day = date_comment.substring(8,10);
 
-            /* Turn month from a number into a string */
             var months = [
                 'January', 'February', 'March', 'April', 'May',
                 'June', 'July', 'August', 'September',
@@ -53,28 +47,22 @@ layout: compress
             ];
             var monthName = months[parseInt(month) - 1];
 
-            /* Compose the month name from the day, month, and year */
             date_comment_string = monthName + " " + day + ", " + year;
 
-            /* Create the time tag */
             var timeTag = document.createElement("time");
             var timeTagTextNode = document.createTextNode(date_comment_string);
             timeTag.setAttribute('datetime', date_comment);
             timeTag.appendChild(timeTagTextNode);
 
             var comment_timestamp_reply_hidden_box = document.getElementById("comment-timestamp-reply-hidden-box");
-            /* Remove all date (time tag) child nodes from the comment timestamp div*/
             while (comment_timestamp_reply_hidden_box.firstChild) {
                 comment_timestamp_reply_hidden_box.removeChild(comment_timestamp_reply_hidden_box.firstChild);
             }
-            /* Append the correct time tag */
             comment_timestamp_reply_hidden_box.appendChild(timeTag);
 
-            /* Display "replying to" title */
             var replying_to_title_hidden_box = document.getElementById("replying-to-title-hidden-box");
             replying_to_title_hidden_box.style.display = "block";
 
-            /* Display comment being replied to */
             var comment_reply_hidden_box = document.getElementById("comment-reply-hidden-box");
             comment_reply_hidden_box.style.display = "block";
             var comment_author_name_reply_hidden_box = document.getElementById("comment-author-name-reply-hidden-box");
@@ -83,31 +71,23 @@ layout: compress
             comment_content_reply_hidden_box.innerHTML = message;
         }
 
-        /* Handle onclick for cancel reply */
         function cancel_reply() {
-            /* Hide replying to title */
             var replying_to_title_hidden_box = document.getElementById("replying-to-title-hidden-box");
             replying_to_title_hidden_box.style.display = "none";
 
-            /* Hide comment you're replying to */
             var comment_reply_hidden_box = document.getElementById("comment-reply-hidden-box");
             comment_reply_hidden_box.style.display = "none";
 
-            /* Hide cancel reply link */
             var cancel_comment_reply_link = document.getElementById("cancel-comment-reply-link");
             cancel_comment_reply_link.style.display = "none";
 
-            /* Get the current value of comment-replying-to */
             var comment_reply = document.getElementById("comment-replying-to");
             var index = comment_reply.value;
 
-            /* Go to the comment that was being replied to */
             cancel_comment_reply_link.href = "#comment-" + index;
 
-            /* Clear the value of fields[replying_to] */
             comment_reply.value = "";
         }
     </script>
   </body>
-
 </html>

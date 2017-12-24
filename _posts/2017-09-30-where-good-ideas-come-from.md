@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Where Good Ideas Come From
+description: In Where Good Ideas Come From Steven Johnson explores the world of ideas and offers insight on how to cultivate and develop good ideas.
 comments: true
 categories: Books
 ---
 
 I learned about Steven Johnson's *Where Good Ideas Come From* from a James Altucher [book recommendation list](http://www.jamesaltucher.com/2015/09/books-brain-expand/) (I'm currently working my way through the rest of the books on this list). This book talks about how good ideas come to be, the environment necessary to cultivate them, and the way they develop through connection and reinvention. One of the reasons I enjoyed this book was that by the end I had learned a bit about lots of different subjects: Charles Darwin, Penzias and Wilson, John Snow, 9/11, the FBI, Johannes Guttenberg, Tim Berners-Lee, and countless others. I've listed my takeaways from the book below, including some excerpts I especially liked.
 
-### The Adjacent Possible
+### Embrace the "adjacent possible"
 Stuart Kauffman, a theoretical biologist, coined the term "the adjacent possible"; he wrote in *Investigations*, "Autonomous agents forever push their way into novelty— molecular, morphological, behavioral, organizational. I will formalize this push into novelty as the mathematical concept of an 'adjacent possible'."
 
 As Johnson puts it:
@@ -15,7 +16,7 @@ As Johnson puts it:
 
  Johnson applies Kauffman's original concept to the world of ideas. Good ideas light up the dark and unexplored edges of the adjacent possible enabling further exploration.
 
-### Liquid Networks
+### Immerse yourself in liquid networks
 Good ideas are not a single thing, but networks, Johnson claims. Literal networks, in fact, if you look at the underlying network of neurons in our brains. Johnson emphasizes two key necessary conditions that make our neural networks so powerful: their massive size and their plasticity.
 > You can't have an epiphany with only three neurons firing. The network needs to be densely populated. Your brain has roughly 100 billion neurons, an impressive number, but all those neurons would be useless for creating ideas (as well as all the other achievements of the human brain) if they weren't capable of making such elaborate connections with each other.  
 A dense network incapable of forming new patterns is, by definition, incapable of change, incapable of probing at the edges of the adjacent possible. When a new idea pops into your head, the sense of novelty that makes the experience so magical has a direct correlate in the cells of your brain: a brand-new assemblage of neurons has come together to make the thought possible.
@@ -28,7 +29,7 @@ And what networks best mimic the neural networks of a mind? It starts with the c
 
 Take your brain to the edge of chaos, immerse yourself in liquid networks.
 
-### The Slow Hunch
+### Embrace the slow hunch
 Charles Darwin, famous for the theory of natural selection, was not only a naturalist, geologist, and biologist, but also a prolific writer. Due to his extensive and detailed writings we know much about the way he thought. In a passage in his *Autobiography*, Darwin writes that in October 1838, while reading Malthus on Population, he was suddenly struck by the theory of evolution: "it at once struck me that under these circumstances favourable variations would tend to be preserved, unfavourable ones to be destroyed." Much like Newton's fortuitous apple, this is a case of a flash of brilliance; the stars aligned and Darwin had a working theory.
 
 Except this is not how it happened. An exploration of Darwin's writings by psychologist Howard Gruber found that Darwin already had the foundation of the theory of evolution by the summer of 1837, over a year before his eureka moment.
@@ -38,7 +39,7 @@ What seemed to be sudden flash of brilliance was something else completely: a sl
 
 > But the snap judgements of intuition are rarities in the history of world-changing ideas. Most hunches that turn into important innovations unfold over much longer time frames. They start with a vague, hard-to-describe sense that there's an interesting solution that hasn't yet been proposed, and they linger in the shadows of the mind, sometimes for decades, assembling new connections and gaining strength. And then one day they are transformed into something more substantial; sometimes jolted out by some newly discovered trove of information, or by an internal association that finally completes the thought.
 
-### Serendipity
+### Seek out serendipity
 Why do humans reproduce sexually when asexual reproduction is faster and more efficient? What's so great about sexual reproduction (in terms of evolution)? Serendipity. The fact that two distinct sets of DNA are being combined provides much more genetic diversity and allows for more opportunity for advantageous mutations to occur.
 
 > Serendipity is not just about embracing random encounters for the sheer exhilaration of it. Serendipity is built out of happy accidents, to be sure, but what makes them happy is the fact that the discovery you've made is meaningful to you. It completes a hunch, or opens up a door in the adjacent possible that you had overlooked.
@@ -47,7 +48,7 @@ So how do we force serendipity? Two of Johnson's suggestions are:
 * Going for a walk ("it removes you from the task-based focus of modern life and puts you in a more associative state")
 * Using software (he stores his writings in an application called DEVONthink which "features a clever algorithm that detects subtle semantic connections between distinct passages of text". For example, searching for the word "dog" also includes instances of the word "canine".)
 
-### Error
+### Error often brings gifts
 Arno Penzias and Robert Wilson won the Nobel Prize in Physics in 1978 for their discovery of cosmic microwave background radiation, which is "'noise' leftover from the creation of the Universe"<sup>[1](#citations)</sup> or as Johnson puts it "the still lingering reverberation of the Big Bang".
 
 Penzias and Wilson used a giant antenna, previously built by Bell Labs for NASA's Project Echo, to detect galactic radio signals. In 1964, the pair began to detect "noise" they could not explain. For years they had no idea what this noise was. They ruled out "urban interference" by pointing the antenna at New York and managed to rule out military testing. At one point they even thought it was accumulated bird poop on the antenna interfering with the radio signals; however, after cleaning the bird poop (and killing a few of the birds to discourage them from coming back), the noise remained<sup>[1](#citations),[2](#citations)</sup>.
@@ -59,13 +60,13 @@ Completely stumped, a serendipitous conversation with Robert Dicke, a physicist 
 This sounds obvious, but it goes against human nature. As Johnson puts it:
 > The trouble with error is that we have a natural tendency to dismiss it... Two brilliant scientists with great technological acumen stumble across evidence of the universe's origin and yet their first reaction is: Our telescope must be broken.
 
-### Exaptation
+### Allow for exaptation
 Exaptation, a term coined by the evolutionary biologist Stephen Jay Gould, describes a shift in the function of a trait during evolution<sup>[3](#citations)</sup>. Feathers are great example; initially used for temperature regulation, feathers were later exapted for flying. Another example is the exaptation of the World Wide Web. Though initially meant for scholastic purposes, it is now used for shopping, storing pictures, and watching video, among others.
 
 So how can we promote the power of exaptation? By multitasking, Johnson suggests.
 > This is not the multitasking of the modern computer screen: switching from e-mail to spreadsheet to Twitter in a matter of seconds. What I'm describing is much more leisurely than the frenetic, digital-age mode; the individual tasks themselves might linger on for days or weeks before giving way to the next project. But there is steady variation nonetheless, not just in the subject matter but in the kind of work performed in each task... In a slow multitasking mode, one project takes center stage for a series of hours or days, yet the other projects linger in the margins of consciousness throughout. That cognitive overlap is what makes this mode so innovative. The current project can exapt ideas from the projects at the margins, make new connections.
 
-### Platforms
+### Make use of existing platforms
 Beavers are known as the engineers of the forest and are a keystone species, meaning that the ecosystems they inhabit would be greatly damaged if they were to be removed. As Smithsonian<sup>[4](#citations)</sup> magazine puts it, "Their dams create wetlands that take up floodwaters, preventing flash floods. Beaver ponds make droughts less devastating by raising groundwater levels and keeping soils moist in the absence of rain. Beaver ponds also filter out sediments and pollutants, says Laura Hajduk, a biologist with the Massachusetts Division of Fisheries and Wildlife. 'They’re great purifiers. Often the water that comes out is cleaner than what went in.' And beaver ponds provide habitat for many types of animals. Standing dead trees, killed by rising waters, are a feature of beaver ponds, along with gnawed-off stumps. But those dead trees provide homes for wood ducks and other cavity-nesting birds."
 
 How does this apply to the world of ideas? The work of beavers allows other species to thrive. These species take advantage of the work done by beavers saving them time and energy. The most valuable tech companies today, Apple, Google, Microsoft, Amazon, and Facebook, were made possible by other platforms, principally the Internet. These companies were able to use the Internet as a foundation; without it, they would not be here today. As Johnson puts it:

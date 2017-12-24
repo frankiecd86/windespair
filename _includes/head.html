@@ -1,27 +1,15 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <meta name="robots" content="noodp" />
+    {% seo title=false %}
+    <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} | Gonzalo Ziadi{% endif %}</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
 
-   {% seo title=false %}
-
- <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} | Gonzalo Ziadi{% endif %}</title>
-
- <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
-
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
-
-  <style>
-          {% if page.includeCodingCss %}
-            {% capture highlight_to_scssify %}
-              {% include rougify-monokai.css %}
-            {% endcapture %}
-            {{ highlight_to_scssify | scssify }}
-          {% endif %}
-
-          {% capture include_to_scssify %}
-            {% include main.scss %}
-          {% endcapture %}
-          {{ include_to_scssify | scssify }}
-  </style>
+    <style>
+        {% capture include_to_scssify %}{% include main.scss %}{% endcapture %}
+        {{ include_to_scssify | scssify }}
+    </style>
 </head>
