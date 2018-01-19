@@ -9,14 +9,12 @@ layout: compress
   {% include head.html %}
 
   <body>
-
     {% include header.html %}
 
     <div class="page-content">
         {{ content }}
     </div>
     {% include footer.html %}
-    {% if site.analytics %}{% include analytics.html %}{% endif %}
 
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function(event) {

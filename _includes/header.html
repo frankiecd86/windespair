@@ -1,17 +1,11 @@
-<header>
-    <nav class="site-nav">
-        <a class="page-link" href="/">Home</a>
+<header class="site-header">
+    <div class="site-header-title">
+        <a href="/">{{ "WinDespair"}}</a>
+    </div>
+
+    <nav>
+        <a class="page-link" href="{{ '/about' }}">About</a>
         <a class="page-link" href="{{ '/now' }}">Now</a>
         <a class="page-link" href="{{ '/contact' }}">Contact</a>
     </nav>
-
-    {% unless page.title %}
-        {% include follow-buttons.html %}
-
-        <div class="site-header-title">
-            {{ "Gonzalo Ziadi" | upcase }}
-        </div>
-    {% endunless %}
-
-    {% include color-bar.html %}
 </header>

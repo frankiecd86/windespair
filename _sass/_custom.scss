@@ -1,45 +1,72 @@
 /**
  * Overrides
  */
- body {
+html, body {
+     height: 100%;
+     text-align: center;
+}
+body {
+     display: flex;
+     flex-direction: column;
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
      letter-spacing: 0.02em;
- }
- a {
+}
+a {
      cursor: pointer;
- }
- .page-link {
-     margin-left: .5em;
+}
+nav {
+     display: flex;
+     justify-content: center;
+}
+header > nav {
+     margin-bottom: 1em;
+     font-size: 20px;
 
      @include media-query($on-palm){
         font-size: $small-font-size;
+      }
+}
+.page-link {
+     margin-left: .5em;
+
+     @include media-query($on-palm){
         margin-left: .4em;
       }
 }
 .page-content {
+    flex: 1 0 auto;
     margin: 0 auto;
-    max-width: 90%;
-    padding: 0;
+    max-width: 70%;
 
     @include media-query($on-palm){
-        max-width: 100%;
+        max-width: 90%;
     }
 }
-.post-header {
-    text-align: center;
+.site-header {
+    border-bottom: 1px solid #EDEDED;
+    margin-bottom: 1em;
+}
+footer {
+    font-size: $small-font-size;
+    background: $light-grey-color;
+    color: #A2A2A2;
+    padding: 20px 20px;
 }
 
 /**
  * Home
  */
 .site-header-title {
-    font-size: 52px;
-    font-weight: 700;
-    text-align: center;
+    font-size: $site-header-font-size;
+    font-weight: 200;
+
+    > a {
+        color: black;
+    }
 
     @include media-query($on-palm){
-       font-size: 32px;
+       font-size: $site-header-mobile-font-size;
      }
 }
 
@@ -139,7 +166,6 @@ input[type=submit]:hover {
  */
 #signup {
     width: 95%;
-    text-align: center;
     border: 1px solid #d7d8da;
     border-radius: 2px;
     padding: 20px;
@@ -193,26 +219,6 @@ input[type=submit]:hover {
     display: inline;
     margin-left: 10px;
 }
-
-/**
- * Follow buttons
- */
- .follow-buttons {
-     display: flex;
-     justify-content: center;
-
-     i {
-         width: 16px;
-         height: 16px;
-     }
- }
-.follow-buttons li {
-    display: flex;
-    justify-content: center;
-    width: 30px;
-    background: $brand-color;
-    margin-right: 16.67px;
- }
 
 /**
  * Tags
@@ -278,22 +284,18 @@ input[type=submit]:hover {
 .sprite-twitter {
     background-position: -1px -227px;
 }
-.sprite-github-16 {
-    background-position: -100px -161px;
-}
-.sprite-menu-16 {
-    background-position: -100px -178px;
-}
-.sprite-rss-16 {
-    background-position: -100px -195px;
-}
-.sprite-twitter-16 {
-    background-position: -100px -212px;
-}
 
  /**
   * Author bio
   */
+  .author {
+      border-bottom: 5px solid $text-color;
+      box-shadow: 0 0 5px #a8a9ab;
+      padding: .5em 1em;
+  }
+  .author-image {
+      border-radius: 10%;
+  }
 .author-image-section {
     display: inline-block;
     vertical-align: top;
@@ -314,8 +316,77 @@ input[type=submit]:hover {
 
     @include media-query($on-palm){
         width: 100%;
-        text-align: center;
         margin-left: 0em;
         display: block;
      }
+}
+
+/**
+ * Page content
+ */
+.post-list {
+    list-style: none;
+}
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color;
+}
+.post-link {
+    font-size: $post-link-font-size;
+}
+
+/**
+ * Posts
+ */
+.post-title {
+    font-size: $post-title-font-size;
+    letter-spacing: -1px;
+    line-height: 1;
+
+    @include media-query($on-laptop) {
+        font-size: 36px;
+    }
+}
+.post-content {
+    width: 70%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: $spacing-unit;
+
+    h1 {
+        font-size: 42px;
+
+        @include media-query($on-laptop) {
+            font-size: 36px;
+        }
+    }
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+        margin-top: 40px;
+
+        &:first-of-type {
+            margin-top: 0px;
+        }
+
+        @include media-query($on-laptop) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-laptop) {
+            font-size: 18px;
+        }
+    }
 }
