@@ -65,3 +65,4 @@ compress_html:
 
 gems:
     - jekyll-seo-tag
+    - uglifier

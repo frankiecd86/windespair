@@ -9,7 +9,9 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.url }}">
 
     <style>
-        {% capture include_to_scssify %}{% include main.scss %}{% endcapture %}
-        {{ include_to_scssify | scssify }}
+        {% capture css %}
+            {% include main.scss %}
+        {% endcapture %}
+        {{ css | scssify }}
     </style>
 </head>
