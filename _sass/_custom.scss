@@ -42,6 +42,21 @@ header > nav {
 .site-header {
     border-bottom: 1px solid $light-grey-color;
 }
+.img-2 {
+    width: 49%;
+}
+.img-2:nth-of-type(odd) {
+    margin-right: 5px;
+}
+.center {
+    text-align: center;
+}
+figcaption {
+    background: black;
+    background: rgba(0,0,0,0.75);
+    color: white;
+    padding: 10px 20px;
+}
 footer {
     font-size: $small-font-size;
     background: $lighter-grey-color;
