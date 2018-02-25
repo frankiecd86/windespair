@@ -2,11 +2,13 @@
 layout: post
 title: Where Good Ideas Come From
 description: In Where Good Ideas Come From Steven Johnson explores the world of ideas and offers insight on how to cultivate and develop good ideas.
+intro: Steven Johnson's <em>Where Good Ideas Come From</em> talks about how good ideas come to be, the environment necessary to cultivate them, and the way they develop through connection and reinvention. One of the reasons I enjoyed this book was that by the end I had learned a bit about lots of different subjects&#58; Charles Darwin, Penzias and Wilson, John Snow, 9/11, the FBI, Johannes Guttenberg, Tim Berners-Lee, and countless others. I've listed my takeaways from the book below, including some excerpts I especially liked.
 comments: true
+image: good-ideas-post.jpg
+imageCredits: Kelly Sikkema
+imageUrl: https://unsplash.com/photos/-1_RZL8BGBM
 categories: Books
 ---
-
-I learned about Steven Johnson's *Where Good Ideas Come From* from a James Altucher [book recommendation list](http://www.jamesaltucher.com/2015/09/books-brain-expand/) (I'm currently working my way through the rest of the books on this list). This book talks about how good ideas come to be, the environment necessary to cultivate them, and the way they develop through connection and reinvention. One of the reasons I enjoyed this book was that by the end I had learned a bit about lots of different subjects: Charles Darwin, Penzias and Wilson, John Snow, 9/11, the FBI, Johannes Guttenberg, Tim Berners-Lee, and countless others. I've listed my takeaways from the book below, including some excerpts I especially liked.
 
 ### Embrace the "adjacent possible"
 Stuart Kauffman, a theoretical biologist, coined the term "the adjacent possible"; he wrote in *Investigations*, "Autonomous agents forever push their way into novelty— molecular, morphological, behavioral, organizational. I will formalize this push into novelty as the mathematical concept of an 'adjacent possible'."

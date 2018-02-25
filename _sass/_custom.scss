@@ -32,7 +32,11 @@ header > nav {
 .page-content {
     flex: 1 0 auto;
     margin: 1em auto;
-    max-width: 700px;
+    max-width: 55%;
+
+    @include media-query($on-palm){
+       max-width: 80%;
+     }
 }
 .page-content .post-content, .page-content #respond {
     @include media-query($on-palm){
@@ -42,20 +46,42 @@ header > nav {
 .site-header {
     border-bottom: 1px solid $light-grey-color;
 }
-.img-2 {
-    width: 49%;
+.col-2 {
+    width: 49.8%;
 }
-.img-2:nth-of-type(odd) {
-    margin-right: 5px;
+.col-2:nth-of-type(odd) {
+    margin-right: .4%;
 }
 .center {
     text-align: center;
 }
-figcaption {
+.index-post-intro {
+    text-align: left;
+    line-height: 1.6;
+}
+.emphasis-figcaption {
     background: black;
     background: rgba(0,0,0,0.75);
     color: white;
     padding: 10px 20px;
+}
+.subtle-figcaption {
+    color: $grey-color;
+    font-size: $mobile-font-size;
+
+    > a {
+        color: $grey-color;
+        text-decoration: underline;
+    }
+}
+.index-img {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto 30px auto;
+
+    @include media-query($on-palm){
+       max-width: 95%;
+     }
 }
 footer {
     font-size: $small-font-size;
@@ -83,7 +109,7 @@ footer {
 /**
  * Forms generic
  */
-input, select, textarea {
+input, select, textarea, .read-more {
     width: 100%;
     font-family: inherit;
     font-size: 100%;
@@ -104,14 +130,21 @@ input:focus, select:focus, textarea:focus {
     outline: none;
     box-shadow: inset 0 1px 3px rgba(0,0,0,.06), 0 0 5px rgba(51,56,63,.7);
 }
-input[type=submit] {
-    background-color: $brand-color;
-    color: $white-color;
-    border: none;
+input[type=submit], .read-more {
+    background-color: $white-color;
+    color: $brand-color;
+    border: 1px solid $brand-color;
     cursor: pointer;
 }
-input[type=submit]:hover {
-    background-color: $brand-secondary-color;
+input[type=submit]:hover, .read-more:hover {
+    background-color: $brand-color;
+    color: $white-color;
+    transition: .3s;
+}
+.read-more {
+    display: block;
+    margin: 15px auto;
+    width: 120px;
 }
 
 /**
@@ -219,18 +252,20 @@ input[type=submit]:hover {
  * Tags
  */
  .tag-link {
-     font-size: 15px;
      color: $grey-color;
+     border-bottom: 1px dotted $grey-color;
 
      &:hover {
          color: $text-color;
-         text-decoration: underline;
      }
 
      &:hover .tag-icon {
          fill: $text-color;
      }
  }
+.category-link {
+    margin-left: -7px;
+}
 .tag-icon {
     vertical-align: sub;
     margin-right: 5px;
@@ -276,10 +311,24 @@ input[type=submit]:hover {
 .post-list {
     list-style: none;
     line-height: $title-line-height;
+
+    > li {
+        margin-bottom: 30px;
+        border-bottom: 1px solid $light-grey-color;
+    }
 }
 .post-meta {
     color: $grey-color;
     font-size: $small-font-size;
+}
+.post-byline {
+    color: $grey-color;
+    font-size: 19px;
+    margin-bottom: 30px;
+
+    @include media-query($on-palm){
+       width: 104%;
+     }
 }
 .post-link {
     font-size: $post-link-font-size;
@@ -297,8 +346,16 @@ input[type=submit]:hover {
         font-size: 36px;
     }
 }
+.post-image {
+    display: block;
+    margin: 0 auto;
+}
 .post-content {
     text-align: left;
+
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 500;
+    }
 
     h3 {
         font-size: 26px;

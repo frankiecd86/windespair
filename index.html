@@ -15,6 +15,22 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url }}">{{ post.title }}</a>
         </h2>
+
+        <p class="post-byline">
+            by <a class="tag-link" href="/about">Gonzalo Ziadi</a> | <a class="tag-link" href="{{ post.url }}#respond">Leave a comment</a>
+        </p>
+
+        {% if post.image %}
+          <a href="{{ post.url }}">
+              <img class="index-img" src="/images/{{ post.image }}">
+          </a>
+        {% endif %}
+
+        {% if post.intro %}
+            <p class="index-post-intro">{{ post.intro }}</p>
+        {% endif %}
+
+        <a class="read-more" href="{{ post.url }}">Read more</a>
       </li>
     {% endfor %}
   </ul>

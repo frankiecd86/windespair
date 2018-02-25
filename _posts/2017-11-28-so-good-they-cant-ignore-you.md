@@ -6,10 +6,9 @@ categories: Books
 published: false
 ---
 
-The title comes from a Steve Martin quote... and that is what this book is about.
-Steve Martin's answer to Charlie Rose's question of his advice for aspiring performers: "Be so good that they can't ignore you"
+Quick Summary: In So Good They Can't Ignore You, Cal Newport, a professor at Georgetown, makes the case against "following your passion". The title of the book comes from Steve Martin's answer to Charlie Rose when asked for his advice for aspiring performers: "Be so good that they can't ignore you." Newport gives advice for casting aside the "passion mindset" and instead becoming "so good that they can't ignore you."
 
-
+## Takeaways
 ### Follow your passion is bad advice
 > Whereas the **craftsman mindset** focuses on what you can offer the world, the **passion mindset** focuses instead on what the world can offer you... When you focus only on what your work offers you, it makes you hyperaware of what you don't like about it, leading to chronic unhappiness... more serious, the deep questions driving the passion mindset——"Who am I?" and "What do I truly love?"—— are essentially impossible to confirm. "Is this who I really am?" and "Do I love this?" rarely reduce to clear yes-or-no responses. In other words, the passion mindset is almost guaranteed to keep you perpetually unhappy and confused.
 
@@ -31,6 +30,6 @@ Steve Martin's answer to Charlie Rose's question of his advice for aspiring perf
 ### The Law of Financial Viability
 > "I have this principle about money that overrides my other life rules," he said. "**Do what people are willing to pay for.**" As he explained, "Money is a neutral indicator of value. By aiming to make money, you're aiming to be valuable."
 
-Not about pursuing money for the sake of having money and hobbies are exempt from this rule.
+The above was said by Derek Sivers, founder of CD Baby. He makes it clear that it is not about pursuing money for the sake of having money and that hobbies are exempt from this rule.
 
 ### Summary

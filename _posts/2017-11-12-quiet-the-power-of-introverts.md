@@ -2,11 +2,13 @@
 layout: post
 title: Quiet&#58; The Power of Introverts in a World That Can't Stop Talking
 description: It's hard to stand out as an introvert sometimes. Susan Cain explores introversion and gives advice on how to make use of your strengths as an introvert.
+intro: Susan Cain's <em>Quiet&#58; The Power of Introverts in a World That Can't Stop Talking</em> explores introversion and extroversion. It discusses the differences between introverts and extroverts, the dangers of having a world run by extroverts, how to use your strengths as an introvert, and relationships of introvert-extrovert couples and the difficulties that result from this 'mismatch', among other related topics.
+image: quiet-post.jpg
+imageCredits: Kristina Flour
+imageUrl: https://unsplash.com/photos/BcjdbyKWquw
 comments: true
 categories: Books
 ---
-
-Susan Cain's *Quiet: The Power of Introverts in a World That Can't Stop Talking* explores introversion and extroversion. It discusses the differences between introverts and extroverts, the dangers of having a world run by extroverts, how to use your strengths as an introvert, and relationships of introvert-extrovert couples and the difficulties that result from this 'mismatch', among other related topics.
 
 ### Extroversion is not always ideal
 I recently watched The Big Short and it was like a punch to the gut. The willful ignorance of Wall Street and the financial sector. The unchecked arrogance. The adulation of money. The greed. Those involved in the upper echelons of the US financial sector destroyed the world economy and were not only not punished (one schmuck did go to <span id="citation-1">jail</span><sup>[1](#citations)</sup>), but ultimately rewarded for their job well <span id="citation-2">done</span><sup>[2](#citations)</sup>. The crash of 2007-2008 can be partly explained by the personality traits prized by Wall Street; charm, confidence, and an immense appetite for risk (<span id="citation-3">psychopathy?</span><sup>[3](#citations)</sup>). As Cain and Vincent Kaminski (a director at Enron who tried to sound the alarm before their demise) explain:

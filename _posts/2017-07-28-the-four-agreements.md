@@ -2,11 +2,13 @@
 layout: post
 title: The Four Agreements
 description: Want to be happy? Follow Don Miguel Ruiz's advice and be impeccable with your word, stop taking things personally and making assumptions, and always do your best.
+intro: I just finished reading Don Miguel Ruiz's <em>The Four Agreements&#58; A Practical Guide to Personal Freedom (A Toltec Wisdom Book)</em>. Don Miguel Ruiz was raised in rural Mexico by his healer mother and his shaman grandfather. He became a surgeon, but after a car accident that nearly cost him his life, Ruiz returned home to learn from his mother. He then completed an apprenticeship under a shaman in the Mexican desert and moved to the United States. Ruiz says he is from the <a href="https://en.wikipedia.org/wiki/Eagle_warrior">Eagle-Knight lineage</a> and that The Four Agreements are based on ancient <a href="https://en.wikipedia.org/wiki/Toltec">Toltec</a> wisdom.
+image: four-agreements-post.jpg
+imageCredits: Igor Ovsyannykov
+imageUrl: https://unsplash.com/photos/Y42J6OQ2LL0
 comments: true
 categories: Books
 ---
-
-I just finished reading Don Miguel Ruiz's *The Four Agreements: A Practical Guide to Personal Freedom (A Toltec Wisdom Book)*. Don Miguel Ruiz was raised in rural Mexico by his healer mother and his shaman grandfather. He became a surgeon, but after a car accident that nearly cost him his life, Ruiz returned home to learn from his mother. He then completed an apprenticeship under a shaman in the Mexican desert and moved to the United States. Ruiz says he is from the [Eagle-Knight lineage](https://en.wikipedia.org/wiki/Eagle_warrior) and that The Four Agreements are based on ancient [Toltec](https://en.wikipedia.org/wiki/Toltec) wisdom.
 
 Reading Ruiz's biography on the book's inner flap rang some alarm bells as talk of healers, shamans, desert apprenticeships, Eagle-Knight lineage, and ancient Toltec wisdom tends to do. Reading online about Toltec culture, however, revealed that scholars/historians see the Toltecs "as largely a mythical and philosophical construct by either the Aztecs or Mesoamericans generally that served to symbolize the might and sophistication of several civilizations during the Mesoamerican Postclassic period. Furthermore, among the Nahuan peoples the word "Tolteca" was synonymous with artist, artisan or wise man, and "toltecayotl... This interpretation argues that any large urban center in Mesoamerica could be referred to as "Tollan" and its inhabitants as Toltecs – and that it was common practice among ruling lineages in Postclassic Mesoamerica to strengthen claims to power by claiming Toltec ancestry." [[Wikipedia](https://en.wikipedia.org/wiki/Toltec#Toltecs_as_myth)]
 

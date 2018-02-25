@@ -4,7 +4,7 @@ $base-font-size:               18px;
 $site-header-font-size:        52px;
 $site-header-mobile-font-size: 44px;
 $post-title-font-size:         42px;
-$post-link-font-size:          24px;
+$post-link-font-size:          37px;
 $small-font-size:              $base-font-size * 0.875;
 $mobile-font-size:             $base-font-size * 0.795;
 
@@ -16,8 +16,8 @@ $title-line-height: 1.25;
 $spacing-unit:     30px;
 
 $text-color:               #333;
-$brand-color:              {{site.color-1}};
-$brand-secondary-color:    {{site.color-2}};
+$brand-color:              #d64242;
+$brand-secondary-color:    black;
 $white-color:              white;
 $grey-color:               #828282;
 $light-grey-color:         #EDEDED;

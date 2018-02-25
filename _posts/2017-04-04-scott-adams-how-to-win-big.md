@@ -2,11 +2,13 @@
 layout: post
 title: How to Fail at Almost Everything and Still Win Big
 description: How does one become a world famous cartoonist? Scott Adams offers insight on what has worked for him on his road to success.
+intro: Scott Adams' <em>How to Fail at Almost Everything and Still Win Big&#58; Kind of the Story of My Life</em> is concise, entertaining, and full of personal anecdotes that illustrate his concepts and keep things interesting. Scott became famous due to his iconic Dilbert comic strip and has recently been in the spotlight for correctly predicting that Donald Trump would win the Republican nomination and the presidency months before anyone else.
+image: fail-win-big-post.jpg
+imageCredits: NeONBRAND
+imageUrl: https://unsplash.com/photos/-Cmz06-0btw
 comments: true
 categories: Books
 ---
-
-Scott Adams' *How to Fail at Almost Everything and Still Win Big: Kind of the Story of My Life* is concise, entertaining, and full of personal anecdotes that illustrate his concepts and keep things interesting. Scott became famous due to his iconic Dilbert comic strip and has recently been in the spotlight for correctly predicting that Donald Trump would win the Republican nomination and the presidency months before anyone else.
 
 ## Takeaways
 
