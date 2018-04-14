@@ -26,8 +26,8 @@ header > nav {
         font-size: $small-font-size;
       }
 }
-.page-link {
-     margin-left: .5em;
+.page-link:not(:first-child) {
+     margin-left: 1em;
 }
 .page-content {
     flex: 1 0 auto;
@@ -133,6 +133,8 @@ input:focus, select:focus, textarea:focus {
 input[type=submit], .read-more {
     background-color: $white-color;
     color: $brand-color;
+    display: block;
+    margin: 0 auto;
     border: 1px solid $brand-color;
     cursor: pointer;
 }
@@ -369,4 +371,7 @@ input[type=submit]:hover, .read-more:hover {
             font-size: 22px;
         }
     }
+}
+.green {
+    color: #008000;
 }
