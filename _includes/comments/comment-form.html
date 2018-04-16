@@ -1,10 +1,5 @@
 {% unless page.comments_locked == true %}
 
-  {% assign url_path = page.permalink | replace: "/", "" %}
-  {% if url_path == nil or url_path == empty %}
-      {% assign url_path = page.slug %}
-  {% endif %}
-
   <!-- Start new comment form -->
   <div id="respond">
     <header>
@@ -23,7 +18,7 @@
     </header>
 
     <form method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
-      <input name="options[redirect]" type="hidden" value="https://www.windespair.com/{{ url_path }}/?success#respond">
+      <input name="options[redirect]" type="hidden" value="https://www.windespair.com/{{ include.url_path }}/?success#respond">
 
       <label for="comment-form-message"><strong>Comment</strong> <small>(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> is allowed)</small></label>
       <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" required spellcheck="true"></textarea>
@@ -38,7 +33,7 @@
       <input type="text" id="comment-form-url" name="fields[url]"/>
 
       <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
-      <input name="options[slug]" type="hidden" value="{{ url_path }}">
+      <input name="options[slug]" type="hidden" value="{{ include.url_path }}">
 
       <input type="submit" class="center" value="Send Comment">
     </form>

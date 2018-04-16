@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
 function set_replying_to_index(index, name, message, date_comment) {
     var comment_reply = document.getElementById("comment-replying-to");
     comment_reply.value = index;
-    console.log("replying_to: " + comment_reply.value);
 
     var cancel_comment_reply_link = document.getElementById("cancel-comment-reply-link");
     cancel_comment_reply_link.style.display = "inline-block";

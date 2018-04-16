@@ -163,6 +163,7 @@ input[type=submit]:hover, .read-more:hover {
  .comment {
     background: rgba(0,0,0,0.01);
     border-left: 1px solid rgba(0,0,0,0.2);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
     padding: 3% 2%;
  }
  .comment-reply {
@@ -231,6 +232,7 @@ input[type=submit]:hover, .read-more:hover {
 }
 #signup-submit {
     width: 30%;
+    display: inline-block;
 }
 
 /**
@@ -354,24 +356,25 @@ input[type=submit]:hover, .read-more:hover {
 }
 .post-content {
     text-align: left;
+}
 
-    h1, h2, h3, h4, h5, h6 {
-        font-weight: 500;
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 26px;
+    margin-top: 40px;
+
+    &:first-of-type {
+        margin-top: 0px;
     }
 
-    h3 {
-        font-size: 26px;
-        margin-top: 40px;
-
-        &:first-of-type {
-            margin-top: 0px;
-        }
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
-        }
+    @include media-query($on-laptop) {
+        font-size: 22px;
     }
 }
+
 .green {
     color: #008000;
 }

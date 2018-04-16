@@ -63,4 +63,4 @@ Once a month I input these 4 numbers (and a few others) on my "Net Worth" spread
 
 Inspired by [J. Money](http://www.budgetsaresexy.com/net-worth/)
 
-{% include comments.html %}
+{% include comments/commentsAsHtml.html %}

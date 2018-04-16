@@ -1,0 +1,4 @@
+{% capture commentsAsHtml %}
+    {% include comments/comments.html %}
+{% endcapture %}
+{{ commentsAsHtml | replace: '    ', ''}}

@@ -1,0 +1,34 @@
+{% if site.repository and site.staticman.branch %}
+
+    {% assign url_path = page.permalink | replace: "/", "" %}
+    {% if url_path == nil or url_path == empty %}
+        {% assign url_path = page.slug %}
+    {% endif %}
+
+    {% include comments/comment-form.html url_path=url_path %}
+
+    {% if site.data.comments[url_path] %}
+        <!-- Start static comments -->
+        <div id="comments">
+        <header>
+            <h3>
+                {% if site.data.comments[url_path].size > 1 %}
+                    {{ site.data.comments[url_path] | size | append: ' ' }}
+                {% endif %}
+                Comments
+            </h3>
+        </header>
+            {% assign comments = site.data.comments[url_path] | where_exp:"item", "item.replying_to == ''" | sort: 'date' %}
+            {% for comment in comments %}
+                {% assign index = forloop.index %}
+                {% assign email = comment.email %}
+                {% assign name = comment.name %}
+                {% assign date = comment.date %}
+                {% assign url = comment.url %}
+                {% assign message = comment.message %}
+                {% include comments/comment.html index=index replying_to=0 email=email name=name url=url date=date message=message url_path=url_path %}
+            {% endfor %}
+        </div>
+        <!-- End static comments -->
+    {% endif %}
+{% endif %}
