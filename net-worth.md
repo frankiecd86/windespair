@@ -5,7 +5,7 @@ permalink: /net-worth/
 ---
 
 <figure>
-    <img src="/images/net-worth-4-17.png" alt="Sammy and me in Boston">
+    <img src="/images/net-worth-4-2018.png" alt="Road to 1 million dollars">
 </figure>
 
 {% include share-buttons.html %}

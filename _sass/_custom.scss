@@ -14,6 +14,27 @@ body {
 a {
      cursor: pointer;
 }
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 35px;
+    margin-top: 35px;
+
+    @include media-query($on-laptop) {
+        font-size: 29px;
+    }
+}
+
+h3 {
+    font-size: 26px;
+    margin-top: 30px;
+
+    @include media-query($on-laptop) {
+        font-size: 22px;
+    }
+}
 nav {
      display: flex;
      justify-content: center;
@@ -319,6 +340,10 @@ input[type=submit]:hover, .read-more:hover {
     > li {
         margin-bottom: 30px;
         border-bottom: 1px solid $light-grey-color;
+
+        > h2 {
+            margin-top: 0px;
+        }
     }
 }
 .post-meta {
@@ -334,9 +359,6 @@ input[type=submit]:hover, .read-more:hover {
        width: 104%;
      }
 }
-.post-link {
-    font-size: $post-link-font-size;
-}
 
 /**
  * Posts
@@ -350,31 +372,14 @@ input[type=submit]:hover, .read-more:hover {
         font-size: 36px;
     }
 }
-.post-image {
-    display: block;
-    margin: 0 auto;
-}
 .post-content {
     text-align: left;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
-}
-
-h3 {
-    font-size: 26px;
-    margin-top: 40px;
-
-    &:first-of-type {
-        margin-top: 0px;
-    }
-
-    @include media-query($on-laptop) {
-        font-size: 22px;
-    }
-}
-
 .green {
     color: #008000;
+}
+.center-image {
+    display: block;
+    margin: 0 auto;
 }

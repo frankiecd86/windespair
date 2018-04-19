@@ -11,18 +11,20 @@ layout: default
     </p>
   </header>
 
-  {% include share-buttons.html %}
-
   <div class="post-content" itemprop="articleBody">
       <p>
           {{ page.intro }}
       </p>
+
       {% if page.image %}
           <figure>
-              <img class="post-image" src="/images/{{ page.image }}">
-              <figcaption class="center subtle-figcaption">Photo by <a href="{{ page.imageUrl }}">{{ page.imageCredits }}</a> on <a href="https://unsplash.com/">Unsplash</a></figcaption>
+              <img class="center-image" src="/images/{{ page.image }}" alt="{{ page.image_alt }}">
+              <figcaption class="center subtle-figcaption">Photo from <a href="{{ page.imageUrl }}">{{ page.imageCredits }}</a>{{ page.imageExtraCredits }}</figcaption>
           </figure>
       {% endif %}
+
+      {% include share-buttons.html %}
+
       {{ content }}
   </div>
 </article>
