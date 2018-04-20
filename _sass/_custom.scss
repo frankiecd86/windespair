@@ -238,9 +238,10 @@ input[type=submit]:hover, .read-more:hover {
 }
 #signup-title {
     font-size: 1.5em;
+    margin-top: 0px;
 
     @include media-query($on-palm){
-       font-size: .96em;
+       font-size: 1.3em;
      }
 }
 #signup-description {
@@ -248,12 +249,21 @@ input[type=submit]:hover, .read-more:hover {
        display: none;
      }
 }
-#signup-email {
+#mce-EMAIL {
     width: 68%;
+
+    @include media-query($on-palm){
+       width: 80%;
+     }
 }
 #signup-submit {
     width: 30%;
     display: inline-block;
+    margin-left: 5px;
+
+    @include media-query($on-palm){
+       width: 60%;
+     }
 }
 
 /**
