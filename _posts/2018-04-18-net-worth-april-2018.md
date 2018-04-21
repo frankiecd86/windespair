@@ -53,13 +53,13 @@ Our financial “health” is a crucial component of our happiness and well-bein
 
 The answers to these questions are out there. We just have to know where to look.
 
-[Mr. Money Mustache](https://www.mrmoneymustache.com) and [Jim Collins](https://www.jlcollinsnh.com) are two bloggers who have been huge influences on my thinking on personal finance.
+[Mr. Money Mustache](https://www.mrmoneymustache.com) and [JL Collins](https://www.jlcollinsnh.com) are two bloggers who have been huge influences on my thinking on personal finance.
 
 They’ve helped ease my financial anxieties and simplified the way I think about money.
 
 **I’m glad they ignored the taboo and talked about money.**
 
-## What I learned from Mr. Money Mustache and Jim Collins 👨🏼‍🏫
+## What I learned from Mr. Money Mustache and JL Collins 👨🏼‍🏫
 
 ### You don’t need to work until you’re 65 👴🏼
 
@@ -92,15 +92,15 @@ Once I was debt-free, I had “extra” money each month.
 
 **How could I invest this money to “safely” maximize my earnings?**
 
-Enter [Jim Collins’ Stock Series](https://jlcollinsnh.com/stock-series).
+Enter [JL Collins’ Stock Series](https://jlcollinsnh.com/stock-series).
 
-Jim Collins retired at a more “normal” age than Mr. Money Mustache and started his blog as a way to pass on his financial/life knowledge on to his daughter. 
+JL Collins retired at a more “normal” age than Mr. Money Mustache and started his blog as a way to pass on his financial/life knowledge on to his daughter. 
 
 His Stock Series is a collection of 22 posts on everything from investing in index funds, to 401(k)’s, to the mentality one needs to have when investing.
 
 Thinking about investing and planning for eventual retirement stressed me out.
 
-Jim’s Stock Series made me realize that investing was simple.
+JL’s Stock Series made me realize that investing was simple.
 
 ## That’s nice, but I’m here because of the $42,756.30 mentioned in the title 💰
 
@@ -170,7 +170,7 @@ I know I’m not the only one.
 
 With my finances in order, I have one less thing to stress about, which makes me happy 😃.
 
-My hope is that this provides some personal finance relief/food for thought, à la Mr. Money Mustache or Jim Collins.
+My hope is that this provides some personal finance relief/food for thought, à la Mr. Money Mustache or JL Collins.
 
 You can’t get to where you want to go if you don’t know where you are.
 
