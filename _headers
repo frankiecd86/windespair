@@ -7,9 +7,3 @@
 
 /favicon.ico
   Cache-Control: public, max-age=31536000
-
-/the-four-agreements
-  Link: </images/spritesheet.png>; rel=preload; as=image
-
-/scott-adams-how-to-win-big
-  Link: </images/spritesheet.png>; rel=preload; as=image
