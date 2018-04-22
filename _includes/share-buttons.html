@@ -1,36 +1,33 @@
-<ul class="share-buttons">
-    <li>
-        <a href="https://facebook.com/sharer.php?u=https://www.windespair.com{{ page.url }}" rel="noopener" target="_blank">
-            <i class="sprite sprite-facebook"></i>
-        </a>
-    </li>
-    <li>
-        <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url=https://www.windespair.com{{ page.url }}&via={{ site.twitter.username }}&related={{ site.twitter.username }}" rel="noopener" target="_blank">
-            <i class="sprite sprite-twitter"></i>
-        </a>
-    </li>
-    <li>
-        <a href="https://plus.google.com/share?url=https://www.windespair.com{{ page.url }}" rel="noopener" target="_blank">
-            <i class="sprite sprite-google"></i>
-        </a>
-    </li>
-    <li>
-        <a href="https://getpocket.com/save?url=https://www.windespair.com{{ page.url }}" rel="noopener" target="_blank">
-            <i class="sprite sprite-pocket"></i>
-        </a>
-    </li>
-    <li>
-        <a href="http://www.reddit.com/submit?url=https://www.windespair.com{{ page.url }}" rel="noopener" target="_blank">
-            <i class="sprite sprite-reddit"></i></a>
-    </li>
-    <li>
-        <a href="http://www.linkedin.com/shareArticle?mini=true&url=https://www.windespair.com{{ page.url }}&title={{ page.title }}&summary=&source=https://www.windespair.com/" rel="noopener" target="_blank">
-            <i class="sprite sprite-linkedin"></i>
-        </a>
-    </li>
-    <li>
-        <a href="mailto:?subject=WinDespair: {{page.title}}&body=Check this out: https://www.windespair.com{{ page.url }}" rel="noopener" target="_blank">
-            <i class="sprite sprite-email"></i>
-        </a>
-    </li>
-</ul>
+<div class="share-buttons">
+  <a id="twitter" class="share-button" href="https://twitter.com/intent/tweet?text={{ page.title}}&url=https://www.windespair.com{{ page.url }}&via={{site.twitter.username}}&related={{ site.twitter.username }}" rel="noopener" target="_blank">
+    <i class="sprite sprite-twitter"></i>
+  </a>
+
+  <a id="facebook" class="share-button" href="https://facebook.com/sharer.php?u=https://www.windespair.com{{ page.url }}" rel="noopener" target="_blank">
+    <i class="sprite sprite-facebook"></i>
+  </a>
+
+  <a id="pinterest" class="share-button" href="http://pinterest.com/pin/create/button/?url=https://www.windespair.com{{ page.url }}&description={{ page.title }}" rel="noopener" target="_blank">
+      <i class="sprite sprite-pinterest"></i>
+  </a>
+
+  <a id="reddit" class="share-button hide-mobile" href="http://www.reddit.com/submit?url=https://www.windespair.com{{ page.url }}" rel="noopener" target="_blank">
+    <i class="sprite sprite-reddit"></i>
+  </a>
+
+  <a id="linkedin" class="share-button" href="http://www.linkedin.com/shareArticle?mini=true&url=https://www.windespair.com{{ page.url }}&title={{ page.title }}&summary=&source=https://www.windespair.com/" rel="noopener" target="_blank">
+    <i class="sprite sprite-linkedin"></i>
+  </a>
+
+  <a id="email" class="share-button" href="mailto:?subject=WinDespair: {{page.title}}&body=Check this out: https://www.windespair.com{{ page.url }}" rel="noopener" target="_blank">
+    <i class="sprite sprite-email"></i>
+  </a>
+
+  <a id="whatsapp" class="share-button" href="https://api.whatsapp.com/send?text=Check this out: https://www.windespair.com{{ page.url }}">
+      <i class="sprite sprite-whatsapp"></i>
+  </a>
+
+  <a id="message" class="share-button" href="sms:">
+      <i class="sprite sprite-message"></i>
+  </a>
+</div>

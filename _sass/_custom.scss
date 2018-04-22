@@ -2,67 +2,66 @@
  * Overrides
  */
 html, body {
-     height: 100%;
-     text-align: center;
+  height: 100%;
+  text-align: center;
 }
 body {
-     display: flex;
-     flex-direction: column;
-     -webkit-font-smoothing: antialiased;
-     -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 a {
-     cursor: pointer;
+  cursor: pointer;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 500;
+  font-weight: 500;
 }
-
 h2 {
-    font-size: 35px;
-    margin-top: 35px;
+  font-size: 35px;
+  margin-top: 35px;
 
-    @include media-query($on-laptop) {
-        font-size: 29px;
-    }
+  @include media-query($on-laptop) {
+      font-size: 29px;
+  }
 }
 
 h3 {
-    font-size: 26px;
-    margin-top: 30px;
+  font-size: 26px;
+  margin-top: 30px;
 
-    @include media-query($on-laptop) {
-        font-size: 22px;
-    }
+  @include media-query($on-laptop) {
+      font-size: 22px;
+  }
 }
 nav {
-     display: flex;
-     justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 header > nav {
-     margin-bottom: 1em;
-     font-size: 20px;
+  margin-bottom: 1em;
+  font-size: 20px;
 
-     @include media-query($on-palm){
-        font-size: $small-font-size;
-      }
+  @include media-query($on-palm){
+    font-size: $small-font-size;
+  }
 }
 .page-link:not(:first-child) {
-     margin-left: 1em;
+  margin-left: 1em;
 }
 .page-content {
-    flex: 1 0 auto;
-    margin: 1em auto;
-    max-width: 55%;
+  flex: 1 0 auto;
+  margin: 1em auto;
+  max-width: 55%;
 
-    @include media-query($on-palm){
-       max-width: 80%;
-     }
+  @include media-query($on-palm){
+    max-width: 80%;
+  }
 }
 .page-content .post-content, .page-content #respond {
-    @include media-query($on-palm){
-        margin: auto 7px;
-    }
+  @include media-query($on-palm){
+    margin: auto 7px;
+  }
 }
 .site-header {
     border-bottom: 1px solid $light-grey-color;
@@ -81,8 +80,8 @@ header > nav {
     line-height: 1.6;
 }
 .emphasis-figcaption {
-    background: black;
-    background: rgba(0,0,0,0.75);
+  background: black;
+  background: rgba(0,0,0,0.75);
     color: white;
     padding: 10px 20px;
 }
@@ -106,7 +105,7 @@ header > nav {
 }
 footer {
     font-size: $small-font-size;
-    background: $lighter-grey-color;
+  background: $lighter-grey-color;
     color: #A2A2A2;
     padding: 20px 20px;
 }
@@ -131,20 +130,20 @@ footer {
  * Forms generic
  */
 input, select, textarea, .read-more {
-    width: 100%;
-    font-family: inherit;
-    font-size: 100%;
-    padding: 12px;
-    border-radius: .25em;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-    border-color: $input-border-color;
-    border-style: solid;
-    border-width: 1px 1px 4px;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,.06);
-    -webkit-appearance: none;
+  width: 100%;
+  font-family: inherit;
+  font-size: 100%;
+  padding: 12px;
+  border-radius: .25em;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  border-color: $input-border-color;
+  border-style: solid;
+  border-width: 1px 1px 4px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.06);
+  -webkit-appearance: none;
 }
 input:focus, select:focus, textarea:focus {
     border-color: $input-border-color-focus;
@@ -152,7 +151,7 @@ input:focus, select:focus, textarea:focus {
     box-shadow: inset 0 1px 3px rgba(0,0,0,.06), 0 0 5px rgba(51,56,63,.7);
 }
 input[type=submit], .read-more {
-    background-color: $white-color;
+  background-color: $white-color;
     color: $brand-color;
     display: block;
     margin: 0 auto;
@@ -160,7 +159,7 @@ input[type=submit], .read-more {
     cursor: pointer;
 }
 input[type=submit]:hover, .read-more:hover {
-    background-color: $brand-color;
+  background-color: $brand-color;
     color: $white-color;
     transition: .3s;
 }
@@ -182,7 +181,7 @@ input[type=submit]:hover, .read-more:hover {
      width: 10em;
  }
  .comment {
-    background: rgba(0,0,0,0.01);
+  background: rgba(0,0,0,0.01);
     border-left: 1px solid rgba(0,0,0,0.2);
     border-bottom: 1px solid rgba(0,0,0,0.1);
     padding: 3% 2%;
@@ -267,23 +266,6 @@ input[type=submit]:hover, .read-more:hover {
 }
 
 /**
- * Share buttons
- */
-.share-buttons {
-    display: flex;
-    justify-content: center;
-
-    i {
-        width: 32px;
-        height: 32px;
-    }
-}
-.share-buttons li {
-    display: inline;
-    margin-left: 10px;
-}
-
-/**
  * Tags
  */
  .tag-link {
@@ -307,37 +289,111 @@ input[type=submit]:hover, .read-more:hover {
     fill: rgba(0,0,0,.3);
 }
 
- /**
-  * Sprites
-  */
- .sprite {
-     display: inline-block;
-     background: url('/images/spritesheet.png') no-repeat;
-     overflow: hidden;
-     text-indent: -9999px;
-     text-align: left;
- }
+/**
+ * Share buttons
+ */
+.share-buttons {
+  display: flex;
+  cursor: pointer;
+}
+.share-button {
+  width: 100%;
+  height: 32px;
+  margin-right: 2%;
+  text-align: center;
+  transition: all .1s linear;
 
+  &:last-child {
+    margin-right: 0px;
+  }
+
+  &#email {
+    margin-right: 0px;
+
+    @include media-query($on-palm){
+       margin-right: 2%;
+     }
+  }
+
+  &#whatsapp, &#message {
+    display: none;
+
+    @include media-query($on-palm){
+       display: inline-block;
+     }
+  }
+
+  &#reddit {
+    @include media-query($on-palm){
+       display: none;
+     }
+  }
+
+  &:hover {
+    width: 150%;
+  }
+}
+.share-button:last-child {
+    margin-right: 0px;
+}
+#facebook {
+  background: #3b5998;
+}
+#twitter {
+  background: #429cd6;
+}
+#pinterest {
+  background: #bd081c;
+}
+#reddit {
+  background: #ff4500;
+}
+#linkedin {
+  background: #0077b5;
+}
+#email {
+  background: #6d6d6d;
+}
+#whatsapp {
+  background: #25d366;
+}
+#message {
+  background: #5BC236;
+}
+
+/**
+* Sprites
+*/
+.sprite {
+  background: url('/images/social-media-sprites.png') no-repeat;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
 .sprite-email {
-    background-position: -1px -161px;
+  background-position: 0px -16px;
 }
 .sprite-facebook {
-    background-position: -34px -161px;
-}
-.sprite-google {
-    background-position: -67px -161px;
+  background-position: 0px -32px;
 }
 .sprite-linkedin {
-    background-position: -1px -194px;
-}
-.sprite-pocket {
-    background-position: -34px -194px;
+  background-position: 0px -48px;
 }
 .sprite-reddit {
-    background-position: -67px -194px;
+  background-position: 0px -80px;
+}
+.sprite-pinterest {
+  background-position: 0px -64px;
 }
 .sprite-twitter {
-    background-position: -1px -227px;
+  background-position: 0px -96px;
+}
+.sprite-message {
+  background-position: 0px 0px;
+}
+.sprite-whatsapp {
+  background-position: 0px -112px;
 }
 
 /**
