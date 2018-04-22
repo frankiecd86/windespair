@@ -64,7 +64,16 @@ header > nav {
   }
 }
 .site-header {
-    border-bottom: 1px solid $light-grey-color;
+  background: $brand-color;
+  border-bottom: 1px solid $light-grey-color;
+
+  > nav > a {
+    color: white;
+
+    &:hover {
+      color: black;
+    }
+  }
 }
 .col-2 {
     width: 49.8%;
@@ -115,10 +124,15 @@ footer {
  */
 .site-header-title {
     font-size: $site-header-font-size;
-    font-weight: 200;
 
     > a {
-        color: black;
+        color: white;
+        opacity: 1;
+        transition: opacity .25s ease-in-out;
+
+        &:hover {
+          opacity: .5;
+        }
     }
 
     @include media-query($on-palm){
@@ -440,6 +454,10 @@ input[type=submit]:hover, .read-more:hover {
 }
 .post-content {
     text-align: left;
+
+    > p:first-of-type {
+      margin-top: 20px;
+    }
 }
 
 .green {

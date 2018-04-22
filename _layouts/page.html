@@ -11,9 +11,9 @@ layout: default
   </div>
 </article>
 
-{% include share-buttons.html %}
-
 {% if page.comments == true %}
+    {% include share-buttons.html %}
+
     {% include signup-form.html %}
 
     {% include comments/commentsAsHtml.html %}
