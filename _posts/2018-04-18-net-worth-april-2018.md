@@ -6,6 +6,7 @@ intro: It's tough to talk about money. And that's exactly why we need to talk ab
 image: deal-with-it-ben-franklin.gif
 image_alt: Ben Franklin on the $100 bill with sunglasses on
 imageCredits: Wikipedia
+imageCreditsIntro: Photo from  
 imageUrl: https://commons.wikimedia.org/wiki/File:Obverse_of_the_series_2009_$100_Federal_Reserve_Note.jpg
 imageExtraCredits: . Gif by yours truly.
 comments: true
@@ -66,7 +67,7 @@ They’ve helped ease my financial anxieties and simplified the way I think abou
 At some point during college, I came across Mr. Money Mustache.
 
 <figure>
-    <img class="center-image" src="/images/mr-money-mustache-logo.png" alt="Mr. Money Mustacho logo">
+    <img class="center-image" src="/images/mr-money-mustache-logo.png" alt="Mr. Money Mustache logo">
     <figcaption class="center subtle-figcaption">Photo from <a href="https://en.wikipedia.org/wiki/File:Mr._Money_Mustache_Logo.png">Wikipedia</a></figcaption>
 </figure>
 

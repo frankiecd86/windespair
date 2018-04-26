@@ -22,7 +22,7 @@ layout: default
 
         {% if post.image %}
           <a href="{{ post.url }}">
-              <img class="index-img" src="/images/{{ post.image }}">
+              <img class="index-img" src="/images/{{ post.image }}" alt="{{ page.image_alt }}">
           </a>
         {% endif %}
 

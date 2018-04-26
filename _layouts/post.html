@@ -15,7 +15,7 @@ layout: default
       {% if page.image %}
           <figure>
               <img class="center-image" src="/images/{{ page.image }}" alt="{{ page.image_alt }}">
-              <figcaption class="center subtle-figcaption">Photo from <a href="{{ page.imageUrl }}">{{ page.imageCredits }}</a>{{ page.imageExtraCredits }}</figcaption>
+              <figcaption class="center subtle-figcaption">{{ page.imageCreditsIntro }} <a href="{{ page.imageUrl }}">{{ page.imageCredits }}</a>{{ page.imageExtraCredits }}</figcaption>
           </figure>
       {% endif %}
 
