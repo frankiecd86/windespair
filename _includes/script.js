@@ -14,9 +14,11 @@ function set_replying_to_index(index, name, message, date_comment) {
     cancel_comment_reply_link.style.display = "inline-block";
     cancel_comment_reply_link.classList.add('cancel-reply');
 
-    year = date_comment.substring(0,4);
-    month = date_comment.substring(5,7);
-    day = date_comment.substring(8,10);
+    var year = date_comment.substring(0,4);
+    var month = date_comment.substring(5,7);
+    var day = date_comment.substring(8,10);
+    var hour = date_comment.substring(11,13);
+    var minute = date_comment.substring(14,16);
 
     var months = [
         'January', 'February', 'March', 'April', 'May',
@@ -25,7 +27,7 @@ function set_replying_to_index(index, name, message, date_comment) {
     ];
     var monthName = months[parseInt(month) - 1];
 
-    date_comment_string = monthName + " " + day + ", " + year;
+    var date_comment_string = monthName + " " + day + ", " + year + " at " + hour + ":" + minute;
 
     var timeTag = document.createElement("time");
     var timeTagTextNode = document.createTextNode(date_comment_string);

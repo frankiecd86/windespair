@@ -194,36 +194,32 @@ input[type=submit]:hover, .read-more:hover {
  #respond > form > input[type=submit] {
      width: 10em;
  }
- .comment {
+.comment {
+  text-align: left;
   background: rgba(0,0,0,0.01);
-    border-left: 1px solid rgba(0,0,0,0.2);
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    padding: 3% 2%;
- }
- .comment-reply {
-     margin-left: 5%;
- }
+  border-left: 1px solid rgba(0,0,0,0.2);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  padding: 3% 2%;
+}
+.comment-reply {
+  margin-left: 5%;
+}
 .comment-author-name {
-    margin: 0 0 .25em;
-    font-size: 1.25em;
-    line-height: 1;
-    display: inline-block;
+  margin: .25em 0 .25em $comment-margin-left;
+  font-size: 1.25em;
+  line-height: 1;
+  display: inline-block;
 }
 .comment-author-name > a {
-    color: $text-color;
+  color: $text-color;
 }
 .comment-timestamp {
-    font-size: .8em;
+  margin-left: $comment-margin-left;
+  font-size: .8em;
 }
 .comment-content {
-    margin-top: 1em;
-}
-.comment-reply-link {
-    text-align: right;
-}
-.permalink {
-    font-size: 1.1em;
-    font-weight: bold;
+  margin-top: 1em;
+  margin-left: $comment-margin-left;
 }
 /* Site author specific */
 .admin {
@@ -233,7 +229,7 @@ input[type=submit]:hover, .read-more:hover {
 }
 .cancel-reply {
     text-decoration: underline;
-    margin-left: 5%;
+    margin-left: 2.5%;
 }
 
 /**

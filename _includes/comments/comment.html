@@ -8,8 +8,8 @@
   </h3>
 
   <div class="comment-timestamp">
-    <a href="#comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" class="permalink" title="Permalink to this comment"># </a>
-    <time datetime="{{ include.date | date_to_xmlschema }}">{{ include.date | date: '%B %d, %Y' }}</time>
+    <a href="#comment{% if r %}{{ index | prepend: '-' }}{% else %}{{ include.index | prepend: '-' }}{% endif %}" title="Permalink to this comment">#
+    <time datetime="{{ include.date | date_to_xmlschema }}"> {{ include.date | date: '%B %d, %Y at %H:%M' }}</time></a>
   </div>
 
   <div class="comment-content">
@@ -17,7 +17,7 @@
   </div>
 
   {% unless include.replying_to != 0 or page.comments_locked == true %}
-    <div class="comment-reply-link">
+    <div>
       <a rel="nofollow" href="#respond" onclick="set_replying_to_index({{include.index}}, '{{include.name}}', '{{include.message | markdownify}}', '{{include.date}}')"> Reply to {{ include.name }}</a>
     </div>
   {% endunless %}
