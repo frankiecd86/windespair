@@ -38,10 +38,7 @@ In her first year, she makes $10,000 and saves $9,000. 
 
 Her net worth is now $9,000.
 
-<figure>
-    <img src="/images/savings-rate-year-1.png" alt="Net worth at the end of year 1">
-    <figcaption class="center subtle-figcaption">End of year 1.</figcaption>
-</figure>
+{% include image.html image="savings-rate-year-1.png" alt="Net worth at the end of year 1" css="center subtle-figcaption" figcaption="End of year 1" %}
 
 In her second year, she again makes $10,000 and saves $9,000.
 
@@ -51,10 +48,7 @@ Wait…am I assuming she lost a tooth and the tooth fairy gave her an incredibly
 
 Nope. There’s no tooth fairy magic needed to build long-term wealth.
 
-<figure>
-    <img src="/images/walrus-tooth.jpg" alt="Two walruses laying on the beach">
-    <figcaption class="center subtle-figcaption">I feel sorry for the Walrus Tooth Fairy. Talk about a thankless job. Photo by <a href="https://unsplash.com/@wolsenburg">Jay Ruzesky</a></figcaption>
-</figure>  
+{% include image.html image="walrus-tooth.jpg" alt="Two walruses laying on a beach" css="center subtle-figcaption" figcaption="I feel sorry for the Walrus Tooth Fairy. Talk about a thankless job. Photo by <a href='https://unsplash.com/@wolsenburg'>Jay Ruzesky</a>" %}
 
 Emma, that cunning saver, invested the $9,000 she saved in the first year and this money grew at (a realistic) 6%, turning those initial $9,000 into $9,540.
 
@@ -62,10 +56,7 @@ Emma, that cunning saver, invested the $9,000 she saved in the first year and th
 
 The $9,000 saved during the second year plus the $9,540 already saved takes her net worth to $18,540.
 
-<figure>
-    <img src="/images/savings-rate-year-2.png" alt="Net worth at the end of year 2">
-    <figcaption class="center subtle-figcaption">End of year 2</figcaption>
-</figure>
+{% include image.html image="savings-rate-year-2.png" alt="Net worth at the end of year 2" css="center subtle-figcaption" figcaption="End of year 2" %}
 
 In her third year, she again makes $10,000 and saves $9,000.
 
@@ -75,19 +66,13 @@ Welcome to the wonderful world of compounding. The more money you have, the fast
 
 > $18,540 * .06 = $1,112 and $18,540 + $1,112 +$9,000 = $28,652
 
-<figure>
-    <img src="/images/savings-rate-year-3.png" alt="Net worth at the end of year 3">
-    <figcaption class="center subtle-figcaption">End of year 3</figcaption>
-</figure>
+{% include image.html image="savings-rate-year-3.png" alt="Net worth at the end of year 3" css="center subtle-figcaption" figcaption="End of year 3" %}
 
 At this point, 5.7% of Emma’s net worth is “free” money (money that came from investment gains). That’s pretty incredible.
 
 > $28,652 — $9,000 —$ 9,000 — $9,000 = $1,652 and $1,652/$28,652 = 5.7%
 
-<figure>
-    <img src="/images/savings-rate-free-money.png" alt="Money made from investment gains">
-    <figcaption class="center subtle-figcaption">Free money!</figcaption>
-</figure>
+{% include image.html image="savings-rate-free-money.png" alt="Money made from investment gains" css="center subtle-figcaption" figcaption="Free money!" %}
 
 ## How a high savings rate allows you to reach financial independence
 At the end of the third year, Emma decides to take a leave from her job and during the next year, she splurges.
@@ -106,10 +91,7 @@ The $28,652 she had invested during the previous three years continued to grow a
 
 > $28,652 * .06 = $1,719
 
-<figure>
-    <img src="/images/savings-rate-year-4.png" alt="Net worth at the end of year 4">
-    <figcaption class="center subtle-figcaption">End of year 4</figcaption>
-</figure>
+{% include image.html image="savings-rate-year-4.png" alt="Net worth at the end of year 4" css="center subtle-figcaption" figcaption="End of year 4" %}
 
 From these $1,719 of investment gains, Emma spent only $1,500, so her net worth continued to grow.
 
@@ -117,10 +99,7 @@ From these $1,719 of investment gains, Emma spent only $1,500, so her net worth 
 
 **Without realizing it, Emma reached financial independence.**
 
-<figure>
-    <img src="/images/savings-rate-financial-independence.png" alt="Investment gains are larger than expenses. Financial independence!">
-    <figcaption class="center subtle-figcaption">Investment gains are larger than expenses. Financial independence!</figcaption>
-</figure>
+{% include image.html image="savings-rate-financial-independence.png" alt="When investment gains are greater than expenses you've reached financial independence." css="center subtle-figcaption" figcaption="Investment gains are greater than expenses. Financial independence!" %}
 
 ## The effect of savings rate on years to financial independence
 Emma was able to reach financial independence in just three years due to her incredible 90% savings rate.
@@ -130,10 +109,7 @@ This, of course, isn’t a realistic savings rate.
 But you might be surprised to find that with a 50% savings rate you would be financially independent in only 17 years (as compared to the usual 40–50 year slog).
 
 Check this out:
-<figure>
-    <img src="/images/savings-rate-financial-independence.png" alt="Effect of savings rate on years to retirement">
-    <figcaption class="center subtle-figcaption">Chart courtesy of <a href="http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/">Mr. Money Mustache</a></figcaption>
-</figure>
+{% include image.html image="savings-rate-financial-independence.png" alt="Effect of savings rate on years to retirement" css="center subtle-figcaption" figcaption="Chart courtesy of <a href='http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/'>Mr. Money Mustache</a>" %}
 
 The takeaway from this should be that you must KNOW and TRACK your savings rate.
 
@@ -147,10 +123,7 @@ Knowing how DEEPLY your savings rate impacts the time to reach financial indepen
 
 If you want to see the effect of different savings rates on the time to financial independence, [Networthify](https://networthify.com/calculator/earlyretirement) has a nifty little calculator.
 
-<figure>
-    <img src="/images/networthify-low-savings-rate.png" alt="You’ll never be financially independent with the average savings rate">
-    <figcaption class="center subtle-figcaption">You’ll never be financially independent with the average savings rate. Screenshot from networthify</figcaption>
-</figure>
+{% include image.html image="networthify-low-savings-rate.png" alt="It will take 68.4 years to reach financial independence with a savings rate of 3.4%" css="center subtle-figcaption" figcaption="You’ll never be financially independent with the average savings rate. Screenshot from <a href='https://networthify.com/calculator/earlyretirement?income=50000&initialBalance=0&expenses=48300&annualPct=6&withdrawalRate=4'>Networthify</a>." %}
 
 ## It’s not about money, it’s about happiness
 It’s easy to lose the forest for the trees.
