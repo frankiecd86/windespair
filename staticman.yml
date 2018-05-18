@@ -9,6 +9,10 @@ comments:
   # not here is part of the request, an error will be thrown.
   allowedFields: ["name", "email", "url", "message", "replying_to"]
 
+  # When allowedOrigins is defined, only requests sent from one of the domains
+  # listed will be accepted.
+  allowedOrigins: ["localhost", "windespair.com", "windespair.netlify.com"]
+
   # (*) REQUIRED
   #
   # Name of the branch being used. Must match the one sent in the URL of the
@@ -43,7 +47,7 @@ comments:
   moderation: true
 
   # Name of the site. Used in notification emails.
-  name: "windespair.com"
+  name: "Win/Despair"
 
   # (*) REQUIRED
   #
@@ -54,5 +58,22 @@ comments:
   # an error will be thrown.
   requiredFields: ["name", "message"]
 
+  # Notification settings. When enabled, users can choose to receive notifications
+  # via email when someone adds a reply or a new comment. This requires an account
+  # with Mailgun, which you can get for free at http://mailgun.com.
+  notifications:
+    # Enable notifications
+    enabled: true
+
+    # (!) ENCRYPTED
+    #
+    # Mailgun API key
+    apiKey: "nj1+U8xonrNqzoZsvzG3tp3J4szcFjklGGBtGymWWKisK5ier3YicTRhs/ztkLtCvQur9ocXxAuOxjSxhrldTn1d0Mqfxjzv6vx3g2ySNj5mS4vQkvmqWuJ0qGMpQSqyFqN4cv9qjLBTJACheureB8W5VJSdZUzv5VlGCRvWeeo="
+
+    # (!) ENCRYPTED
+    #
+    # Mailgun domain (encrypted)
+    domain: "gjBHscO0oulZvFd7ohcoype2UMlkdZ9illWtGeEuuzaHF18C0sqklZwhYqqWVCEmb5oqWLvEZNWgoEKBhnWAEawxBMj9BIJKqcqCSZJpP6eRvfbcGgKTcgOCs1bBh0hD36AWla5AeIgBZ+FfDtRzjRZQBA4DtAX2MbloO2ZeIFI="
+
   transforms:
-    email: "" # The email field will be left as is!
+    email: md5

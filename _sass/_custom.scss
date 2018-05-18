@@ -143,7 +143,7 @@ footer {
 /**
  * Forms generic
  */
-input, select, textarea, .read-more {
+input:not([type='checkbox']), select, textarea, .read-more {
   width: 100%;
   font-family: inherit;
   font-size: 100%;
@@ -220,6 +220,9 @@ input[type=submit]:hover, .read-more:hover {
 .comment-content {
   margin-top: 1em;
   margin-left: $comment-margin-left;
+}
+.notify-me {
+  margin-bottom: 15px;
 }
 /* Site author specific */
 .admin {
