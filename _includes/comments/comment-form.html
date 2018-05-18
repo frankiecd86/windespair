@@ -41,6 +41,8 @@
         </div>
       </label>
 
+      <input type="hidden" name="options[origin]" value="{{ page.url | relative_url }}">
+      <input type="hidden" name="options[parent]" value="{{ page.url | relative_url }}">
       <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
       <input type="hidden" name="options[slug]" value="{{ include.url_path }}">
 

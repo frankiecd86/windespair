@@ -11,7 +11,7 @@ comments:
 
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted.
-  allowedOrigins: ["localhost", "windespair.com", "windespair.netlify.com"]
+  allowedOrigins: ["localhost", "www.windespair.com", "windespair.com", "windespair.netlify.com"]
 
   # (*) REQUIRED
   #
@@ -68,12 +68,12 @@ comments:
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    apiKey: "nj1+U8xonrNqzoZsvzG3tp3J4szcFjklGGBtGymWWKisK5ier3YicTRhs/ztkLtCvQur9ocXxAuOxjSxhrldTn1d0Mqfxjzv6vx3g2ySNj5mS4vQkvmqWuJ0qGMpQSqyFqN4cv9qjLBTJACheureB8W5VJSdZUzv5VlGCRvWeeo="
+    apiKey: "iZ+Abngk/u1fUKsdyLa75GtfZ3nu1j8OMNNOSZGaQ1drDyGyJN4o1np/7hqrF+r3bAAracxKxN7VzAnngRFQQE0ospSFZjLDgztHF5pPF5lLzejgdbIOVOqR4RNE6OpJ7OH2XxxcOpBUDLUPXq1ORZ8jdHcK95nTeTCJeAQiBfo="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "gjBHscO0oulZvFd7ohcoype2UMlkdZ9illWtGeEuuzaHF18C0sqklZwhYqqWVCEmb5oqWLvEZNWgoEKBhnWAEawxBMj9BIJKqcqCSZJpP6eRvfbcGgKTcgOCs1bBh0hD36AWla5AeIgBZ+FfDtRzjRZQBA4DtAX2MbloO2ZeIFI="
+    domain: "X8rfSlgdvpzU5ePutsFXJnUUF+pMtuD/vF0b3dtiaTa67PPdawsbg2UH3v/XYJemS8bMoXSD4iRWYYHiU0yrqPJuVsAjw1NY9dsRKU7ADGOvoegICKZA7pOKAEkFRWmpxK0GIJI3buA2e4L1KjwwYtQZxRY81z0qkNMSExRq8xo="
 
   transforms:
     email: md5
