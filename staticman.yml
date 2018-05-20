@@ -11,7 +11,7 @@ comments:
 
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted.
-  allowedOrigins: ["localhost", "www.windespair.com", "windespair.com", "windespair.netlify.com"]
+  allowedOrigins: ["localhost", "www.windespair.com", "https://www.windespair.com"]
 
   # (*) REQUIRED
   #
@@ -44,10 +44,10 @@ comments:
   # Whether entries need to be appproved before they are published to the main
   # branch. If set to `true`, a pull request will be created for your approval.
   # Otherwise, entries will be published to the main branch automatically.
-  moderation: true
+  moderation: false
 
   # Name of the site. Used in notification emails.
-  name: "Win/Despair"
+  name: "windespair.com"
 
   # (*) REQUIRED
   #
@@ -68,12 +68,14 @@ comments:
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    apiKey: "iZ+Abngk/u1fUKsdyLa75GtfZ3nu1j8OMNNOSZGaQ1drDyGyJN4o1np/7hqrF+r3bAAracxKxN7VzAnngRFQQE0ospSFZjLDgztHF5pPF5lLzejgdbIOVOqR4RNE6OpJ7OH2XxxcOpBUDLUPXq1ORZ8jdHcK95nTeTCJeAQiBfo="
+    apiKey: "n46rCHtU96ZrHcHyTReh6dv0eVlX2/mJAmmWVCm5U1YFMZxmZJaISbsqxiyla/vZ0ELagjohPEuwZSAkIXfqdYHUycGfe3+YCwLT6KIYsWu818d7alc2dU0fzI7M5G25yKvwee4ac+54HNK/B9dA/12ZJdTknzs6Jwvve6HLpzk="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    domain: "X8rfSlgdvpzU5ePutsFXJnUUF+pMtuD/vF0b3dtiaTa67PPdawsbg2UH3v/XYJemS8bMoXSD4iRWYYHiU0yrqPJuVsAjw1NY9dsRKU7ADGOvoegICKZA7pOKAEkFRWmpxK0GIJI3buA2e4L1KjwwYtQZxRY81z0qkNMSExRq8xo="
+    domain: "YDrbIFNz+IGJ5Eg2MkZnZj5JIUzj92BKihCkFP4K014/qFRfFoUxD9HUUqps8wW0BJpAaLirQggGHrkty+DC416ke/+kmA+jMDjxj6mPVJJmaJ6q1lxKz7mRZUl3O0NThxqjOWdLeP3CY5SLr9TASsVv8I87IXPzufojR2mVSB8="
+
+    fromAddress: "notifications@windespair.com"
 
   transforms:
     email: md5

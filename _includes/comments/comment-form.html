@@ -20,7 +20,11 @@
     </header>
 
     <form method="POST" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
-      <input name="options[redirect]" type="hidden" value="https://www.windespair.com/{{ include.url_path }}/?success#respond">
+      <input type="hidden" name="options[redirect]" value="https://www.windespair.com/{{ include.url_path }}/?success#respond">
+      <input type="hidden" name="options[origin]" value="{{ page.url | absolute_url }}">
+      <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
+      <input type="hidden" name="fields[replying_to]" id="comment-replying-to" value="">
+      <input type="hidden" name="options[slug]" value="{{ include.url_path }}">
 
       <label for="comment-form-message"><strong>Comment *</strong> <small>(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> is allowed)</small></label>
       <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" spellcheck="true" minlength="5" required></textarea>
@@ -40,11 +44,6 @@
           Notify me of replies by email.
         </div>
       </label>
-
-      <input type="hidden" name="options[origin]" value="{{ page.url | relative_url }}">
-      <input type="hidden" name="options[parent]" value="{{ page.url | relative_url }}">
-      <input type="hidden" id="comment-replying-to" name="fields[replying_to]" value="">
-      <input type="hidden" name="options[slug]" value="{{ include.url_path }}">
 
       <input type="submit" class="center" value="Send Comment">
     </form>
