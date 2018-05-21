@@ -32,6 +32,8 @@ nav {
 header > nav {
   margin-bottom: 1em;
   font-size: 20px;
+  padding: 15px;
+  background: $brand-color;
 
   @include media-query($on-palm){
     font-size: $small-font-size;
@@ -55,9 +57,6 @@ header > nav {
   }
 }
 .site-header {
-  background: $brand-color;
-  border-bottom: 1px solid $light-grey-color;
-
   > nav > a {
     color: white;
 
@@ -100,23 +99,28 @@ footer {
  * Home
  */
 .site-header-title {
+  padding: 30px;
+
+  a {
+    color: black;
     font-size: $site-header-font-size;
-
-    > a {
-        color: white;
-        opacity: 1;
-        transition: opacity .25s ease-in-out;
-
-        &:hover {
-          opacity: .5;
-        }
-    }
+    font-weight: 500;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
 
     @include media-query($on-palm){
        font-size: $site-header-mobile-font-size;
      }
-}
 
+    &:hover {
+      opacity: .5;
+    }
+  }
+}
+.site-description {
+  color: #0a0a0a;
+  opacity: 0.7;
+}
 /**
  * Forms generic
  */
