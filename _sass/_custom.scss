@@ -3,7 +3,6 @@
  */
 html, body {
   height: 100%;
-  text-align: center;
 }
 body {
   display: flex;
@@ -11,21 +10,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a {
-  cursor: pointer;
-}
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 500;
-}
 h2 {
-  font-size: 35px;
-  margin-top: 35px;
+  font-size: $post-subheader-font-size;
 
   @include media-query($on-laptop) {
       font-size: 29px;
   }
 }
-
 h3 {
   font-size: 26px;
   margin-top: 30px;
@@ -75,24 +66,20 @@ header > nav {
     }
   }
 }
-.col-2 {
+.fig-col-2 {
     width: 49.8%;
 }
-.col-2:nth-of-type(odd) {
+.fig-col-2:nth-of-type(odd) {
     margin-right: .4%;
 }
 .center {
     text-align: center;
 }
-.index-post-intro {
-    text-align: left;
-    line-height: 1.6;
-}
 .emphasis-figcaption {
   background: black;
   background: rgba(0,0,0,0.75);
-    color: white;
-    padding: 10px 20px;
+  color: white;
+  padding: 10px 20px;
 }
 .subtle-figcaption {
     color: $grey-color;
@@ -102,15 +89,6 @@ header > nav {
         color: $grey-color;
         text-decoration: underline;
     }
-}
-.index-img {
-    max-width: 70%;
-    display: block;
-    margin: 0 auto 30px auto;
-
-    @include media-query($on-palm){
-       max-width: 95%;
-     }
 }
 footer {
   background: $lighter-grey-color;
@@ -142,7 +120,7 @@ footer {
 /**
  * Forms generic
  */
-input:not([type='checkbox']), select, textarea, .read-more {
+input:not([type='checkbox']), select, textarea {
   width: 100%;
   font-family: inherit;
   font-size: 100%;
@@ -159,42 +137,39 @@ input:not([type='checkbox']), select, textarea, .read-more {
   -webkit-appearance: none;
 }
 input:focus, select:focus, textarea:focus {
-    border-color: $input-border-color-focus;
-    outline: none;
-    box-shadow: inset 0 1px 3px rgba(0,0,0,.06), 0 0 5px rgba(51,56,63,.7);
+  border-color: $input-border-color-focus;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.06), 0 0 5px rgba(51,56,63,.7);
 }
-input[type=submit], .read-more {
+input[type=submit] {
   background-color: $white-color;
-    color: $brand-color;
-    display: block;
-    margin: 0 auto;
-    border: 1px solid $brand-color;
-    cursor: pointer;
+  color: $brand-color;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid $brand-color;
+  cursor: pointer;
 }
-input[type=submit]:hover, .read-more:hover {
+input[type=submit]:hover {
   background-color: $brand-color;
-    color: $white-color;
-    transition: .3s;
-}
-.read-more {
-    display: block;
-    margin: 15px auto;
-    width: 120px;
+  color: $white-color;
+  transition: .3s;
 }
 
 /**
  * Comments
  */
- #respond {
-     @include media-query($on-palm){
-        font-size: $mobile-font-size;
-      }
- }
- #respond > form > input[type=submit] {
-     width: 10em;
- }
+#respond {
+  @include media-query($on-palm){
+    font-size: $mobile-font-size;
+  }
+}
+#respond input[type=submit] {
+  width: 10em;
+}
+#respond h3 {
+  font-weight: 500;
+}
 .comment {
-  text-align: left;
   background: rgba(0,0,0,0.01);
   border-left: 1px solid rgba(0,0,0,0.2);
   border-bottom: 1px solid rgba(0,0,0,0.1);
@@ -265,6 +240,8 @@ input[type=submit]:hover, .read-more:hover {
 
     @include media-query($on-palm){
        width: 80%;
+       display: block;
+       margin: 10px auto;
      }
 }
 #signup-submit {
@@ -274,31 +251,18 @@ input[type=submit]:hover, .read-more:hover {
 
     @include media-query($on-palm){
        width: 60%;
+       display: block;
+       margin: 0 auto;
      }
 }
 
 /**
  * Tags
  */
- .tag-link {
-     color: $grey-color;
-     border-bottom: 1px dotted $grey-color;
-
-     &:hover {
-         color: $text-color;
-     }
-
-     &:hover .tag-icon {
-         fill: $text-color;
-     }
- }
-.category-link {
-    margin-left: -7px;
-}
 .tag-icon {
-    vertical-align: sub;
-    margin-right: 5px;
-    fill: rgba(0,0,0,.3);
+  vertical-align: sub;
+  margin-right: 5px;
+  fill: $entry-meta-color;
 }
 
 /**
@@ -312,7 +276,6 @@ input[type=submit]:hover, .read-more:hover {
   width: 100%;
   height: 32px;
   margin-right: 2%;
-  text-align: center;
   transition: all .1s linear;
 
   &:last-child {
@@ -327,7 +290,7 @@ input[type=submit]:hover, .read-more:hover {
      }
   }
 
-  &#whatsapp, &#message {
+  &#whatsapp {
     display: none;
 
     @include media-query($on-palm){
@@ -369,19 +332,20 @@ input[type=submit]:hover, .read-more:hover {
 #whatsapp {
   background: #25d366;
 }
-#message {
-  background: #5BC236;
-}
 
 /**
 * Sprites
 */
 .sprite {
-  background: url('/images/social-media-sprites.png') no-repeat;
+  background: url('/images/css-sprites.png') no-repeat;
   display: inline-block;
   width: 16px;
   height: 16px;
-  vertical-align: middle;
+  vertical-align: baseline;
+}
+.sprite-calendar {
+  vertical-align: text-top;
+  background-position: 0px 0px;
 }
 .sprite-email {
   background-position: 0px -16px;
@@ -392,50 +356,25 @@ input[type=submit]:hover, .read-more:hover {
 .sprite-linkedin {
   background-position: 0px -48px;
 }
-.sprite-reddit {
-  background-position: 0px -80px;
-}
 .sprite-pinterest {
   background-position: 0px -64px;
 }
-.sprite-twitter {
+.sprite-reddit {
+  background-position: 0px -80px;
+}
+.sprite-stopwatch {
+  vertical-align: text-top;
   background-position: 0px -96px;
 }
-.sprite-message {
-  background-position: 0px 0px;
-}
-.sprite-whatsapp {
+.sprite-twitter {
   background-position: 0px -112px;
 }
-
-/**
- * Page content
- */
-.post-list {
-    list-style: none;
-    line-height: $title-line-height;
-
-    > li {
-        margin-bottom: 30px;
-        border-bottom: 1px solid $light-grey-color;
-
-        > h2 {
-            margin-top: 0px;
-        }
-    }
+.sprite-user {
+  vertical-align: text-top;
+  background-position: 0px -128px;
 }
-.post-meta {
-    color: $grey-color;
-    font-size: $small-font-size;
-}
-.post-byline {
-    color: $grey-color;
-    font-size: 19px;
-    margin-bottom: 30px;
-
-    @include media-query($on-palm){
-       width: 104%;
-     }
+.sprite-whatsapp {
+  background-position: 0px -144px;
 }
 
 /**
@@ -451,10 +390,12 @@ input[type=submit]:hover, .read-more:hover {
     }
 }
 .post-content {
-    text-align: left;
-
     > p:first-of-type {
       margin-top: 20px;
+    }
+
+    h2, h3 {
+      font-weight: 500;
     }
 }
 
@@ -464,4 +405,60 @@ input[type=submit]:hover, .read-more:hover {
 .center-image {
     display: block;
     margin: 0 auto;
+}
+
+/**
+* Homepage redesign
+*/
+.post {
+  display: flex;
+  padding: 30px 0;
+  margin-bottom: 30px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.15) 50%, transparent 100%);
+  border-image-slice: 1;
+
+  @include media-query($on-palm){
+     flex-direction: column;
+   }
+}
+.post-info, .post-image {
+  flex: 1;
+}
+.post-info {
+  @include media-query($on-palm){
+     margin-top: $margin-bottom-extended-mobile;
+   }
+}
+.post-image {
+  margin-right: 2em;
+}
+.post-header {
+  margin-bottom: 1em;
+}
+.post-title-home {
+  font-size: 1.75em;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.entry-meta {
+  color: $entry-meta-color;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+
+  a {
+    color: $entry-meta-color;
+
+    &:hover {
+      color: $entry-meta-color-hover;
+    }
+  }
+}
+.post-thumbnail, .post-thumbnail img {
+  height: 100%;
 }

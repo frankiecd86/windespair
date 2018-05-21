@@ -109,7 +109,7 @@ This, of course, isn’t a realistic savings rate.
 But you might be surprised to find that with a 50% savings rate you would be financially independent in only 17 years (as compared to the usual 40–50 year slog).
 
 Check this out:
-{% include image.html image="savings-rate-financial-independence.png" alt="Effect of savings rate on years to retirement" css="center subtle-figcaption" figcaption="Chart courtesy of <a href='http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/'>Mr. Money Mustache</a>" %}
+{% include image.html image="money-mustache-years-to-retirement.png" alt="Effect of savings rate on years to retirement" css="center subtle-figcaption" figcaption="Chart courtesy of <a href='http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/'>Mr. Money Mustache</a>" %}
 
 The takeaway from this should be that you must KNOW and TRACK your savings rate.
 
@@ -134,7 +134,7 @@ Money is only in valuable in terms of what it can do for us.
 
 A nicer car would do nothing for me. Eating out every day does nothing for me. An expensive new watch does nothing for me.
 
-**This all very personal.**
+**This is all very personal.**
 
 The important thing is to be aware of what each dollar really represents and to decide accordingly on how we want to spend it.
 

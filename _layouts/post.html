@@ -3,12 +3,10 @@ layout: default
 ---
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
+    <div class="entry-meta">
+      {% include post-meta.html is_home="true" %}
+    </div>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y"}}</time>
-        {% assign words = content | number_of_words %}
-         &nbsp;· {% include read-time.html  word_count = words %} min read · {% include categories.html %}
-    </p>
   </header>
 
   <div class="post-content" itemprop="articleBody">

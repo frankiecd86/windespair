@@ -71,7 +71,7 @@ At some point during college, I came across Mr. Money Mustache.
     <figcaption class="center subtle-figcaption">Photo from <a href="https://en.wikipedia.org/wiki/File:Mr._Money_Mustache_Logo.png">Wikipedia</a></figcaption>
 </figure>
 
-Pete Adeney, aka Mr. Money Mustache, is famous for retiring at the age of 30 and blogging about it.
+Peter Adeney, aka Mr. Money Mustache, is famous for retiring at the age of 30 and blogging about it.
 
 He worked as a software engineer and was able to retire in 10 years through a combination of a high savings rate (~60%) and investing.
 

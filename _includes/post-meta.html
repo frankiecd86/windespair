@@ -1,0 +1,22 @@
+{% if post.date %}
+  {% assign date = post.date %}
+{% else %}
+  {% assign date = page.date %}
+{% endif %}
+
+{% if post.content %}
+  {% assign words = post.content | number_of_words %}
+{% else %}
+  {% assign words = content | number_of_words %}
+{% endif %}
+
+<i class="sprite sprite-calendar"></i>&nbsp;
+<a href="{{ post.url }}">{{ date | date: "%b %-d, %Y"}}</a>&nbsp;
+
+{% if include.is_home %}
+  <i class="sprite sprite-stopwatch"></i>&nbsp;
+  <a href="{{ post.url }}">{% include read-time.html  word_count = words %} min read</a>&nbsp;
+{% endif %}
+
+<i class="sprite sprite-user"></i>&nbsp;
+by <a href="/about">Gonzalo</a>

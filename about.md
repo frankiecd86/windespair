@@ -6,8 +6,8 @@ permalink: /about/
 ---
 
 <figure>
-    <img class="col-2" src="/images/sammy-me-boston.jpg" alt="Sammy and me in Boston">
-    <img class="col-2" src="/images/family-cami-prom.jpg" alt="My family and me">
+    <img class="fig-col-2" src="/images/sammy-me-boston.jpg" alt="Sammy and me in Boston">
+    <img class="fig-col-2" src="/images/family-cami-prom.jpg" alt="My family and me">
     <figcaption class="emphasis-figcaption"><b>Left:</b> My girlfriend, Sammy, and I in Boston. (2017) <b>Right:</b> With my family before my little sister's prom. As you might notice, my little sister is much taller than my older sister. (2016)</figcaption>
 </figure>
 

@@ -1,31 +1,39 @@
-
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, hr, dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  line-height: $title-line-height;
+}
+a {
+  cursor: pointer;
 }
 
 /**
  * Basic styling
  */
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    background-color: transparent;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: transparent;
 }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
+h1, h3, h4, h5, h6, pre, ul, ol, dl {
     margin-bottom: $spacing-unit / 2;
+}
+p, h2, blockquote, figure {
+  margin-bottom: $margin-bottom-extended;
+
+  @include media-query($on-palm){
+    margin-bottom: $margin-bottom-extended-mobile;
+  }
 }
 
 /**
@@ -50,7 +58,6 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-
     &:hover {
         color: $brand-secondary-color;
         text-decoration: none;
@@ -71,7 +78,6 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
 
 ol, ul {
     list-style-position: inside;
