@@ -5,22 +5,25 @@ comments: true
 permalink: /net-worth/
 ---
 
-{% include image.html image="net-worth-update-2-may-2018/net-worth-may-2018.png" img_class="center-image" alt="Chart showing net worth progression from December 2017 to May 2018" css="center subtle-figcaption" figcaption="" %}
+{% include image.html image="net-worth-update-2-may-2018/net-worth-may-2018-data-labels.png" img_class="center-image" alt="Chart showing net worth progression from December 2017 to May 2018" css="center subtle-figcaption" figcaption="" %}
 
 {% include share-buttons.html %}
 
 ### Why do I track my net worth?
 1. **What gets measured, gets managed**  
+
 If there's a goal you want to reach (losing weight, saving money, meeting people) the best thing to do is to track it. You'll notice your habits and see if you're getting closer or further away from your goal.  
 
 {:start="2"}
 1. **It's fun**
+
 I treat this like a game. It's like when I played Lemonade Stand as a kid and became the world's greatest lemonade entrepreneur. It's fun to see this number go up.
 
 I want to reach [1 million dollars!](https://youtu.be/l91ISfcuzDw)
 
 {:start="3"}
 1. **I want to be able to financially independent and not have to think about money at all**
+
 I don't particularly enjoy thinking about money. It makes me anxious.
 
 The ultimate goal is to be financially independent, meaning you can go through the rest of your life without ever having to "earn" another dollar.
