@@ -17,4 +17,4 @@ permalink: /about/
 * **August 2001-July 2013**: Lots of school, soccer, and tennis.
 * **August 2013**: I start college at the University of Florida.
 * **April 2017**: I graduate from the University of Florida with a degree in Computer Science. Go Gators.
-* **August 2017**: I move to Seattle to work at Amazon as a software engineer.
+* **August 2017**: I move to Seattle to work as a software engineer.

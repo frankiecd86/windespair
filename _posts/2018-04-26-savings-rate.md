@@ -1,14 +1,12 @@
 ---
 layout: post
-title: You Want To Build Long-Term Wealth? Double Your Savings Rate
-description:
-intro: The current savings rate in the United States is 3.4%. For every $100, the average American spends $96.60 and saves only $3.40. This is absolutely BONKERS.
-image: money-emoji-collage.png
-image_alt: Money bag and banknote emoji collage
-imageCredits:
-imageCreditsIntro:
-imageUrl:
-imageExtraCredits:
+title: You Need To Double Your Savings Rate
+description: The current savings rate in the United States is 3.4%. This is absolutely BONKERS.
+intro: The current savings rate in the US is only 3.4%. This is BONKERS.
+image: savings-rate/two-birds-on-tree.jpg
+image_alt: Two birds sitting on a tree
+figcaption: >
+  Photo by <a href="https://unsplash.com/@yskeong">SK Yeong</a>
 comments: true
 categories: Money
 ---
@@ -38,7 +36,7 @@ In her first year, she makes $10,000 and saves $9,000. 
 
 Her net worth is now $9,000.
 
-{% include image.html image="savings-rate-year-1.png" alt="Net worth at the end of year 1" css="center subtle-figcaption" figcaption="End of year 1" %}
+{% include image.html image="savings-rate/savings-rate-year-1.png" alt="Net worth at the end of year 1" css="center subtle-figcaption" figcaption="End of year 1" %}
 
 In her second year, she again makes $10,000 and saves $9,000.
 
@@ -48,7 +46,7 @@ Wait…am I assuming she lost a tooth and the tooth fairy gave her an incredibly
 
 Nope. There’s no tooth fairy magic needed to build long-term wealth.
 
-{% include image.html image="walrus-tooth.jpg" alt="Two walruses laying on a beach" css="center subtle-figcaption" figcaption="I feel sorry for the Walrus Tooth Fairy. Talk about a thankless job. Photo by <a href='https://unsplash.com/@wolsenburg'>Jay Ruzesky</a>" %}
+{% include image.html image="savings-rate/walruses-on-beach.jpg" alt="Two walruses laying on a beach" css="center subtle-figcaption" figcaption="I feel sorry for the Walrus Tooth Fairy. Talk about a thankless job. Photo by <a href='https://unsplash.com/@wolsenburg'>Jay Ruzesky</a>" %}
 
 Emma, that cunning saver, invested the $9,000 she saved in the first year and this money grew at (a realistic) 6%, turning those initial $9,000 into $9,540.
 
@@ -56,7 +54,7 @@ Emma, that cunning saver, invested the $9,000 she saved in the first year and th
 
 The $9,000 saved during the second year plus the $9,540 already saved takes her net worth to $18,540.
 
-{% include image.html image="savings-rate-year-2.png" alt="Net worth at the end of year 2" css="center subtle-figcaption" figcaption="End of year 2" %}
+{% include image.html image="savings-rate/savings-rate-year-2.png" alt="Net worth at the end of year 2" css="center subtle-figcaption" figcaption="End of year 2" %}
 
 In her third year, she again makes $10,000 and saves $9,000.
 
@@ -66,13 +64,13 @@ Welcome to the wonderful world of compounding. The more money you have, the fast
 
 > $18,540 * .06 = $1,112 and $18,540 + $1,112 +$9,000 = $28,652
 
-{% include image.html image="savings-rate-year-3.png" alt="Net worth at the end of year 3" css="center subtle-figcaption" figcaption="End of year 3" %}
+{% include image.html image="savings-rate/savings-rate-year-3.png" alt="Net worth at the end of year 3" css="center subtle-figcaption" figcaption="End of year 3" %}
 
 At this point, 5.7% of Emma’s net worth is “free” money (money that came from investment gains). That’s pretty incredible.
 
 > $28,652 — $9,000 —$ 9,000 — $9,000 = $1,652 and $1,652/$28,652 = 5.7%
 
-{% include image.html image="savings-rate-free-money.png" alt="Money made from investment gains" css="center subtle-figcaption" figcaption="Free money!" %}
+{% include image.html image="savings-rate/savings-rate-free-money.png" alt="Money made from investment gains" css="center subtle-figcaption" figcaption="Free money!" %}
 
 ## How a high savings rate allows you to reach financial independence
 At the end of the third year, Emma decides to take a leave from her job and during the next year, she splurges.
@@ -91,7 +89,7 @@ The $28,652 she had invested during the previous three years continued to grow a
 
 > $28,652 * .06 = $1,719
 
-{% include image.html image="savings-rate-year-4.png" alt="Net worth at the end of year 4" css="center subtle-figcaption" figcaption="End of year 4" %}
+{% include image.html image="savings-rate/savings-rate-year-4.png" alt="Net worth at the end of year 4" css="center subtle-figcaption" figcaption="End of year 4" %}
 
 From these $1,719 of investment gains, Emma spent only $1,500, so her net worth continued to grow.
 
@@ -99,7 +97,7 @@ From these $1,719 of investment gains, Emma spent only $1,500, so her net worth 
 
 **Without realizing it, Emma reached financial independence.**
 
-{% include image.html image="savings-rate-financial-independence.png" alt="When investment gains are greater than expenses you've reached financial independence." css="center subtle-figcaption" figcaption="Investment gains are greater than expenses. Financial independence!" %}
+{% include image.html image="savings-rate/savings-rate-financial-independence.png" alt="When investment gains are greater than expenses you've reached financial independence." css="center subtle-figcaption" figcaption="Investment gains are greater than expenses. Financial independence!" %}
 
 ## The effect of savings rate on years to financial independence
 Emma was able to reach financial independence in just three years due to her incredible 90% savings rate.
@@ -109,7 +107,7 @@ This, of course, isn’t a realistic savings rate.
 But you might be surprised to find that with a 50% savings rate you would be financially independent in only 17 years (as compared to the usual 40–50 year slog).
 
 Check this out:
-{% include image.html image="money-mustache-years-to-retirement.png" alt="Effect of savings rate on years to retirement" css="center subtle-figcaption" figcaption="Chart courtesy of <a href='http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/'>Mr. Money Mustache</a>" %}
+{% include image.html image="savings-rate/money-mustache-years-to-retirement.png" alt="Effect of savings rate on years to retirement" css="center subtle-figcaption" figcaption="Chart courtesy of <a href='http://www.mrmoneymustache.com/2012/01/13/the-shockingly-simple-math-behind-early-retirement/'>Mr. Money Mustache</a>" %}
 
 The takeaway from this should be that you must KNOW and TRACK your savings rate.
 
@@ -123,7 +121,7 @@ Knowing how DEEPLY your savings rate impacts the time to reach financial indepen
 
 If you want to see the effect of different savings rates on the time to financial independence, [Networthify](https://networthify.com/calculator/earlyretirement) has a nifty little calculator.
 
-{% include image.html image="networthify-low-savings-rate.png" alt="It will take 68.4 years to reach financial independence with a savings rate of 3.4%" css="center subtle-figcaption" figcaption="You’ll never be financially independent with the average savings rate. Screenshot from <a href='https://networthify.com/calculator/earlyretirement?income=50000&initialBalance=0&expenses=48300&annualPct=6&withdrawalRate=4'>Networthify</a>." %}
+{% include image.html image="savings-rate/networthify-low-savings-rate.png" alt="It will take 68.4 years to reach financial independence with a savings rate of 3.4%" css="center subtle-figcaption" figcaption="You’ll never be financially independent with the average savings rate. Screenshot from <a href='https://networthify.com/calculator/earlyretirement?income=50000&initialBalance=0&expenses=48300&annualPct=6&withdrawalRate=4'>Networthify</a>." %}
 
 ## It’s not about money, it’s about happiness
 It’s easy to lose the forest for the trees.

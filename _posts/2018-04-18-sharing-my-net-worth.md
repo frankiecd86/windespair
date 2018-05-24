@@ -1,23 +1,21 @@
 ---
 layout: post
-title: My Net Worth Is Exactly $42,756.30
-description: This is the first time I'm sharing my net worth online. Definitely a weird feeling.
-intro: It's tough to talk about money. And that's exactly why we need to talk about it! I'm sharing my net worth for the first time, talking about how I got here, and where I'm heading.
-image: deal-with-it-ben-franklin.gif
-image_alt: Ben Franklin on the $100 bill with sunglasses on
-imageCredits: Wikipedia
-imageCreditsIntro: Photo from  
-imageUrl: https://commons.wikimedia.org/wiki/File:Obverse_of_the_series_2009_$100_Federal_Reserve_Note.jpg
-imageExtraCredits: . Gif by yours truly.
+title: Why I'm Sharing My Net Worth
+description: Here's why I've decided to start sharing my net worth online.
+intro: Here's why I've decided to start sharing my net worth online...
+image: sharing-my-net-worth/sharing-net-worth.jpg
+image_alt: Two people holding a bowl of cherry tomatoes
+figcaption: >
+  Photo by <a href="https://unsplash.com/@ecasap">Elaine Casap</a>
 comments: true
 categories: Money
 ---
 
 It’s tough to talk about money.
 
-In our society, our NET worth is deeply connected to our SELF worth.
+**Related:** [Net Worth Update #1 - April 2018](/net-worth-april-2018)
 
-The more money you make the more successful, the smarter, the BETTER you are.
+In our society, our NET worth is deeply connected to our SELF worth. The more money you make the more successful, the smarter, the BETTER you are.
 
 It can be scary, embarrassing, or (and?) anxiety-inducing (✋🏽) to talk about money.
 
@@ -34,12 +32,9 @@ Take a look at these statistics:
 
 For this to change we need to talk about money.
 
-## We’re not lone wolves — we need help 🐺
+## We’re Not Lone Wolves — We Need Help 🐺
 
-<figure>
-    <img src="/images/lone-wolf.jpg" alt="Lone wolf in the snow">
-    <figcaption class="center subtle-figcaption">Photo by <a href="https://unsplash.com/@levisaunders">Levi Saunders</a></figcaption>
-</figure>
+{% include image.html image="sharing-my-net-worth/lone-wolf.jpg" img_class="center-image" alt="Lone wolf in the snow" css="center subtle-figcaption" figcaption="Photo by <a href='https://unsplash.com/@levisaunders'>Levi Saunders</a>" %}
 
 Money is hard.
 
@@ -60,20 +55,17 @@ They’ve helped ease my financial anxieties and simplified the way I think abou
 
 **I’m glad they ignored the taboo and talked about money.**
 
-## What I learned from Mr. Money Mustache and JL Collins 👨🏼‍🏫
+## What I Learned From Mr. Money Mustache and JL Collins 👨🏼‍🏫
 
-### You don’t need to work until you’re 65 👴🏼
+### You Don’t Need To Work Until You’re 65 👴🏼
 
 At some point during college, I came across Mr. Money Mustache.
 
-<figure>
-    <img class="center-image" src="/images/mr-money-mustache-logo.png" alt="Mr. Money Mustache logo">
-    <figcaption class="center subtle-figcaption">Photo from <a href="https://en.wikipedia.org/wiki/File:Mr._Money_Mustache_Logo.png">Wikipedia</a></figcaption>
-</figure>
+{% include image.html image="sharing-my-net-worth/mr-money-mustache-logo.png" img_class="center-image" alt="Mr. Money Mustache logo" css="center subtle-figcaption" figcaption="Photo from <a href='https://en.wikipedia.org/wiki/File:Mr._Money_Mustache_Logo.png'>Wikipedia</a>" %}
 
 Peter Adeney, aka Mr. Money Mustache, is famous for retiring at the age of 30 and blogging about it.
 
-He worked as a software engineer and was able to retire in 10 years through a combination of a high savings rate (~60%) and investing.
+He worked as a software engineer and was able to retire in 10 years through a combination of a high savings rate and investing.
 
 **This was mind-blowing to me at the time.**
 
@@ -81,7 +73,7 @@ I thought that everyone worked until they were 65 unless they got really lucky o
 
 Mr. Money Mustache completely changed how I thought about money and work.
 
-### Investing can be simple 📈
+### Investing Can Be Simple 📈
 
 Last year I graduated from college and started my first full-time job.
 
@@ -103,13 +95,8 @@ Thinking about investing and planning for eventual retirement stressed me out.
 
 JL’s Stock Series made me realize that investing was simple.
 
-## That’s nice, but I’m here because of the $42,756.30 mentioned in the title 💰
-
-Right. I’m getting to that.
-
-(I’m like Ted in How I Met Your Mother. Just get to the part with the mother, already. Did you really need NINE seasons Ted?)
-
-Last November, a few months after starting at my first post-college job, I started tracking my net worth.
+## Calculating My Net Worth
+Last December, a few months after starting at my first post-college job, I started tracking my net worth.
 
 > Net Worth = Assets (savings, investments, property, etc) — Liabilities (debt, mortgage, etc)
 
@@ -124,11 +111,11 @@ Since I paid off my student loans, I don’t currently have any debt. 
 
 My monthly expenses (rent, food, etc.) come out of my savings account so they’re already accounted for.
 
-### How do I track my net worth, you say?
+### How I Track My Net Worth
 Once a month I input the current value of my savings account, checking account, 401(k), and investments into my handy-dandy “Net Worth” spreadsheet.
 Here’s the template I use (link goes to Google Sheets) — [my fantastic net worth spreadsheet](https://docs.google.com/spreadsheets/d/1jkFRzfWAM7APFpkDXb_yKSZyCHRB11g7xA3gI-zINfI/edit?usp=sharing).
 
-### Umm, ok. But WHY do you track your net worth? 🤔
+### Why I Track My Net Worth
 Two simple reasons:
 
 **1. What gets measured, gets managed.**
@@ -147,22 +134,20 @@ It’s like when I played Lemonade Tycoon as a kid and became the world’s grea
 
 I want to reach [1 million dollars](https://youtu.be/l91ISfcuzDw)!
 
-### The road to $1 million (here’s where I talk about the $42,756.30 💸)
-<figure>
-    <img class="center" src="/images/net-worth-4-2018.png" alt="Road to 1 million dollars">
-</figure>
+### The road to $1 million 💸
+{% include image.html image="sharing-my-net-worth/net-worth-4-2018.png" img_class="center-image" alt="Road to 1 million dollars" css="" figcaption="" %}
 
-Since I started tracking my net worth in November, I’ve gone from $19,054.64 in November 2017 to $42,756.30 in March 2018.
+Since I started tracking my net worth in December, I’ve gone from $19,054.64 in December 2017 to $42,756.30 in April 2018.
+
+**Related:** [Net Worth Update #2 - May 2018](/net-worth-may-2018)
 
 My approach is simple:
 * Save as much as I can 
-* Max out my 401(k) contributions **[Current value: $17,960.89]**
-* Invest in VTSAX **[Current value: $18,833.83]**
-* Add money to my savings and checking accounts to cover my monthly expenses and to build a “rainy-day” fund **[Current value: $5,961.58]**
+* Max out my 401(k) contributions
+* Invest in VTSAX
+* Add money to my savings and checking accounts to cover my monthly expenses and to build a “rainy-day” fund
 
-> $17,960.89 + $18,833.83 + $5,961.58 = **$42,756.30**
-
-## This is all good and all, but why are you sharing your net worth online you weirdo? 😬
+## Why I'm Sharing My Net Worth Online
 The topics we don’t or can’t talk about are usually the ones we need to talk about the most.
 
 Now that I’m in the “real world”, I’ve struggled with thinking about my personal finances and figuring out how to navigate these waters.
@@ -171,7 +156,7 @@ I know I’m not the only one.
 
 With my finances in order, I have one less thing to stress about, which makes me happy 😃.
 
-My hope is that this provides some personal finance relief/food for thought, à la Mr. Money Mustache or JL Collins.
+My hope is that by sharing my net worth and how I'm thinking about money, I can provide some personal finance relief/food for thought, à la Mr. Money Mustache or JL Collins.
 
 You can’t get to where you want to go if you don’t know where you are.
 
