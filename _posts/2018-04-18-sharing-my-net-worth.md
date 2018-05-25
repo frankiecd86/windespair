@@ -34,7 +34,7 @@ For this to change we need to talk about money.
 
 ## We’re Not Lone Wolves — We Need Help 🐺
 
-{% include image.html image="sharing-my-net-worth/lone-wolf.jpg" img_class="center-image" alt="Lone wolf in the snow" css="center subtle-figcaption" figcaption="Photo by <a href='https://unsplash.com/@levisaunders'>Levi Saunders</a>" %}
+{% include image.html src="sharing-my-net-worth/lone-wolf.jpg" alt="Lone wolf in the snow" figcaption="Photo by <a href='https://unsplash.com/@levisaunders'>Levi Saunders</a>" %}
 
 Money is hard.
 
@@ -61,7 +61,7 @@ They’ve helped ease my financial anxieties and simplified the way I think abou
 
 At some point during college, I came across Mr. Money Mustache.
 
-{% include image.html image="sharing-my-net-worth/mr-money-mustache-logo.png" img_class="center-image" alt="Mr. Money Mustache logo" css="center subtle-figcaption" figcaption="Photo from <a href='https://en.wikipedia.org/wiki/File:Mr._Money_Mustache_Logo.png'>Wikipedia</a>" %}
+{% include image.html src="sharing-my-net-worth/mr-money-mustache-logo.png" alt="Mr. Money Mustache logo" figcaption="Photo from <a href='https://en.wikipedia.org/wiki/File:Mr._Money_Mustache_Logo.png'>Wikipedia</a>" %}
 
 Peter Adeney, aka Mr. Money Mustache, is famous for retiring at the age of 30 and blogging about it.
 
@@ -135,7 +135,7 @@ It’s like when I played Lemonade Tycoon as a kid and became the world’s grea
 I want to reach [1 million dollars](https://youtu.be/l91ISfcuzDw)!
 
 ### The road to $1 million 💸
-{% include image.html image="sharing-my-net-worth/net-worth-4-2018.png" img_class="center-image" alt="Road to 1 million dollars" css="" figcaption="" %}
+{% include image.html src="sharing-my-net-worth/net-worth-4-2018.png" alt="Road to 1 million dollars" %}
 
 Since I started tracking my net worth in December, I’ve gone from $19,054.64 in December 2017 to $42,756.30 in April 2018.
 

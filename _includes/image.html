@@ -1,4 +1,18 @@
+{% if include.img_class %}
+  {% assign img_class = include.img_class %}
+{% else %}
+  {% assign img_class = "center-image" %}
+{% endif %}
+
+{% if include.figcaption_class %}
+  {% assign figcaption_class = include.figcaption_class %}
+{% else %}
+  {% assign figcaption_class = "center subtle-figcaption" %}
+{% endif %}
+
 <figure>
-    <img class="{{ include.img_class }}" src="/images/{{ include.image }}" alt="{{ include.alt }}">
-    <figcaption class="{{ include.css }}">{{ include.figcaption }}</figcaption>
+    <img class="{{ img_class }}" src="/images/{{ include.src }}" alt="{{ include.alt }}">
+    {% if include.figcaption %}
+      <figcaption class="{{ figcaption_class }}">{{ include.figcaption }}</figcaption>
+    {% endif %}
 </figure>

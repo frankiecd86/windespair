@@ -11,7 +11,7 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
       {% if page.image %}
-          {% include image.html image=page.image img_class="center-image" alt=page.image_alt css="center subtle-figcaption" figcaption=page.figcaption %}
+          {% include image.html src=page.image alt=page.image_alt figcaption=page.figcaption %}
       {% endif %}
 
       {% include share-buttons.html %}
