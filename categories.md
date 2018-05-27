@@ -18,7 +18,7 @@ permalink: /categories/
             {% if post.image %}
             <figure>
               <a href="{{ post.url }}">
-                  <img src="/images/{{ post.image }}" alt="{{ post.image_alt }}">
+                  <img src="{{ post.image }}" alt="{{ post.image_alt }}">
               </a>
             </figure>
             {% endif %}

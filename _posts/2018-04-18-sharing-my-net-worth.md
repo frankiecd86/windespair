@@ -3,7 +3,7 @@ layout: post
 title: Why I'm Sharing My Net Worth
 description: Here's why I've decided to start sharing my net worth online.
 intro: Here's why I've decided to start sharing my net worth online...
-image: sharing-my-net-worth/sharing-net-worth.jpg
+image: /images/sharing-my-net-worth/sharing-net-worth.jpg
 image_alt: Two people holding a bowl of cherry tomatoes
 figcaption: >
   Photo by <a href="https://unsplash.com/@ecasap">Elaine Casap</a>

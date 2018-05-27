@@ -3,7 +3,7 @@ layout: post
 title: You Need To Double Your Savings Rate
 description: The current savings rate in the United States is 3.4%. This is absolutely BONKERS.
 intro: The current savings rate in the US is only 3.4%. This is BONKERS.
-image: savings-rate/two-birds-on-tree.jpg
+image: /images/savings-rate/two-birds-on-tree.jpg
 image_alt: Two birds sitting in a tree
 figcaption: >
   Photo by <a href="https://unsplash.com/@yskeong">SK Yeong</a>

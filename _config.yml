@@ -23,16 +23,14 @@ permalink: /:title/
 
 analytics:
 
-# Author picture 100x100 --> keep it inside img folder.
-author-image: 'author.jpg'
 author-name: 'Gonzalo Ziadi'
-author-about: Holder of multiple Guiness World Records. Famed fire-breather. Accomplished pianist.
 
 author:
   twitter: gziadi
 
 twitter:
   username: gziadi
+  card: summary
 
 social:
   name: Gonzalo Ziadi
