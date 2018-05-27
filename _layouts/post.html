@@ -3,7 +3,7 @@ layout: default
 ---
 <article itemscope itemtype="http://schema.org/BlogPosting">
   <header>
-    <div class="entry-meta">
+    <div class="post-meta">
       {% include post-meta.html is_home="true" %}
     </div>
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
@@ -17,10 +17,10 @@ layout: default
       {% include share-buttons.html %}
 
       {{ content }}
+
+      {% include share-buttons.html %}
   </div>
 </article>
-
-{% include share-buttons.html %}
 
 {% include signup-form.html %}
 

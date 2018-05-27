@@ -1,14 +1,22 @@
 ---
 layout: page
-title: About
+title: Welcome
 comments: true
 permalink: /about/
 ---
 
+Hello. My name is Gonzalo and I'm a 23-year-old Argentine (though I've lived most of my life in the US). I'm a big proponent of financial independence, frugality, and minimalism. I think these are crucial to unlocking maximum happiness, which is what it's all about in the end, right?
+
+This blog is an accumulation of my thoughts on how to live a meaningful life and my journey to financial independence.
+
+If you want to take a quick look at where I'm at on the road to financial independence, I post my [net worth](/net-worth) online every month.
+
+If you have any questions, comments, or just want to chat about anything on here feel free to email me at [ziadig@gmail.com](mailto:ziadig+wd@gmail.com) or leave a comment below.
+
 <figure>
     <img class="fig-col-2" src="/images/sammy-me-boston.jpg" alt="Sammy and me in Boston">
     <img class="fig-col-2" src="/images/family-cami-prom.jpg" alt="My family and me">
-    <figcaption class="emphasis-figcaption"><b>Left:</b> My girlfriend, Sammy, and I in Boston. (2017) <b>Right:</b> With my family before my little sister's prom. As you might notice, my little sister is much taller than my older sister. (2016)</figcaption>
+    <figcaption class="emphasis-figcaption"><b>Left:</b> My girlfriend and I in Boston. (2017) <b>Right:</b> With my family before my sister's prom. (2016)</figcaption>
 </figure>
 
 ### Quick recap of my life:

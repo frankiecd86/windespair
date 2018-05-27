@@ -45,21 +45,21 @@ social:
 markdown: kramdown
 
 sass:
-    style: compressed
+  style: compressed
 
 include: [_headers]
 
 #compress.html
 compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  clippings: all
   comments: ["<!-- ", " -->"]
-  endings: [all]
+  endings: all
   ignore:
     envs: [local]
   blanklines: false
   profile: false
-  startings: []
+  startings: [html, head, body]
 
-gems:
+plugins:
     - jekyll-seo-tag
     - uglifier
