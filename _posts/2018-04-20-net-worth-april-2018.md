@@ -24,57 +24,57 @@ Here are my numbers for April 2018:
       <td colspan="2"><span style="color: #FF9900;"><strong>Cash Reserves</strong></span></td>
     </tr>
     <tr>
-      <td><span>Savings Account</span></td>
-      <td><span>$5,933.37&nbsp; ($1,898.88)</span></td>
+      <td>Savings Account</td>
+      <td>$5,933.37&nbsp; (+$1,898.88)</td>
     </tr>
     <tr>
-      <td><span>Checking Account</span></td>
-      <td><span>$28.21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (-$868.75)</span></td>
+      <td>Checking Account</td>
+      <td>$28.21&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (-$868.75)</td>
     </tr>
     <tr>
-      <td><span><strong>Total Cash Reserves</strong></span></td>
-      <td><span>$5,961.58&nbsp; (+$1,030.13)</span></td>
+      <td><strong>Total Cash Reserves</strong></td>
+      <td>$5,961.58&nbsp; (+$1,030.13)</td>
     </tr>
     <tr>
-      <td><span>&nbsp;</span></td>
-      <td><span>&nbsp;</span></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
     </tr>
 
     <tr>
       <td colspan="2"><span style="color: #DC3912;"><strong>Non-Tax Advantaged Accounts</strong></span></td>
     </tr>
     <tr>
-      <td><span>Vanguard VTSAX</span></td>
-      <td><span>$19,342.53&nbsp; (+$2,396.08)</span></td>
+      <td>Vanguard VTSAX</td>
+      <td>$19,342.53&nbsp; (+$2,396.08)</td>
     </tr>
     <tr>
-      <td><span><strong>Total Non-Tax Advantaged</strong></span></td>
-      <td><span>$19,342.53&nbsp; (+$2,396.08)</span></td>
+      <td><strong>Total Non-Tax Advantaged</strong></td>
+      <td>$19,342.53&nbsp; (+$2,396.08)</td>
     </tr>
     <tr>
-      <td><span>&nbsp;</span></td>
-      <td><span>&nbsp;</span></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
     </tr>
 
     <tr>
       <td colspan="2"><span style="color: #3366CC;"><strong>Tax Advantaged Accounts</strong></span></td>
     </tr>
     <tr>
-      <td><span>401(k)</span></td>
-      <td><span>$18,330.71&nbsp; (+$1,358.59)</span></td>
+      <td>401(k)</td>
+      <td>$18,330.71&nbsp; (+$1,358.59)</td>
     </tr>
     <tr>
-      <td><span><strong>Total Tax Advantaged</strong></span></td>
-      <td><span>$18,330.71&nbsp; (+$1,358.59)</span></td>
+      <td><strong>Total Tax Advantaged</strong></td>
+      <td>$18,330.71&nbsp; (+$1,358.59)</td>
     </tr>
 
     <tr>
-      <td><span>&nbsp;</span></td>
-      <td><span>&nbsp;</span></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
     </tr>
     <tr>
-      <td><span><strong>Net Worth</strong></span></td>
-      <td><span><strong>$43,634.82&nbsp;</strong>&nbsp;(+$4,784.80)</span></td>
+      <td><strong>Net Worth</strong></td>
+      <td><strong>$43,634.82&nbsp;</strong>&nbsp;(+$4,784.80)</td>
     </tr>
   </tbody>
 </table>
@@ -105,7 +105,7 @@ This was the lowest month-over-month net worth increase ever for me and it was m
 **1. The stock market dipped.**
 From March 20th (I track my net worth around the 20th of every month) to April 20th, VTSAX decreased from $68.17 a share to $66.92, for a 1.83% loss.
 
-Most of my invested money is in VTSAX (I invest in it directly and 53% of my 401(k) plan is also in VTSAX) so I took a small hit.
+Most of my invested money is in VTSAX (I invest in it directly and 53% of my 401(k) is also in VTSAX) so I took a small hit.
 
 I'm in this for the long run, though, and in the long run the market always goes up!
 

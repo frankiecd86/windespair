@@ -31,9 +31,4 @@ layout: null
       <priority>0.50</priority>
     </url>
 
-    <url>
-      <loc>https://www.windespair.com/now/</loc>
-      <priority>0.50</priority>
-    </url>
-
 </urlset>
