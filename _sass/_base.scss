@@ -21,10 +21,6 @@ body {
   background-color: transparent;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @include media-query($on-palm){
-    font-size: $base-mobile-font-size;
-  }
 }
 
 /**

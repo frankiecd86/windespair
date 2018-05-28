@@ -112,7 +112,7 @@ I'm in this for the long run, though, and in the long run the market always goes
 {% include image.html src="net-worth-update-1-april-2018/vtsax-april-2018.png" alt="Stock price of VTSAX over April 2018" %}
 
 ## Where Did My Money Go?
-This month I invested $3,000 in VTSAX, a lump sum buy on March 27th for $66.48 per share. I also invested $1,716.67 into my 401(k). The rest of my income went into my savings and checking accounts.
+This month I invested $3,000 in VTSAX, a lump sum buy on March 27th for $66.48 per share. I also invested $1,716 into my 401(k). The rest of my income went into my savings and checking accounts.
 
 ## Where I'm Headed
 A fairly high percentage of my net worth is tied up in my savings and checking accounts as I build a little safety net.

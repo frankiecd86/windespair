@@ -27,7 +27,7 @@
 }
 .subtle-figcaption {
   color: $grey-color;
-  font-size: $mobile-font-size;
+  font-size: $small-font-size;
 
   > a {
     color: $grey-color;
@@ -55,6 +55,8 @@ nav {
 .site-header {
   > nav {
     padding: 15px;
+    text-transform: uppercase;
+    font-size: .9rem;
     background: $brand-color;
 
     > a {
@@ -80,12 +82,12 @@ nav {
     a {
      color: black;
      font-size: $site-header-font-size;
-     font-weight: 500;
+     font-weight: 600;
      opacity: 1;
      transition: opacity .25s ease-in-out;
 
      @include media-query($on-palm){
-       font-size: $site-header-mobile-font-size;
+       font-size: $post-title-font-size;
      }
 
      &:hover {
@@ -118,8 +120,15 @@ footer {
 
   @include media-query($on-palm){
     max-width: 100%;
-    margin: $spacing-unit/2 auto;
-    padding: 0px $spacing-unit;
+    margin: $spacing-unit auto;
+  }
+
+  > article {
+    padding: 0px $spacing-unit * 1.5;
+
+    @include media-query($on-palm){
+      padding: 0px $spacing-unit;
+    }
   }
 }
 
@@ -165,8 +174,11 @@ input[type=submit]:hover {
  * Comments
  */
 #respond {
+  padding: 0px $spacing-unit * 1.5;
+
   @include media-query($on-palm){
-    font-size: $mobile-font-size;
+    font-size: $small-font-size;
+    padding: 0px $spacing-unit;
   }
 }
 #respond input[type=submit] {
@@ -221,11 +233,12 @@ input[type=submit]:hover {
 #signup {
   border: 1px solid $signup-border-color;
   border-radius: 2px;
-  padding: 20px 10px;
-  margin: 25px 5px;
+  padding: .5rem .5rem;
+  margin: 1.25rem $spacing-unit * 1.5;
 
   @include media-query($on-palm){
-    font-size: $mobile-font-size;
+    font-size: $small-font-size;
+    margin: 1.25rem $spacing-unit;
   }
 }
 #signup-title {
@@ -385,29 +398,21 @@ input[type=submit]:hover {
     font-size: $post-title-mobile-font-size;
   }
 }
-.post-content {
-  padding-left: $spacing-unit;
-  padding-right: $spacing-unit;
-
-  @include media-query($on-laptop) {
-    padding-left: $spacing-unit/2;
-    padding-right: $spacing-unit/2;
-  }
-}
 
 /**
  * Entry meta
  */
 .tag-icon {
   vertical-align: sub;
-  margin-right: .3125rem;
   fill: $post-meta-color;
+  margin-right: .2rem;
 }
 .post-meta {
   color: $post-meta-color;
   font-size: 0.75rem;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-bottom: 0.3125rem;
 
   a {
     color: $post-meta-color;
