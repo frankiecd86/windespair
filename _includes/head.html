@@ -5,20 +5,19 @@
     <meta name="robots" content="noodp" />
 
     {% seo title=false %}
-    <title>
-      {% if page.title %}
-        {{ page.title }} | {{ site.title }}
-      {% else %}
-        {{ site.title }} | {{ site.description }}
-      {% endif %}
-    </title>
 
     {% if page.title %}
-      <meta name="twitter:title" content="{{ page.title }} | {{ site.title }}">
+      {% assign title = page.title | append: " | " | append: site.title %}
     {% else %}
-      <meta name="twitter:title" content="{{ site.title }} | {{ site.description }}">
+      {% assign title = site.title | append: " | " | append: site.description %}
     {% endif %}
 
+    <title>
+      {{ title }}
+    </title>
+
+    <meta name="twitter:title" content="{{ title }}">
+    
     {% if page.image %}
       <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
     {% endif %}
