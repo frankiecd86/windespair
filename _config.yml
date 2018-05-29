@@ -17,11 +17,9 @@ repository: "GonzaloZiadi/windespair"
 staticman:
   branch: "master"
 
-timezone: US/Eastern
+timezone: America/Phoenix
 
 permalink: /:title/
-
-analytics:
 
 author-name: 'Gonzalo Ziadi'
 

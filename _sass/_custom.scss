@@ -352,7 +352,7 @@ input[type=submit]:hover {
   display: inline-block;
   width: 16px;
   height: 16px;
-  vertical-align: baseline;
+  vertical-align: middle;
 }
 .sprite-calendar {
   vertical-align: text-top;
@@ -427,7 +427,7 @@ input[type=submit]:hover {
 * Homepage
 */
 .post-summary-wrapper {
-  padding: $spacing-unit 0px;
+  padding: $spacing-unit $spacing-unit * 1.5;
   margin-bottom: $spacing-unit;
   border-top-width: 1px;
   border-top-style: solid;
@@ -437,7 +437,7 @@ input[type=submit]:hover {
   border-image-slice: 1;
 
   @include media-query($on-palm){
-     padding: $spacing-unit/2 0px;
+     padding: $spacing-unit/2 $spacing-unit;
    }
 }
 .post-summary {
@@ -465,8 +465,8 @@ input[type=submit]:hover {
   }
 
   @include media-query($on-palm){
-     margin-top: $spacing-unit-mobile;
-   }
+    margin-top: $spacing-unit-mobile;
+  }
 }
 .post-image {
   margin-right: $spacing-unit/2;
@@ -521,4 +521,34 @@ table th, table td {
   line-height: 1.5;
   vertical-align: top;
   border-top: 1px solid #ebebeb;
+}
+
+.info-block {
+  background: rgba(0,0,0,.05);
+  padding: 1.3rem;
+  white-space: pre-wrap;
+  margin-bottom: $spacing-unit;
+  font-family: Courier, monospace;
+  line-height: 1.4;
+
+  a {
+    color: $text-color;
+    text-decoration: underline;
+  }
+
+  li {
+    margin-bottom: 1rem;
+  }
+
+  > p:first-child {
+    margin-bottom: 1rem;
+  }
+
+  > p {
+    margin-bottom: 0px;
+  }
+
+  @include media-query($on-palm){
+    margin-bottom: $spacing-unit-mobile;
+  }
 }

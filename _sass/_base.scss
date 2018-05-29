@@ -85,3 +85,21 @@ blockquote {
 ol, ul {
   list-style-position: inside;
 }
+
+/**
+ * Headings
+ */
+h2 {
+  font-size: 1.75rem;
+
+  @include media-query($on-palm){
+    font-size: 1.625rem;
+  }
+}
+h3 {
+  font-size: 1.5rem;
+
+  @include media-query($on-palm){
+    font-size: 1.4375rem;
+  }
+}
