@@ -6,6 +6,7 @@ description: The smartest thing I've done over the past year has been to declutt
 intro: The smartest thing I've done over the past year has been to declutter my phone.
 image: /images/put-your-phone-in-zen-mode/phone-zen-mode.png
 image_alt: Put your phone in zen mode
+date: 2018-05-29 07:21:00 -0700
 comments: true
 categories: Minimalism
 ---
