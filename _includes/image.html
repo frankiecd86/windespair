@@ -10,9 +10,24 @@
   {% assign figcaption_class = "center-text subtle-figcaption" %}
 {% endif %}
 
+{% if include.absolute_img_src %}
+  {% assign img_src = include.src %}
+{% else %}
+  {% assign img_src = "/images/" | append: include.src %}
+{% endif %}
+
 <figure>
-    <img class="{{ img_class }}" src="/images/{{ include.src }}" alt="{{ include.alt }}">
-    {% if include.figcaption %}
-      <figcaption class="{{ figcaption_class }}">{{ include.figcaption }}</figcaption>
-    {% endif %}
+  {% if include.img_link %}
+    <a target="_blank" rel="noopener" href="{{ include.img_link }}">
+  {% endif %}
+
+  <img class="{{ img_class }}" src="{{ img_src }}" alt="{{ include.alt }}">
+
+  {% if include.figcaption %}
+    <figcaption class="{{ figcaption_class }}">{{ include.figcaption }}</figcaption>
+  {% endif %}
+
+  {% if include.img_link %}
+    </a>
+  {% endif %}
 </figure>
