@@ -8,13 +8,13 @@ layout: default
 
   <div class="post-content">
     {{ content }}
+
+    {% include share-buttons.html %}
   </div>
 </article>
 
+{% include signup-form.html %}
+
 {% if page.comments == true %}
-    {% include share-buttons.html %}
-
-    {% include signup-form.html %}
-
     {% include comments/commentsAsHtml.html %}
 {% endif %}
