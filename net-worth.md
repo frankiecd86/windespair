@@ -52,5 +52,3 @@ Once a month I input these 4 numbers (and a few others) on my "Net Worth" spread
 
 ### 2017 Net Worth:
 * December: $19,054.64 (First month I started tracking my net worth)
-
-Inspired by [J. Money](http://www.budgetsaresexy.com/net-worth/)

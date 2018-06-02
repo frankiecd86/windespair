@@ -23,7 +23,13 @@
 .emphasis-figcaption {
   background: rgba(0,0,0,0.75);
   color: white;
-  padding: 10px 20px;
+  padding: 10px;
+  font-size: 1rem;
+
+  @include media-query($on-palm){
+    font-size: $small-font-size;
+    padding: 5px;
+  }
 }
 .subtle-figcaption {
   color: $grey-color;
@@ -36,34 +42,69 @@
 }
 
 /**
- * Nav (header and footer)
- */
-nav {
-  display: flex;
-  justify-content: center;
-
-  > a {
-    &:not(:first-child) {
-      margin-left: $spacing-unit;
-    }
-  }
-}
-
-/**
  * Site header
  */
 .site-header {
   > nav {
+    display: flex;
+    justify-content: center;
     padding: 15px;
     text-transform: uppercase;
     font-size: .9rem;
     background: $brand-color;
 
-    > a {
+    @include media-query($on-palm){
+      flex-direction: column;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    > #mobile-menu-toggle {
+      position: absolute;
+      left: 0;
+      top: 0;
+      opacity: 0;
+
+      &:checked ~ a {
+        max-height: 80px;
+      }
+
+      &:checked ~ label {
+        color: black;
+      }
+    }
+
+    > a, label {
       color: white;
 
       &:hover {
         color: black;
+      }
+    }
+
+    > label {
+      cursor: pointer;
+      display: none;
+
+      @include media-query($on-palm){
+        display: block;
+      }
+    }
+
+    > a {
+      &:not(:first-of-type) {
+        margin-left: $spacing-unit;
+
+        @include media-query($on-palm){
+          margin-left: 0;
+        }
+      }
+
+      @include media-query($on-palm){
+        margin-left: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease;
       }
     }
   }
@@ -109,6 +150,10 @@ footer {
   background: $lighter-grey-color;
   color: $footer-text-color;
   padding: 20px 20px;
+
+  > p {
+    margin-bottom: 0px;
+  }
 }
 
 /**
@@ -216,15 +261,15 @@ input[type=submit]:hover {
 .notify-me {
   margin-bottom: 15px;
 }
+.cancel-reply {
+    text-decoration: underline;
+    margin-left: 2.5%;
+}
 /* Site author specific */
 .admin {
   .comment-author-name {
     box-shadow: inset 0 -0.25em 0 rgba($warning-color, 0.5);
   }
-}
-.cancel-reply {
-    text-decoration: underline;
-    margin-left: 2.5%;
 }
 
 /**

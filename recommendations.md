@@ -4,9 +4,12 @@ title: Recommendations
 comments: true
 permalink: /recommendations/
 ---
-Life is better when you have the right tools. Here are some products that have really improved my life.
+Life is better when you have the right tools. Here are some things that have really improved my life.
 
 Some of the links are affiliate links, which means I receive a commission, at no cost to you, if you buy the product.
+
+## Net Worth Tracker
+You can see the exact template I use to track my net worth [here](https://docs.google.com/spreadsheets/d/1jkFRzfWAM7APFpkDXb_yKSZyCHRB11g7xA3gI-zINfI/edit?usp=sharing) (link goes to Google Sheets)
 
 ## Books
 I read a lot. I believe books hide secrets in plain sight. Most books are OK, a few are great, and a tiny, tiny percentage are Life Changers. Below are some of the books, divided into a few different categories, that have made a big impact on me.
