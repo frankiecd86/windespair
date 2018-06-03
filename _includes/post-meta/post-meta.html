@@ -15,7 +15,7 @@
 
 {% if include.is_home %}
   <i class="sprite sprite-stopwatch"></i>&nbsp;
-  <a href="{{ post.url }}">{% include read-time.html  word_count = words %} min read</a>&nbsp;
+  <a href="{{ post.url }}">{% include post-meta/read-time.html  word_count = words %} min read</a>&nbsp;
 {% endif %}
 
 <i class="sprite sprite-user"></i>&nbsp;

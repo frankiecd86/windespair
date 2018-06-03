@@ -100,3 +100,5 @@ One thing I'm looking into is creating additional income streams. What these wil
 Meanwhile, the goal is to continue saving 75-80% of my income. I'll be doing some traveling later in the year so I'll probably miss the mark during a month or two, but the trips will be worth it ✈️
 
 Finally, a shout out to Zach over at [Four Pillar Freedom](www.fourpillarfreedom.com) for inspiring this Income & Expenses series.
+
+{% include related-posts.html %}

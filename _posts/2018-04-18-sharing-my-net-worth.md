@@ -161,3 +161,5 @@ My hope is that by sharing my net worth and how I'm thinking about money, I can 
 You can’t get to where you want to go if you don’t know where you are.
 
 Finally, I just want to mention J. Money over at [BudgetsAreSexy](https://budgetsaresexy.com) who has been sharing his net worth for the past 10 (!) years and was the inspiration for this post.
+
+{% include related-posts.html %}

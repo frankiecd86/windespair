@@ -120,3 +120,5 @@ A fairly high percentage of my net worth is tied up in my savings and checking a
 The plan is to stockpile a rainy day fund of $15,000 (about a year's worth of living expenses) and to then switch into full-on, pedal to the metal investing mode, basically putting all of my income minus monthly expenses into my 401(k) and VTSAX.
 
 Thanks for following along with me! If you have any questions or comments or if you want to talk about financial independence, you can reach me at ziadig@gmail.com.
+
+{% include related-posts.html %}

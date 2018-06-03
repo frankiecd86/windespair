@@ -1,0 +1,95 @@
+<div class="related-posts">
+  <h3><strong>You might also like:</strong></h3>
+
+  {% assign related_posts_to_display = 5 %}
+  {% assign posts_displayed = '' %}
+
+  <ul>
+    {% if include.related_post_1_title %}
+      <li>
+        <a href="{{ include.related_post_1_link }}">{{ include.related_post_1_title }}</a>
+      </li>
+      {% assign related_posts_to_display = related_posts_to_display | minus: 1 %}
+      {% assign posts_displayed = posts_displayed | append: include.related_post_1_title %}
+    {% endif%}
+
+    {% if include.related_post_2_title %}
+      <li>
+        <a href="{{ include.related_post_2_link }}">{{ include.related_post_2_title }}</a>
+      </li>
+      {% assign related_posts_to_display = related_posts_to_display | minus: 1 %}
+      {% assign posts_displayed = posts_displayed | append: include.related_post_2_title %}
+    {% endif%}
+
+    {% if include.related_post_3_title %}
+      <li>
+        <a href="{{ include.related_post_3_link }}">{{ include.related_post_3_title }}</a>
+      </li>
+      {% assign related_posts_to_display = related_posts_to_display | minus: 1 %}
+      {% assign posts_displayed = posts_displayed | append: include.related_post_3_title %}
+    {% endif%}
+
+    {% if include.related_post_4_title %}
+      <li>
+        <a href="{{ include.related_post_4_link }}">{{ include.related_post_4_title }}</a>
+      </li>
+      {% assign related_posts_to_display = related_posts_to_display | minus: 1 %}
+      {% assign posts_displayed = posts_displayed | append: include.related_post_4_title %}
+    {% endif%}
+
+    {% if include.related_post_5_title %}
+      <li>
+        <a href="{{ include.related_post_5_link }}">{{ include.related_post_5_title }}</a>
+      </li>
+      {% assign related_posts_to_display = related_posts_to_display | minus: 1 %}
+      {% assign posts_displayed = posts_displayed | append: include.related_post_5_title %}
+    {% endif%}
+
+    {% assign min_common_tags =  1 %}
+    {% for post in site.posts %}
+        {% assign same_tag_count = 0 %}
+
+        {% for category in post.categories %}
+          {% if post.url != page.url %}
+            {% if page.categories contains category %}
+              {% assign same_tag_count = same_tag_count | plus: 1 %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+
+        {% if same_tag_count >= min_common_tags and related_posts_to_display > 0 %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+          
+          {% assign related_posts_to_display = related_posts_to_display | minus: 1 %}
+          {% assign posts_displayed = posts_displayed | append: post.title %}
+
+          {% if related_posts_to_display == 0 %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+    {% endfor %}
+
+    {% if related_posts_to_display > 0 %}
+      {% for post in site.posts %}
+        {% if posts_displayed contains post.title %}
+          {% continue %}
+        {% endif %}
+
+        {% if post.url != page.url %}
+          <li>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </li>
+
+          {% assign related_posts_to_display = related_posts_to_display | minus: 1 %}
+          {% assign posts_displayed = posts_displayed | append: post.title %}
+
+          {% if related_posts_to_display == 0 %}
+            {% break %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </ul>
+</div>

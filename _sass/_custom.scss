@@ -202,17 +202,16 @@ input:focus, select:focus, textarea:focus {
   box-shadow: inset 0 1px 3px rgba(0,0,0,.06), 0 0 5px rgba(51,56,63,.7);
 }
 input[type=submit] {
-  background-color: white;
-  color: $brand-color;
+  background-color: $brand-color;
+  color: white;
+  border-style: none;
   display: block;
   margin: 0 auto;
-  border: 1px solid $brand-color;
   cursor: pointer;
 }
 input[type=submit]:hover {
-  background-color: $brand-color;
-  color: white;
-  transition: .3s;
+  background: #252626;
+  transition: ease background .2s;
 }
 
 /**
@@ -276,18 +275,22 @@ input[type=submit]:hover {
  * Signup form
  */
 #signup {
-  border: 1px solid $signup-border-color;
-  border-radius: 2px;
-  padding: .5rem .5rem;
+  border-top: 1px solid $signup-border-color;
+  border-bottom: 1px solid $signup-border-color;
+  padding: .5rem 8rem;
+  border-radius: 0px;
   margin: 1.25rem $spacing-unit * 1.5;
 
   @include media-query($on-palm){
     font-size: $small-font-size;
     margin: 1.25rem $spacing-unit;
+    padding: .5rem 0rem;
   }
 }
 #signup-title {
   font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: $spacing-unit/2;
   margin-top: 0px;
 
   @include media-query($on-palm){
@@ -295,29 +298,21 @@ input[type=submit]:hover {
   }
 }
 #signup-description {
-  @include media-query($on-palm){
-    display: none;
-  }
+  font-size: .9rem;
+  margin-bottom: $spacing-unit/2;
 }
 #mce-EMAIL {
-  width: 68%;
-
-  @include media-query($on-palm){
-    width: 80%;
-    display: block;
-    margin: 10px auto;
-  }
+  width: 70%;
+  border-style: none;
+  border-radius: 0px;
+  background: #f2f6f9;
+  box-shadow: none;
 }
 #signup-submit {
   width: 30%;
   display: inline-block;
-  margin-left: 5px;
-
-  @include media-query($on-palm){
-    width: 60%;
-    display: block;
-    margin: 0 auto;
-  }
+  border-radius: 0px;
+  font-weight: bold;
 }
 
 /**
@@ -441,6 +436,19 @@ input[type=submit]:hover {
 
   @include media-query($on-palm) {
     font-size: $post-title-mobile-font-size;
+  }
+}
+.related-posts {
+  > ul {
+    margin-left: 2rem;
+
+    @include media-query($on-palm) {
+      margin-left: 1rem;
+    }
+  }
+
+  > h3 {
+    margin-bottom: $spacing-unit/2;
   }
 }
 

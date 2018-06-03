@@ -16,10 +16,10 @@ layout: default
         </div>
         <div class="post-info">
           <div class="post-meta">
-            {% include post-category.html %}&nbsp;
+            {% include post-meta/post-category.html %}&nbsp;
             <i class="sprite sprite-stopwatch"></i>
             {% assign words = post.content | number_of_words %}
-            <a href="{{ post.url }}">{% include read-time.html  word_count = words %} min read</a>
+            <a href="{{ post.url }}">{% include post-meta/read-time.html  word_count = words %} min read</a>
           </div>
 
           <header class="post-header">
@@ -29,7 +29,7 @@ layout: default
           </header>
 
           <div class="post-meta">
-            {% include post-meta.html %}
+            {% include post-meta/post-meta.html %}
           </div>
 
           {% if post.intro %}
