@@ -25,10 +25,7 @@ permalink: /categories/
           </div>
           <div class="post-info">
             <div class="post-meta">
-              {% include post-meta/post-category.html %}&nbsp;
-              <i class="sprite sprite-stopwatch"></i>
-              {% assign words = post.content | number_of_words %}
-              <a href="{{ post.url }}">{% include post-meta/read-time.html  word_count = words %} min read</a>
+              {% include post-meta/post-meta.html show_read_time="true" show_category="true" %}
             </div>
 
             <header class="post-header">
@@ -38,7 +35,7 @@ permalink: /categories/
             </header>
 
             <div class="post-meta">
-              {% include post-meta/post-meta.html %}
+              {% include post-meta/post-meta.html show_byline="true" show_calendar="true" %}
             </div>
 
             {% if post.intro %}

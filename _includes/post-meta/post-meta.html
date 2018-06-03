@@ -10,13 +10,21 @@
   {% assign words = content | number_of_words %}
 {% endif %}
 
-<i class="sprite sprite-calendar"></i>&nbsp;
-<a href="{{ post.url }}">{{ date | date: "%b %-d, %Y"}}</a>&nbsp;
+{% if include.show_category %}
+  {% include post-meta/post-category.html %}&nbsp;
+{% endif %}
 
-{% if include.is_home %}
+{% if include.show_calendar %}
+  <i class="sprite sprite-calendar"></i>&nbsp;
+  <a href="{{ post.url }}">{{ date | date: "%b %-d, %Y"}}</a>&nbsp;
+{% endif %}
+
+{% if include.show_read_time %}
   <i class="sprite sprite-stopwatch"></i>&nbsp;
   <a href="{{ post.url }}">{% include post-meta/read-time.html  word_count = words %} min read</a>&nbsp;
 {% endif %}
 
-<i class="sprite sprite-user"></i>&nbsp;
-by <a href="/about">Gonzalo</a>
+{% if include.show_byline %}
+  <i class="sprite sprite-user"></i>&nbsp;
+  by <a href="/about">Gonzalo</a>
+{% endif %}
