@@ -7,9 +7,9 @@
     {% seo title=false %}
 
     {% if page.title %}
-      {% assign title = page.title | append: " | " | append: site.title %}
+      {% assign title = page.title %}
     {% else %}
-      {% assign title = site.title | append: " | " | append: site.description %}
+      {% assign title = site.title %}
     {% endif %}
 
     <title>
@@ -17,7 +17,7 @@
     </title>
 
     <meta name="twitter:title" content="{{ title }}">
-    
+
     {% if page.image %}
       <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
     {% endif %}

@@ -11,6 +11,18 @@
 .green {
   color: $green-color;
 }
+.super {
+  text-align: super;
+}
+ul, ol {
+  margin-top: -$spacing-unit/2;
+  margin-left: .25rem;
+
+  @include media-query($on-palm) {
+    margin-top: -$spacing-unit/4;
+    margin-left: .125rem;
+  }
+}
 
 /**
  * Figures, images
@@ -438,19 +450,6 @@ input[type=submit]:hover {
     font-size: $post-title-mobile-font-size;
   }
 }
-.related-posts {
-  > ul {
-    margin-left: 2rem;
-
-    @include media-query($on-palm) {
-      margin-left: 1rem;
-    }
-  }
-
-  > h3 {
-    margin-bottom: $spacing-unit/2;
-  }
-}
 
 /**
  * Entry meta
@@ -574,6 +573,14 @@ table th, table td {
   line-height: 1.5;
   vertical-align: top;
   border-top: 1px solid #ebebeb;
+}
+
+.related-posts {
+  margin-left: 2rem;
+
+  @include media-query($on-palm) {
+    margin-left: 1rem;
+  }
 }
 
 .info-block {

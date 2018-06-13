@@ -144,5 +144,3 @@ It's no small task, but our happiness and ability to do meaningful, fulfilling w
 1. [The Mere Presence of Your Smartphone Reduces Brain Power, Study Shows](https://news.utexas.edu/2017/06/26/the-mere-presence-of-your-smartphone-reduces-brain-power)
 1. [Restorative effects of viewing real forest landscapes, based on a comparison with urban landscapes](https://www.tandfonline.com/doi/abs/10.1080/02827580902903341#preview)
 1. [Autonomic Nervous System Responses to Viewing Green and Built Settings: Differentiating Between Sympathetic and Parasympathetic Activity](https://www.sciencealert.com/just-looking-at-photos-of-nature-could-be-enough-to-lower-your-work-stress-levels)
-
-{% include related-posts.html %}

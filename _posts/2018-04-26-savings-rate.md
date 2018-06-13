@@ -141,5 +141,3 @@ I always need less than I think do.
 > My family, my friends, a warm shower, a comfortable bed, a good book, a tasty meal, new sights.
 
 It’s not about the money, it’s about happiness.
-
-{% include related-posts.html %}
