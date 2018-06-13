@@ -91,7 +91,7 @@ Stocks have a higher rate of return because they are riskier.
 
 In times of recession, the stock market gets hammered, as you can see in the chart below (look at the Great Depression in the 1930's and the Great Recession in the late 2000's)
 
-{% include image.html src="four-percent-rule/value-of-investment-1926-2015.png" alt="Rate of return of stocks and bonds for the period from January 1, 1926, through December 31, 2015" %}
+{% include image.html src="four-percent-rule/value-of-investment-1926-2015.png" alt="Total Annual Returns For Stocks, Bonds, and Inflation Historical (1926-2015)" figcaption="Chart from <a href='https://www.financialsamurai.com/the-best-asset-allocation-of-stocks-and-bonds-by-age/'>FinancialSamurai</a>" %}
 
 Currently, I'm all in on stocks. I'm young and I have time to weather out any storms in the stock market.
 
