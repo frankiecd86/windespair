@@ -8,12 +8,14 @@
 
     {% if page.title %}
       {% assign title = page.title %}
+      {% assign tab_title = page.title | append: " | " | append: site.title %}
     {% else %}
-      {% assign title = site.title %}
+      {% assign title = site.title  %}
+      {% assign tab_title = site.title | append: " | " | append: site.description  %}
     {% endif %}
 
     <title>
-      {{ title }}
+      {{ tab_title }}
     </title>
 
     <meta name="twitter:title" content="{{ title }}">
