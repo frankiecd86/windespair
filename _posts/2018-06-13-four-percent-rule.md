@@ -6,7 +6,7 @@ description: How much money do I need to have saved up to retire?
 intro: How much money do I need to have saved up to retire?
 image: /images/four-percent-rule/sign-with-4-on-it.jpg
 image_alt: A sign marked with the number four over a lake
-date: 2018-06-13 07:17:00 -0700
+date: 2018-06-14 06:58:00 -0700
 figcaption: >
   Photo by <a href="https://unsplash.com/@jeisblack">Jason Blackeye</a>
 comments: true
@@ -87,17 +87,25 @@ The real (accounting for inflation) rate return of the stock market from 1950 to
 
 The real rate of return of bonds (US government bonds) from 1950 to 2009 was about [2%](https://www.investopedia.com/walkthrough/corporate-finance/4/capital-markets/history-stocks-bonds.aspx).
 
-Stocks have a higher rate of return because they are riskier.
+Stocks have a higher rate of return, but they are more volatile.
 
 In times of recession, the stock market gets hammered, as you can see in the chart below (look at the Great Depression in the 1930's and the Great Recession in the late 2000's)
 
 {% include image.html src="four-percent-rule/value-of-investment-1926-2015.png" alt="Total Annual Returns For Stocks, Bonds, and Inflation Historical (1926-2015)" figcaption="Chart from <a href='https://www.financialsamurai.com/the-best-asset-allocation-of-stocks-and-bonds-by-age/'>FinancialSamurai</a>" %}
 
-Currently, I'm all in on stocks. I'm young and I have time to weather out any storms in the stock market.
+Currently, I'm all in on stocks. I'm young and have time to weather out any storms in the stock market.
 
-A retiree, however, can't afford to be so risky and needs to hedge his bets. Some exposure to the bond market reduces risk and improves the success rate.
+A retiree, however, can't afford the volatility and needs to hedge her bets.
 
-A **75%/25% stock/bond allocation** seems to capture the upside of the stock market while reducing the risk.
+Consider the Great Recession of the late 2000's.
+
+If a retiree was all in on stocks and needed to withdraw money, she would have had to do so at a great loss.
+
+The stock market eventually recovered, but the damage would have been done.
+
+Some exposure to the bond market reduces volatility and improves the success rate.
+
+A **75%/25% stock/bond allocation** seems to capture the upside of the stock market while reducing volatility.
 
 ## How safe is the 4 percent rule?
 The 4 percent rule is a great starting point, but it is not perfect.
@@ -118,8 +126,8 @@ As always, there’s some good news and some bad news.
 The 4% rule is a simple heuristic we can use to get an idea of how much we'll need to have saved up to retire.
 
 The two big takeaways are:
-* To calculate your magic retirement number determine your estimated annual expenses and multiply by 25.
-* While young, take advantage of the superior rates of return of the stock market since you have time to weather out any storms. When retired, reduce your risk by using a 75%/25% or 50%/50% stock/bond portfolio allocation.
+* To calculate your magic retirement number determine your **estimated annual expenses and multiply by 25**.
+* While young, take advantage of the superior rates of return of the stock market with a **100% stock portfolio allocation** since you have time to weather out any storms. When retired, reduce the volatility of your portfolio by using a **75%/25% stock/bond portfolio allocation**.
 
 ## Questions I had while reading through the study
 **What is a “portfolio”?**
