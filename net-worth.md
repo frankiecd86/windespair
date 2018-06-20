@@ -44,8 +44,9 @@ The point is keep track of this number. Decide for yourself what you want to inc
 Once a month I input these 4 numbers (and a few others) on my "Net Worth" spreadsheet. Here's the template I use (link goes to Google Sheets) - [my fantastic net worth spreadsheet](https://docs.google.com/spreadsheets/d/1jkFRzfWAM7APFpkDXb_yKSZyCHRB11g7xA3gI-zINfI/edit?usp=sharing)
 
 ### 2018 Net Worth:
-* May: [$55,525.85](/net-worth-may-2018) <span class="green">(+$11,891.03 – Tax refund)</span>
-* April: [$43,634.82](/net-worth-april-2018) <span class="green">(+$4,784.80 – 1st time posting my net worth online!)</span>
+* June: [$61,689](/net-worth-june-2018) <span class="green">(+$6,163)</span>
+* May: [$55,525](/net-worth-may-2018) <span class="green">(+$11,891 – Tax refund)</span>
+* April: [$43,634](/net-worth-april-2018) <span class="green">(+$4,784 – 1st time posting my net worth online!)</span>
 * March: $38,850.02 <span class="green">(+$6,971.70)</span>
 * February: $31,878.32 <span class="green">(+$5,603.75)</span>
 * January: $26,274.57 <span class="green">(+$7,219.93)</span>
