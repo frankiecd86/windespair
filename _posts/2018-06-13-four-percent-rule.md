@@ -1,7 +1,7 @@
 ---
 layout: post
 title: >
-  Early Retirement Basics: The 4% Rule
+  How Much Do You Need To Have Saved To Retire?
 description: How much money do I need to have saved up to retire?
 intro: How much money do I need to have saved up to retire?
 image: /images/four-percent-rule/sign-with-4-on-it.jpg
