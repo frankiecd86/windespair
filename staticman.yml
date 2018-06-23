@@ -20,7 +20,7 @@ comments:
   branch: "master"
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
-  commitMessage: "New comment"
+  commitMessage: "New comment by {fields.name}"
 
   # (*) REQUIRED
   #
@@ -79,3 +79,8 @@ comments:
 
   transforms:
     email: md5
+
+  reCaptcha:
+    enabled: true
+    siteKey: "6Lc8XmAUAAAAAOxD-rgHpGa_UTpfYP2Xr0RXoomo"
+    secret: "6Lc8XmAUAAAAAJdcZb2YjIQTrthyVLdxyMTi1-0F"
