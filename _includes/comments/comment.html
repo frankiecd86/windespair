@@ -6,14 +6,12 @@
   {% assign is_admin = false %}
 {% endif %}
 
-{% assign lowercase_url = include.url | downcase %}
-
-{% if lowercase_url contains "http://" or lowercase_url contains "https://" %}
-  {% assign website_url = lowercase_url %}
-{% elsif lowercase_url != '' %}
-  {% assign website_url = lowercase_url | prepend: "https://" %}
+{% if include.url contains "http://" or include.url contains "https://" %}
+  {% assign website_url = include.url %}
+{% elsif include.url != '' %}
+  {% assign website_url = include.url | prepend: "https://" %}
 {% else %}
-  {% assign website_url = lowercase_url %}
+  {% assign website_url = include.url %}
 {% endif %}
 
 <article class="comment {% if include.replying_to != 0 %}comment-reply{% endif %} {% if is_admin %}admin{% endif %}">

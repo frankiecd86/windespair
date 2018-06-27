@@ -59,7 +59,3 @@ compress_html:
 plugins:
     - jekyll-seo-tag
     - uglifier
-
-reCaptcha:
-  siteKey: "6Lc8XmAUAAAAAOxD-rgHpGa_UTpfYP2Xr0RXoomo"
-  secret: "6Lc8XmAUAAAAAJdcZb2YjIQTrthyVLdxyMTi1-0F"

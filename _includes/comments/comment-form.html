@@ -25,8 +25,6 @@
       <input type="hidden" name="options[parent]" value="{{ page.url | absolute_url }}">
       <input type="hidden" name="fields[replying_to]" id="comment-replying-to" value="">
       <input type="hidden" name="options[slug]" value="{{ include.url_path }}">
-      <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
-      <input type="hidden" name="options[reCaptcha][secret]" value="{{ site.reCaptcha.secret }}">
 
       <label for="comment-form-message"><strong>Comment *</strong> <small>(<a href="https://kramdown.gettalong.org/quickref.html">Markdown</a> is allowed)</small></label>
       <textarea type="text" rows="6" id="comment-form-message" name="fields[message]" spellcheck="true" minlength="5" required></textarea>
@@ -47,12 +45,9 @@
         </div>
       </label>
 
-      <div class="g-recaptcha" data-sitekey="{{ site.reCaptcha.siteKey }}"></div>
-
       <input type="submit" class="center-text" value="Send Comment">
     </form>
   </div>
-  <script async src="https://www.google.com/recaptcha/api.js"></script>
 {% else %}
   <p>
       <em>Comments are closed. If you have a question concerning the content of this page, please feel free to <a href="{{ site.url }}/about/">contact me</a>.</em>
