@@ -4,11 +4,11 @@ title: >
   How to Memorize a Deck of Cards In 5 Minutes
 description: Ever wondered how memory experts are able to memorize a deck of cards?
 intro: Ever wondered how memory experts are able to memorize a deck of cards?
-image: /images/memorize-a-deck-of-cards/brain-muscle.jpg
+image: /images/memorize-a-deck-of-cards/strong-brain-lifting-weights.jpg
 image_alt: A brain with arms lifting weights
 date: 2018-07-03 07:41:00 -0700
 figcaption: >
-  Photo by <a href=https://www.flickr.com/photos/saulalbert/39649070014">Saul Albert</a>
+  Photo by <a href="https://www.flickr.com/photos/saulalbert/39649070014">Saul Albert</a>
 comments: true
 categories: Learning
 ---

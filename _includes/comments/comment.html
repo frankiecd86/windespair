@@ -17,7 +17,7 @@
 <article class="comment {% if include.replying_to != 0 %}comment-reply{% endif %} {% if is_admin %}admin{% endif %}">
   <h3 class="comment-author-name" id="comment-{{ include.index }}">
     {% unless website_url == '' %}
-        <a rel="nofollow" href="{{ website_url }}" rel="noopener" target="_blank">{{ name }}</a>
+        <a rel="external nofollow" href="{{ website_url }}">{{ name }}</a>
     {% else %}
         {{ name }}
     {% endunless %}
