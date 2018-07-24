@@ -7,7 +7,7 @@ image: /images/signaling-status/peacock-showing-off-feathers.jpg
 image_alt: Colorful peacock with a blue head and vibrant feathers proudly displays its plumage
 figcaption: >
   Photo by <a href="https://unsplash.com/@andremouton">Andre Mouton</a>
-date: 2018-07-24 09:27:00 -0700
+date: 2018-07-24 09:29:00 -0700
 comments: true
 categories: Money
 ---
