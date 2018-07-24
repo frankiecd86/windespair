@@ -3,7 +3,6 @@ layout: post
 title: >
   "I could live in a box..."
 description: It's always refreshing to realize how little we need to be happy
-intro: It's always refreshing to realize how little we need to be happy
 image: /images/live-in-a-box/tiny-house-shed-outdoors.jpg
 image_alt: A little shed in the wilderness
 date: 2018-07-11 08:04:00 -0700

@@ -3,7 +3,6 @@ layout: post
 title: >
   How Much Do You Need To Have Saved To Retire?
 description: How much money do I need to have saved up to retire?
-intro: How much money do I need to have saved up to retire?
 image: /images/four-percent-rule/sign-with-4-on-it.jpg
 image_alt: A sign marked with the number four over a lake
 date: 2018-06-14 06:58:00 -0700

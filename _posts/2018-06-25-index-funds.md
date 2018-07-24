@@ -3,7 +3,6 @@ layout: post
 title: >
   How Should I Invest My Money?
 description: What is a simple way to invest my money that will guarantee (long-term) returns?
-intro: What is a simple way to invest my money that will guarantee (long-term) returns?
 image: /images/index-funds/mario-getting-coins.gif
 image_alt: Super Mario running through coins
 date: 2018-06-25 07:20:00 -0700

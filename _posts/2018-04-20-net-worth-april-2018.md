@@ -3,7 +3,6 @@ layout: post
 title: >
   Net Worth Update #1 – April 2018
 description: Here is my current net worth for April 2018.
-intro: Here is my current net worth for April 2018…
 image: /images/net-worth-update-1-april-2018/net-worth-april-2018.png
 image_alt: Chart showing net worth progression from December 2017 to April 2018
 comments: true

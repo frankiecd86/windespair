@@ -3,7 +3,6 @@ layout: post
 title: >
   Income & Expenses – June 2018
 description: Here is a summary of every dollar I earned and spent this month.
-intro: Here is a summary of every dollar I earned and spent this month...
 image: /images/income-expenses.jpg
 image_alt: Basketball over a hoop
 date: 2018-07-02 07:11:00 -0700

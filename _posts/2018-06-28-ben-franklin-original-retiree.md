@@ -3,7 +3,6 @@ layout: post
 title: >
   Benjamin Franklin: The Original Early Retiree
 description: By retiring early, Ben Franklin was able to use his free time to cement his place in history.
-intro: By retiring early, Ben Franklin was able to use his free time to cement his place in history.
 image: /images/ben-franklin-original-retiree/benjamin-franklin-clipart-illustration.jpg
 image_alt: Portrait of Benjamin Franklin –– clipart illustration
 date: 2018-06-28 07:33:00 -0700

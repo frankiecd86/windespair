@@ -3,7 +3,6 @@ layout: post
 title: >
   Why I Stopped Listening To Music While I Shower
 description: We need silence and it is becoming harder and harder to get it.
-intro: We need silence and it is becoming harder and harder to get it...
 image: /images/music-in-the-shower/music-in-the-shower.jpg
 image_alt: The sun setting over Nature Valley in South Africa
 date: 2018-06-06 06:12:00 -0700

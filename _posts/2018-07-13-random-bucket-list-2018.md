@@ -2,8 +2,7 @@
 layout: post
 title: >
   The Random Yearly Bucket List
-description: Here are some small random things I'd like to do and learn over the next few years
-intro: Here are some small random things I'd like to do and learn over the next few years
+description: Here are some small random things I'd like to do and learn over the next few years.
 image: /images/random-bucket-list-2018/farmers-market-assorted-berries.jpg
 image_alt: An assortment of fresh raspberries, blueberries, and blackberries from a farmer's market.
 date: 2018-07-13 09:15:00 -0700

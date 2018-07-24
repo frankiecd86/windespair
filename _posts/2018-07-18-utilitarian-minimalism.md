@@ -3,7 +3,6 @@ layout: post
 title: >
   Utilitarian Minimalism
 description: It seems to me that minimalism has turned into a fashionable label, a kind of status symbol.
-intro: It seems to me that minimalism has turned into a fashionable label, a kind of status symbol.
 image: /images/utilitarian-minimalism/ripples-in-iceland-lake.jpg
 image_alt: A ripple in the still surface of a lake in Iceland with flat mountains on the distant shore
 date: 2018-07-18 08:50:00 -0700
