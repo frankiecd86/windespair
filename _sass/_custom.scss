@@ -612,3 +612,26 @@ table th, table td {
     margin-bottom: $spacing-unit-mobile;
   }
 }
+
+/**
+ * Pagination
+ */
+.pagination {
+  margin: 3.75rem 0 1.875rem;
+  text-align: center;
+}
+.page-numbers {
+  border: 1px solid #f0f0f0;
+  color: #3d3d3d;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1.125rem 1.75rem;
+  transition: all .25s ease-out;
+}
+.current, .page-numbers:hover {
+  background: $brand-color;
+  color: #fff;
+}
+.prev-next {
+  font-weight: bold;
+}
