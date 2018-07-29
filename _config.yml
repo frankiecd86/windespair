@@ -45,7 +45,11 @@ sass:
 
 include: [_headers]
 
-#compress.html
+# pagination
+paginate: 20
+paginate_path: /page/:num/
+
+# compress.html
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -56,11 +60,7 @@ compress_html:
   profile: false
   startings: [html, head, body]
 
-reCaptcha:
-  enabled: true
-  siteKey: "6Lc8XmAUAAAAAOxD-rgHpGa_UTpfYP2Xr0RXoomo"
-  secret: "quY62dP/4vEeAaLogCYzT24tm7w2oNX0rmRLfFXiguvoNyUozAxQSA74hOB8TzD7uLTmDijzVVgXGgqr1Ue7quC0geeS0saSZDlXtokfHguuCuYIRBfH6RCsb/3uiTSCU9cBcMp5/P9fjGNG5daA0YJyUG3mGQtbaHBp5viU468="
-
 plugins:
     - jekyll-seo-tag
     - uglifier
+    - jekyll-paginate

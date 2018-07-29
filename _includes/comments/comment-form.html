@@ -45,15 +45,8 @@
         </div>
       </label>
 
-      <input type="hidden" name="options[reCaptcha][siteKey]" value="{{site.reCaptcha.siteKey}}">
-      <input type="hidden" name="options[reCaptcha][secret]" value="{{site.reCaptcha.secret}}">
-
-      <div class="g-recaptcha" data-sitekey="{{site.reCaptcha.siteKey}}"></div>
-
       <input type="submit" class="center-text" value="Send Comment">
     </form>
-
-    <script src="https://www.google.com/recaptcha/api.js"></script>
   </div>
 {% else %}
   <p>
