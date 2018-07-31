@@ -7,7 +7,7 @@ image: /images/student-loans/trinity-college-campus-dublin-ireland.png
 image_alt: Trinity College campus in Dublin, Ireland
 figcaption: >
   Photo by <a href="https://www.flickr.com/photos/22711505@N05/">Ron Cogswell</a>
-date: 2018-07-26 09:29:00 -0700
+date: 2018-07-31 09:32:00 -0700
 comments: true
 categories: Money
 ---
