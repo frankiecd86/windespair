@@ -9,7 +9,7 @@ date: 2018-06-01 06:47:00 -0700
 figcaption: >
   Photo by <a href="https://unsplash.com/@noahsilliman">Noah Silliman</a>
 comments: true
-categories: Money
+categories: [Net Worth]
 ---
 At the end of each month, I provide a summary of all the income I earned working at my 9-5 as a software engineer as well as all the expenses I incurred.
 

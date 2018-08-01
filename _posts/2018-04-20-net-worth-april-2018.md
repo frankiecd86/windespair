@@ -3,10 +3,10 @@ layout: post
 title: >
   Net Worth Update #1 – April 2018
 description: Here is my current net worth for April 2018.
-image: /images/net-worth-update-1-april-2018/net-worth-april-2018.png
+image: /images/net-worth-update-april-2018/net-worth-april-2018.png
 image_alt: Chart showing net worth progression from December 2017 to April 2018
 comments: true
-categories: Money
+categories: [Net Worth]
 ---
 This is the first time I'm sharing my net worth online.
 
@@ -80,7 +80,7 @@ Here are my numbers for April 2018:
 
 ## Progress
 Here’s a look at my net worth progression since I started tracking it back in December of 2017:
-{% include image.html src="net-worth-update-1-april-2018/net-worth-april-2018-data-labels.png" alt="Chart showing net worth progression from December 2017 to April 2018" %}
+{% include image.html src="net-worth-update-april-2018/net-worth-april-2018-data-labels.png" alt="Chart showing net worth progression from December 2017 to April 2018" %}
 
 ## My Investment Strategy
 My "investment strategy" is dead simple.
@@ -94,7 +94,7 @@ My 401(k) is managed by Vanguard and it uses the [Target Retirement 2060 Trust S
 Since my investments are basically split in half between my 401(k) and VTSAX ($18,330.71 and $19,342.53), that leaves me with a 95/5 stock to bond allocation (VTSAX is purely stocks). I'm young and got plenty of working years ahead of me, so I'm looking to be as aggressive as possible.
 
 Here's my complete asset allocation breakdown:
-{% include image.html src="net-worth-update-1-april-2018/sources-of-net-worth-april-2018.png" alt="Chart showing source of net worth (cash, stock, bond) by percentage" %}
+{% include image.html src="net-worth-update-april-2018/sources-of-net-worth-april-2018.png" alt="Chart showing source of net worth (cash, stock, bond) by percentage" %}
 
 ## Recap
 From March to April my net worth increased by $4,784.80.
@@ -108,7 +108,7 @@ Most of my invested money is in VTSAX (I invest in it directly and 53% of my 401
 
 I'm in this for the long run, though, and in the long run the market always goes up!
 
-{% include image.html src="net-worth-update-1-april-2018/vtsax-april-2018.png" alt="Stock price of VTSAX over April 2018" %}
+{% include image.html src="net-worth-update-april-2018/vtsax-april-2018.png" alt="Stock price of VTSAX over April 2018" %}
 
 ## Where Did My Money Go?
 This month I invested $3,000 in VTSAX, a lump sum buy on March 27th for $66.48 per share. I also invested $1,716 into my 401(k). The rest of my income went into my savings and checking accounts.
