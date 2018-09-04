@@ -608,6 +608,10 @@ table th, table td {
     margin-bottom: 0px;
   }
 
+  #remove-margin-bottom {
+    margin-bottom: -30px;
+  }
+
   @include media-query($on-palm){
     margin-bottom: $spacing-unit-mobile;
   }
