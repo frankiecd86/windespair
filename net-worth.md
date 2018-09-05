@@ -5,7 +5,7 @@ comments: true
 permalink: /net-worth/
 ---
 
-{% include image.html src="net-worth-update-july-2018/net-worth-july-2018-data-labels.png" alt="Chart showing net worth progression from December 2017 to July 2018" %}
+{% include image.html src="net-worth-update-august-2018/net-worth-august-2018-data-labels.png" alt="Chart showing net worth progression from December 2017 to August 2018" %}
 
 {% include share-buttons.html %}
 
