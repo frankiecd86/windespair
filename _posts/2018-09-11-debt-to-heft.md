@@ -103,7 +103,7 @@ The Roth IRA (**Individual Retirement Account**) allows you to contribute up to 
 
 In a normal investing account you don't get to reduce your taxable income (like the Roth IRA) and you get taxed on your withdrawal (if you pull out $5,000 from your normal investing account, you've increased your taxable income by $5,000)
 
-[Last month](net-worth-august-2018) I opened up a Roth IRA with Vanguard and invested my contribution in VTSMX (you guessed it––another low-cost index fund).
+[Last month](/net-worth-august-2018) I opened up a Roth IRA with Vanguard and invested my contribution in VTSMX (you guessed it––another low-cost index fund).
 
 This post from [Vanguard](https://investor.vanguard.com/ira/roth-vs-traditional-ira) and this one from [Mad Fientist](https://www.madfientist.com/traditional-ira-vs-roth-ira/) are two good places to learn more about IRAs.  
 
