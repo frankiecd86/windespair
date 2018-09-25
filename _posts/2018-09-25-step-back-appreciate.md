@@ -3,11 +3,11 @@ layout: post
 title: >
   Stepping Back And Appreciating When Things Go Well
 description: Complaining is easy. It's only fair I also appreciate all that goes well.
-image: /images/step-back-appreciate/three-not-so-little-pigs.jpg
+image: /images/step-back-appreciate/golden-retriever-relaxing.jpg
 image_alt: Three not so little pigs
 date: 2018-09-25 09:34:00 -0700
 figcaption: >
-  Photo from <a href="https://www.geograph.org.uk/photo/1940281">Geograph</a>
+  Photo by <a href="https://unsplash.com/@dipassadori">Diego Passadori</a>
 comments: true
 categories: Life
 ---
@@ -24,7 +24,7 @@ Everything ended up working really well. I was [comfortable in my small space](/
 
 {% include image.html src="step-back-appreciate/ravenna-park-seattle.jpg" alt="Ravenna Park in Seattle, Washington" figcaption="Photo by <a href='https://www.flickr.com/photos/fmf0/7445255326/'>Frank Fujimoto</a>" %}
 
-This past August, my lease came to an end. My girlfriend had graduated and would be moving in with me. She was apartment hunting from 1,000+ miles and 3 timezones away. I, of course, had imposed strict guidelines: I wanted to pay the same I was currently paying, but for a nice one-bedroom apartment.
+This past August, my lease came to an end. My girlfriend had graduated and would be moving in with me. She was apartment hunting from 1,000+ miles and 3 time zones away. I, of course, had imposed strict guidelines: I wanted to pay the same I was currently paying, but for a nice one-bedroom apartment.
 
 She called dozens of places and eventually discovered that the place across the street from me was available. I visited the place and it was nice. Rent was $1450, but utilities were $180 a month, which bothered me since I was currently paying about $10 a month. Plus, we were shipping my car so that would be an extra $100 a month for parking. We would also have to get our own internet. And to add insult to injury, the application fee was $100 and there was a $300 non-refundable cleaning fee... did the landlord think we were inviting the three little pigs to live with us?
 
