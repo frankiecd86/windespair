@@ -5,7 +5,7 @@ comments: true
 permalink: /net-worth/
 ---
 
-{% include image.html src="net-worth-update-august-2018/net-worth-august-2018-data-labels.png" alt="Chart showing net worth progression from December 2017 to August 2018" %}
+{% include image.html src="net-worth-update-september-2018/net-worth-september-2018-data-labels.png" alt="Chart showing net worth progression from December 2017 to September 2018" %}
 
 {% include share-buttons.html %}
 
@@ -44,6 +44,7 @@ The point is keep track of this number. Decide for yourself what you want to inc
 Once a month I input these 4 numbers (and a few others) on my "Net Worth" spreadsheet. Here's the template I use (link goes to Google Sheets) - [my fantastic net worth spreadsheet](https://docs.google.com/spreadsheets/d/1jkFRzfWAM7APFpkDXb_yKSZyCHRB11g7xA3gI-zINfI/edit?usp=sharing)
 
 ### 2018 Net Worth:
+* September: [$89,285](/net-worth-september-2018) <span class="green">(+$11,144 - double paycheck month)</span>
 * August: [$78,144](/net-worth-august-2018) <span class="green">(+$9,204 - bonus at work)</span>
 * July: [$68,077](/net-worth-july-2018) <span class="green">(+$6,388)</span>
 * June: [$61,689](/net-worth-june-2018) <span class="green">(+$6,163)</span>
