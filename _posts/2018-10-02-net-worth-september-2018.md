@@ -106,7 +106,7 @@ I also had my car shipped from Florida (an $1,100 hit... I don't think there's a
 
 {% include image.html src="net-worth-update-september-2018/hiking-in-mount-rainier.jpg" alt="Hiking in Mount Rainier" %}
 
-I also opened up a Roth IRA account, one of the things I mentioned I wanted to do in [last month's update](/net-worth-august-2018). I did this through Vanguard as I already have my other investments there (my 401k is also through Vanguard) and it took less than 10 minutes. I invested $5,500 (the annual maximum) into VTSMX (which is the same as VTSAX, expect without the $10,000 minimum).
+I also opened up a Roth IRA account, one of the things I mentioned I wanted to do in [last month's update](/net-worth-august-2018). I did this through Vanguard as I already have my other investments there (my 401k is also through Vanguard) and it took less than 10 minutes. I invested $5,500 (the annual maximum) into VTSMX (which is the same as VTSAX, except without the $10,000 minimum).
 
 I went with a Roth IRA over a traditional IRA as I wouldn't get a tax deduction from the traditional IRA and because I liked the flexibility of being able to withdraw my contributions penalty free.
 
