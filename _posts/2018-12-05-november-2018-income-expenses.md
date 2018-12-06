@@ -13,7 +13,7 @@ categories: [Net Worth]
 ---
 At the end of each month, I provide a summary of all the income I earned as well as all the expenses I incurred.
 
-**Related:** [Net Worth Update #7 - October 2018](/net-worth-october-2018)
+**Related:** [Net Worth Update #8 - November 2018](/net-worth-november-2018)
 
 I share this to provide real numbers behind my financial journey. Financial independence, and the road leading to it, can be a hazy concept without actual numbers. Hopefully, seeing this helps bridge the gap between financial independence as an idea and financial independence as a reality, for others and for myself as well.
 
