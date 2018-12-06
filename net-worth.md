@@ -34,16 +34,17 @@ For example, if you need $1 a year to live and you have $100 saved, you're finan
 I wrote about that [here](/sharing-my-net-worth)
 
 ### How do I calculate my net worth?
-Current value of: savings account + checking account + 401(k) + [VTSAX](https://personal.vanguard.com/us/funds/snapshot?FundId=0585&FundIntExt=INT&funds_disable_redirect=true) investments.
+Current value of: savings account + checking account + 401(k) + HSA + Roth IRA + [VTSAX](https://personal.vanguard.com/us/funds/snapshot?FundId=0585&FundIntExt=INT&funds_disable_redirect=true) investments.
 
 Different people calculate their net worth differently. Some people like to include the current value of their car, for example. I prefer to keep it simple.
 
 The point is keep track of this number. Decide for yourself what you want to include.
 
 ### How do I track this?
-Once a month I input these 4 numbers (and a few others) on my "Net Worth" spreadsheet. Here's the template I use (link goes to Google Sheets) - [my fantastic net worth spreadsheet](https://docs.google.com/spreadsheets/d/1jkFRzfWAM7APFpkDXb_yKSZyCHRB11g7xA3gI-zINfI/edit?usp=sharing)
+Once a month I input these numbers on my "Net Worth" spreadsheet. Here's the template I use (link goes to Google Sheets) - [my net worth spreadsheet](https://docs.google.com/spreadsheets/d/1jkFRzfWAM7APFpkDXb_yKSZyCHRB11g7xA3gI-zINfI/edit?usp=sharing)
 
 ### 2018 Net Worth:
+* November: [$101,634](/net-worth-november-2018) <span class="green">(+$10,271 - first time over $100k!)</span>
 * October: [$91,363](/net-worth-october-2018) <span class="green">(+$2,075 - bad month for the market)</span>
 * September: [$89,285](/net-worth-september-2018) <span class="green">(+$11,144 - double paycheck month)</span>
 * August: [$78,144](/net-worth-august-2018) <span class="green">(+$9,204 - bonus at work)</span>
