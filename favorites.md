@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Recommendations
+title: Favorites
 comments: true
-permalink: /recommendations/
+permalink: /favorites/
 ---
 Life is better when you have the right tools. Here are some things that have really improved my life.
 

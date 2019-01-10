@@ -32,7 +32,7 @@ layout: null
     </url>
 
     <url>
-      <loc>https://www.windespair.com/recommendations/</loc>
+      <loc>https://www.windespair.com/favorites/</loc>
       <changefreq>weekly</changefreq>
       <priority>0.80</priority>
     </url>
