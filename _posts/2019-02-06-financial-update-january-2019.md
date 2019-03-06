@@ -4,7 +4,7 @@ title: >
   Financial Update #10 – January 2019
 description: Here is my current net worth as of January 2019.
 image: /images/financial-update-january-2019/net-worth-january-2019.png
-image_alt: Net worth progression from January 2017 to January 2019
+image_alt: Net worth progression from December 2017 to January 2019
 date: 2019-02-06 9:29:00 -0800
 comments: true
 categories: [Net Worth]

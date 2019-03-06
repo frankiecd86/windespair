@@ -44,6 +44,7 @@ The point is keep track of this number. Decide for yourself what you want to inc
 Once a month I input these numbers on my "Net Worth" spreadsheet. Here's the template I use (link goes to Google Sheets) - [my net worth spreadsheet](https://docs.google.com/spreadsheets/d/1jkFRzfWAM7APFpkDXb_yKSZyCHRB11g7xA3gI-zINfI/edit?usp=sharing)
 
 ### 2019 Net Worth:
+* January: [$$123,750](/financial-update-february-2019) <span class="green">(+$8,143 - stock market keeps climbing)</span>
 * January: [$115,605](/financial-update-january-2019) <span class="green">(+$12,966 - stock market rebounds)</span>
 
 ### 2018 Net Worth:
